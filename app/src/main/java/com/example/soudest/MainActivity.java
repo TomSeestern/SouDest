@@ -1,7 +1,10 @@
 package com.example.soudest;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.annotation.NonNull;
 import android.view.MenuItem;
@@ -15,18 +18,23 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            // update the main content by replacing fragments
             switch (item.getItemId()) {
                 case R.id.planning:
-                    mTextMessage.setText(R.string.title_tab_planning);
-                    return true;
+                    planner plannerfragment = new planner();
+                    FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction.replace(R.id.fragmentframe,plannerfragment,"planner");
+                    fragmentTransaction.commit();
                 case R.id.tickets:
                     mTextMessage.setText(R.string.title_tab_tickets);
-                    return true;
+                    break;
                 case R.id.profile:
                     mTextMessage.setText(R.string.title_tab_profile);
-                    return true;
+                    break;
+                    default:
+                        return false;
             }
-            return false;
+            return true;
         }
     };
 
