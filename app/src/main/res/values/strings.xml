@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">SouDest</string>
-    <string name="title_tab_planning">NEW TRIP</string>
+
     <string name="title_tab_tickets">MY TICKETS</string>
     <string name="title_tab_profile">PROFILE</string>
+
+    <!-- Strings for the Planner Site -->
+    <string name="title_tab_planning">NEW TRIP</string>
+    <string name="title_planning_gobutton">LET\'s GO</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

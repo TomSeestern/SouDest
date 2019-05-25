@@ -8,10 +8,10 @@
 ### Frontend
  - [ ] Add Navbar
     - [x] Add Navbar
-    - [ ] Fix Navbar to Top
+    - [x] Fix Navbar to Top
     - [ ] Add Active Tab Styling
  - [ ] Make 'New Trip' Site
-    - [ ] Add Lets Go Button
+    - [x] Add Lets Go Button
     - [ ] Add GPS On/Off Button
     - [ ] Add Pullup Window
         - [ ] Add Source & Destination Textfields
