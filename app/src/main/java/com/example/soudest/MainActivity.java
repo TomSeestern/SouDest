@@ -11,7 +11,6 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView mTextMessage;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -26,10 +25,8 @@ public class MainActivity extends AppCompatActivity {
                     fragmentTransaction.replace(R.id.fragmentframe,plannerfragment,"planner");
                     fragmentTransaction.commit();
                 case R.id.tickets:
-                    mTextMessage.setText(R.string.title_tab_tickets);
                     break;
                 case R.id.profile:
-                    mTextMessage.setText(R.string.title_tab_profile);
                     break;
                     default:
                         return false;
@@ -43,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         BottomNavigationView navView = findViewById(R.id.nav_view);
-        mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         navView.getMenu().performIdentifierAction(R.id.planning, 0); //Navigates to the First Menu Item on Startup
