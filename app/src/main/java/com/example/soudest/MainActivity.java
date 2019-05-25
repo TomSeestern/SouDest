@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        navView.getMenu().performIdentifierAction(R.id.planning, 0); //Navigates to the First Menu Item on Startup
     }
 
 }
