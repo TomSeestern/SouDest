@@ -79,7 +79,7 @@ public class planner extends Fragment {
                         .tilt(45)
                         .build();
 
-                mMap.animateCamera(CameraUpdateFactory.newCameraPosition(googlePlex), 10000, null);
+                mMap.moveCamera(CameraUpdateFactory.newCameraPosition(googlePlex));
 
                 mMap.addMarker(new MarkerOptions()
                         .position(new LatLng(37.4629101,-122.2449094))
