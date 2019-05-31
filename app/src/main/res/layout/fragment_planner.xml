@@ -31,6 +31,7 @@
         android:id="@+id/planner_pullup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        tools:context=".planner"
         >
 
         <Button
@@ -73,30 +74,28 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText" />
 
-        <EditText
-            android:id="@+id/editText3"
+        <Button
+            android:id="@+id/dateButton"
             android:layout_width="0dp"
             android:layout_height="41dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
             android:ems="10"
-            android:inputType="date"
-            app:layout_constraintEnd_toStartOf="@+id/editText4"
+            app:layout_constraintEnd_toStartOf="@+id/timeButton"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
-        <EditText
-            android:id="@+id/editText4"
+        <Button
+            android:id="@+id/timeButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
             android:ems="10"
-            android:inputType="time"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/editText3"
+            app:layout_constraintStart_toEndOf="@+id/dateButton"
             app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
 

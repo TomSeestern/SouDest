@@ -1,5 +1,7 @@
 package com.example.soudest;
 
+import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -21,6 +23,13 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.model.MapStyleOptions;
+import android.widget.DatePicker;
+import android.widget.TextView;
+import android.widget.TimePicker;
+import android.view.View;
+import android.view.Menu;
+
+import java.util.Calendar;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -29,6 +38,12 @@ import com.google.android.gms.maps.model.MapStyleOptions;
  */
 public class planner extends Fragment implements View.OnClickListener {
 
+    private TextView dateText;
+    private TextView timeText;
+
+    private int year, month, day;
+    private DatePickerDialog datePickerDialog;
+    private TimePickerDialog timePickerDialog;
 
     private GoogleMap mMap;
     private static final String TAG = planner.class.getSimpleName();
@@ -57,6 +72,36 @@ public class planner extends Fragment implements View.OnClickListener {
         //Add the Listener to the Button
         Button b = (Button) rootView.findViewById(R.id.letsgobutton);
         b.setOnClickListener(this);
+
+        //Date and Timepicker
+        dateText = (TextView) rootView.findViewById(R.id.dateButton);
+        dateText.setText("keine Datum");
+        dateText.setOnClickListener(this);
+        timeText = (TextView) rootView.findViewById(R.id.timeButton);
+        timeText.setText("keine Zeit");
+        timeText.setOnClickListener(this);
+
+        Calendar calendar = Calendar.getInstance();
+        year = calendar.get(Calendar.YEAR);
+        month = calendar.get(Calendar.MONTH);
+        day = calendar.get(Calendar.DAY_OF_MONTH);
+
+        datePickerDialog = new DatePickerDialog(this.getContext(),
+                new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker datePicker, int year, int month, int day) {
+                        dateText.setText("Datum: " + day + "." + month + "." + year);
+                    }
+                }, year, month, day );
+
+        datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis());
+
+        timePickerDialog = new TimePickerDialog(this.getContext(), new TimePickerDialog.OnTimeSetListener() {
+            @Override
+            public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMinute) {
+                timeText.setText( "Zeit:"+ selectedHour + ":" + selectedMinute);
+            }
+        }, calendar.get(Calendar.HOUR_OF_DAY), calendar.get(Calendar.MINUTE),true);
 
 
         //Things for the MAP
@@ -104,7 +149,6 @@ public class planner extends Fragment implements View.OnClickListener {
         return rootView;
     }
 
-
     @Override
     public void onDetach() {
         super.onDetach();
@@ -115,6 +159,12 @@ public class planner extends Fragment implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.letsgobutton:
                 Toast.makeText(getActivity(), "This is my Toast message!", Toast.LENGTH_LONG).show();
+                break;
+            case R.id.dateButton:
+                datePickerDialog.show();
+                break;
+            case R.id.timeButton:
+                timePickerDialog.show();
                 break;
         }
     }
