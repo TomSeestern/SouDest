@@ -17,6 +17,8 @@ import com.google.android.gms.maps.model.CameraPosition;
 
 import android.util.Log;
 import android.content.res.Resources;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.model.MapStyleOptions;
 
@@ -25,7 +27,7 @@ import com.google.android.gms.maps.model.MapStyleOptions;
  * Use the {@link planner} factory method to
  * create an instance of this fragment.
  */
-public class planner extends Fragment {
+public class planner extends Fragment implements View.OnClickListener {
 
 
     private GoogleMap mMap;
@@ -52,6 +54,12 @@ public class planner extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_planner, container, false);
 
+        //Add the Listener to the Button
+        Button b = (Button) rootView.findViewById(R.id.letsgobutton);
+        b.setOnClickListener(this);
+
+
+        //Things for the MAP
         SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.frag_planner_map);  //use SuppoprtMapFragment for using in fragment instead of activity  MapFragment = activity   SupportMapFragment = fragment
         mapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
@@ -102,4 +110,12 @@ public class planner extends Fragment {
         super.onDetach();
     }
 
+
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.letsgobutton:
+                Toast.makeText(getActivity(), "This is my Toast message!", Toast.LENGTH_LONG).show();
+                break;
+        }
+    }
 }
