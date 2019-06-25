@@ -15,7 +15,9 @@ import android.widget.TimePicker;
 import android.widget.Toast;
 
 import java.util.Calendar;
+import android.support.v7.widget.AppCompatAutoCompleteTextView;
 
+import android.widget.ArrayAdapter;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -33,6 +35,9 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
     private int year, month, day;
     private DatePickerDialog datePickerDialog;
     private TimePickerDialog timePickerDialog;
+
+    private String[] vorschlage = {"Apple", "Appy", "Banana", "Cherry", "Date", "Grape", "Kiwi", "Mango", "Pear", "Weingarten","Weingarten Berg 'Weingarten'","Weingarten (Baden)","Weingarten Charlottenplatz", "Basilika St. Martin 'Weingarten'"};
+    private AppCompatAutoCompleteTextView p1autotext,p2autotext;
 
 
     private OnFragmentInteractionListener mListener;
@@ -67,6 +72,16 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
 
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_planner_pullup_menu, container, false);
+
+        //For auto complete
+        p1autotext = (AppCompatAutoCompleteTextView) rootView.findViewById(R.id.p1text);
+        p2autotext = (AppCompatAutoCompleteTextView) rootView.findViewById(R.id.p2text);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this.getContext(), android.R.layout.select_dialog_item , vorschlage);
+        p1autotext.setThreshold(1); //will start working from first character
+        p1autotext.setAdapter(adapter);
+        p2autotext.setThreshold(1); //will start working from first character
+        p2autotext.setAdapter(adapter);
+
 
         //Date and Timepicker
         dateText = (TextView) rootView.findViewById(R.id.dateButton);

@@ -27,29 +27,33 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="wrap_content"
+        <android.support.v7.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/p1text"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:layout_marginEnd="64dp"
             android:ems="10"
+            android:hint="Startpunkt"
             android:inputType="textPersonName"
-            android:text="Src"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/letsgobutton" />
 
-        <EditText
-            android:id="@+id/editText2"
-            android:layout_width="wrap_content"
+        <android.support.v7.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/p2text"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
+            android:layout_marginEnd="64dp"
             android:ems="10"
+            android:hint="Zielpunkt"
             android:inputType="textPersonName"
-            android:text="Dest"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView2"
-            app:layout_constraintTop_toBottomOf="@+id/editText" />
+            app:layout_constraintTop_toBottomOf="@+id/p1text" />
 
         <Button
             android:id="@+id/dateButton"
@@ -58,9 +62,10 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:ems="10"
+            android:hint="Datum"
             app:layout_constraintEnd_toStartOf="@+id/timeButton"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            app:layout_constraintTop_toBottomOf="@+id/p2text" />
 
         <Button
             android:id="@+id/timeButton"
@@ -69,9 +74,10 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
             android:ems="10"
+            android:hint="Zeit"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/dateButton"
-            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            app:layout_constraintTop_toBottomOf="@+id/p2text" />
 
         <TextView
             android:id="@+id/textView"
