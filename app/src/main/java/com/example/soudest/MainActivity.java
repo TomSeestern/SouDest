@@ -24,7 +24,12 @@ public class MainActivity extends AppCompatActivity {
                     FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
                     fragmentTransaction.replace(R.id.fragmentframe,plannerfragment,"planner");
                     fragmentTransaction.commit();
+                    break;
                 case R.id.tickets:
+                    fragment_ticket ticketsfragment = new fragment_ticket();
+                    FragmentTransaction fragment_tickets_transaction = getSupportFragmentManager().beginTransaction();
+                    fragment_tickets_transaction.replace(R.id.fragmentframe,ticketsfragment,"tickets");
+                    fragment_tickets_transaction.commit();
                     break;
                 case R.id.profile:
                     break;
