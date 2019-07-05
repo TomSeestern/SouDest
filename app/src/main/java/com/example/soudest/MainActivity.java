@@ -9,8 +9,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.annotation.NonNull;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    // Instance every Fragment once and keep them!
+    planner plannerfragment = new planner();
+    fragment_ticket ticketsfragment = new fragment_ticket();
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -20,21 +25,22 @@ public class MainActivity extends AppCompatActivity {
             // update the main content by replacing fragments
             switch (item.getItemId()) {
                 case R.id.planning:
-                    planner plannerfragment = new planner();
                     FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
                     fragmentTransaction.replace(R.id.fragmentframe,plannerfragment,"planner");
                     fragmentTransaction.commit();
                     break;
                 case R.id.tickets:
-                    fragment_ticket ticketsfragment = new fragment_ticket();
                     FragmentTransaction fragment_tickets_transaction = getSupportFragmentManager().beginTransaction();
                     fragment_tickets_transaction.replace(R.id.fragmentframe,ticketsfragment,"tickets");
                     fragment_tickets_transaction.commit();
                     break;
                 case R.id.profile:
+                    Toast.makeText(getApplicationContext(), "Diese Seite ist leider noch nicht implementiert.", Toast.LENGTH_SHORT).show();
                     break;
-                    default:
-                        return false;
+                default:
+                    Toast.makeText(getApplicationContext(), "Fehler bei Navigationselementauswahl!", Toast.LENGTH_SHORT).show();
+                    //TODO Log Error
+                    return false;
             }
             return true;
         }
