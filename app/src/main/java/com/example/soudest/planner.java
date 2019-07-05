@@ -92,23 +92,22 @@ public class planner extends Fragment implements View.OnClickListener {
 
                 mMap.clear(); //clear old markers
 
-                CameraPosition googlePlex = CameraPosition.builder()
-                        .target(new LatLng(37.4219999,-122.0862462))
-                        .zoom(10)
+                CameraPosition startLocation = CameraPosition.builder()
+                        .target(new LatLng(47.808,9.639))
+                        .zoom(13)
                         .bearing(0)
-                        .tilt(45)
+                        .tilt(0)
                         .build();
 
-                mMap.moveCamera(CameraUpdateFactory.newCameraPosition(googlePlex));
-
+                mMap.moveCamera(CameraUpdateFactory.newCameraPosition(startLocation));
+                /*
                 mMap.addMarker(new MarkerOptions()
                         .position(new LatLng(37.4629101,-122.2449094))
                         .title("Iron Man")
                         .snippet("His Talent : Plenty of money"));
+                */
 
-                mMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(37.3092293,-122.1136845))
-                        .title("Captain America"));
+                setMMap(mMap);
             }
         });
 
@@ -124,5 +123,30 @@ public class planner extends Fragment implements View.OnClickListener {
 
     public void onClick(View v) {
 
+    }
+
+    private void setMMap(GoogleMap paramap){
+        mMap=paramap;
+    }
+
+    public boolean addMyMarker(int id,LatLng pos,String title,String snippet){
+        //TODO Check if id exsists, if yes remove...
+
+        mMap.addMarker(new MarkerOptions()
+                .position(pos)
+                .title(title)
+                .snippet(snippet)
+                        );
+
+        CameraPosition Location = CameraPosition.builder()
+                .target(pos)
+                .zoom(13)
+                .bearing(0)
+                .tilt(0)
+                .build();
+
+        mMap.moveCamera(CameraUpdateFactory.newCameraPosition(Location));
+
+        return true;
     }
 }

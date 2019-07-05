@@ -6,9 +6,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
 import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.TimePicker;
@@ -18,6 +20,9 @@ import java.util.Calendar;
 import android.support.v7.widget.AppCompatAutoCompleteTextView;
 
 import android.widget.ArrayAdapter;
+
+import com.example.soudest.helper.location;
+import com.example.soudest.planner;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -81,6 +86,29 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         p1autotext.setAdapter(adapter);
         p2autotext.setThreshold(1); //will start working from first character
         p2autotext.setAdapter(adapter);
+
+        //OnEditorActionListener EditorActionListener = this.OnEditorAction()
+        p1autotext.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if (actionId == EditorInfo.IME_ACTION_SEND){
+                    String ort = v.getText().toString();
+                    ((planner) getParentFragment()).addMyMarker(0,location.getFakeCordsToLocation(ort) ,ort,location.getFakeCordsToLocation(ort).toString());
+                }
+                return true;
+            }
+        });
+
+        p2autotext.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if (actionId == EditorInfo.IME_ACTION_SEND){
+                    String ort = v.getText().toString();
+                    ((planner) getParentFragment()).addMyMarker(0,location.getFakeCordsToLocation(ort) ,ort,location.getFakeCordsToLocation(ort).toString());
+                }
+                return true;
+            }
+        });
 
 
         //Date and Timepicker
