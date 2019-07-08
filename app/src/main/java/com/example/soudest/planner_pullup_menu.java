@@ -6,11 +6,14 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.TimePicker;
@@ -36,6 +39,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
 
     private TextView dateText;
     private TextView timeText;
+    private TextView gobutton;
 
     private int year, month, day;
     private DatePickerDialog datePickerDialog;
@@ -110,6 +114,9 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
             }
         });
 
+        //LetsGoButton
+        gobutton = (TextView) rootView.findViewById(R.id.letsgobutton);
+        gobutton.setOnClickListener(this);
 
         //Date and Timepicker
         dateText = (TextView) rootView.findViewById(R.id.dateButton);
@@ -187,15 +194,27 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
 
     public void onClick(View v) {
         switch (v.getId()) {
+
             case R.id.letsgobutton:
-                Toast.makeText(getActivity(), "This is my Toast message!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext().getApplicationContext(), "GO BUTTON", Toast.LENGTH_SHORT).show();
+
                 break;
             case R.id.dateButton:
-                datePickerDialog.show();
+                //datePickerDialog.show();
+
+                Toast.makeText(getContext().getApplicationContext(), "GO BUTTON", Toast.LENGTH_SHORT).show();
+
+                planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
+                trippicker_fragment.getTrips("","");
+
                 break;
             case R.id.timeButton:
                 timePickerDialog.show();
                 break;
+            default:
+                Toast.makeText(getContext().getApplicationContext(), "Unknown button! Dafak!", Toast.LENGTH_SHORT).show();
+                break;
+
         }
     }
 }
