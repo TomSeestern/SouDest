@@ -37,6 +37,11 @@ public class MytripRecyclerViewAdapter extends RecyclerView.Adapter<MytripRecycl
         holder.mItem = mValues.get(position);
         holder.mIdView.setText(mValues.get(position).id);
         holder.mContentView.setText(mValues.get(position).content);
+        holder.mstarttime.setText(mValues.get(position).starttime);
+        holder.marivaltime.setText(mValues.get(position).arivaltime);
+        holder.mtotalprice.setText(mValues.get(position).totalprice);
+        holder.mstartpoint.setText(mValues.get(position).startpoint);
+        holder.mendpoint.setText(mValues.get(position).endpoint);
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,11 +66,22 @@ public class MytripRecyclerViewAdapter extends RecyclerView.Adapter<MytripRecycl
         public final TextView mContentView;
         public trip mItem;
 
+        public final TextView mstarttime;
+        public final TextView marivaltime;
+        public final TextView mtotalprice;
+        public final TextView mstartpoint;
+        public final TextView mendpoint;
+
         public ViewHolder(View view) {
             super(view);
             mView = view;
             mIdView = (TextView) view.findViewById(R.id.item_number);
             mContentView = (TextView) view.findViewById(R.id.content);
+            mstarttime = (TextView) view.findViewById(R.id.starttime);
+            marivaltime = (TextView) view.findViewById(R.id.arivaltime);
+            mtotalprice = (TextView) view.findViewById(R.id.totalprice);
+            mstartpoint = (TextView) view.findViewById(R.id.startpoint);
+            mendpoint = (TextView) view.findViewById(R.id.endpoint);
         }
 
         @Override

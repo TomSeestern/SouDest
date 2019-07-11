@@ -14,6 +14,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Date;
+import java.text.SimpleDateFormat;
 
 import com.example.soudest.helper.trip;
 
@@ -103,16 +105,30 @@ public class planner_pullup_trippicker extends Fragment {
     public void getTrips(String p1,String p2){
 
         String TripID="PLACEHOLDER";
+        String starttime="PLACEHOLDER";
+        String arivaltime="PLACEHOLDER";
+        String totalprice="PLACEHOLDER";
+        String startpoint="PLACEHOLDER";
+        String endpoint="PLACEHOLDER";
         JSONObject trips = trip.gettrip(1.0,2.5);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM HH:mm"); // the format of your date
+
         try {
              //TripID = (String)trips.getString("TripID");
             TripID = trips.getJSONObject("Trip").getString("TripID");
+            Date date = new Date(trips.getJSONObject("Trip").getLong("StartTime")*1000L); // convert seconds to milliseconds
+            starttime = dateFormat.format(date);
+            date = new Date(trips.getJSONObject("Trip").getLong("EndTime")*1000L); // convert seconds to milliseconds
+            arivaltime = dateFormat.format(date);
+            totalprice = trips.getJSONObject("Trip").getString("TotalPrice");
+            //startpoint = trips.getJSONObject("Trip").getString("EndTime");
+            //endpoint = trips.getJSONObject("Trip").getString("EndTime");
         }catch (Exception e){
             //Do nothing //TODO
              TripID="FEHLER";
         }
 
-        TrippsList.add(new trip(TripID,TripID,TripID));
+        TrippsList.add(new trip("0",TripID,TripID,starttime,arivaltime,totalprice,startpoint,endpoint));
         MyAdapter.notifyDataSetChanged();
 
 

@@ -9,6 +9,12 @@ public final class trip {
     public final String content;
     public final String details;
 
+    public final String starttime;
+    public final String arivaltime;
+    public final String totalprice;
+    public final String startpoint;
+    public final String endpoint;
+
     public static JSONObject gettrip(double pointA, double pointB){
         //TODO Make call to API to request Connections between both Points
         JSONObject obj;
@@ -28,7 +34,7 @@ public final class trip {
                 "      \"coordinates\": [[30, 10], [10, 30], [40, 40]]\n" +
                 "    },\n" +
                 "    \"Transfers\": 2,\n" +
-                "    \"TotalPrice\": 251.50,\n" +
+                "    \"TotalPrice\": 251.50€,\n" +
                 "    \"Connection\":{\n" +
                 "      \"ConnectionID\":\"DB-RE-272-84214423\",\n" +
                 "      \"TransportType\":\"Train\",\n" +
@@ -70,10 +76,15 @@ public final class trip {
     }
 
 
-    public trip(String id, String content, String details) {
+    public trip(String id, String content, String details, String mstarttime,String marivaltime,String mtotalprice, String mstartpoint, String mendpoint ) {
         this.id = id;
         this.content = content;
         this.details = details;
+        this.starttime = mstarttime;
+        this.arivaltime = marivaltime;
+        this.totalprice = mtotalprice;
+        this.startpoint = mstartpoint;
+        this.endpoint = mendpoint;
     }
 
 }
