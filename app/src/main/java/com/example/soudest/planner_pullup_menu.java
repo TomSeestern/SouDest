@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -37,9 +38,9 @@ import com.example.soudest.planner;
  */
 public class planner_pullup_menu extends Fragment implements View.OnClickListener {
 
-    private TextView dateText;
-    private TextView timeText;
-    private TextView gobutton;
+    private Button dateText;
+    private Button timeText;
+    private Button gobutton;
 
     private int year, month, day;
     private DatePickerDialog datePickerDialog;
@@ -115,14 +116,15 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         });
 
         //LetsGoButton
-        gobutton = (TextView) rootView.findViewById(R.id.letsgobutton);
+        gobutton = (Button) rootView.findViewById(R.id.letsgobutton);
+        gobutton.setText("pls");
         gobutton.setOnClickListener(this);
 
         //Date and Timepicker
-        dateText = (TextView) rootView.findViewById(R.id.dateButton);
+        dateText = (Button) rootView.findViewById(R.id.dateButton);
         dateText.setText("keine Datum");
         dateText.setOnClickListener(this);
-        timeText = (TextView) rootView.findViewById(R.id.timeButton);
+        timeText = (Button) rootView.findViewById(R.id.timeButton);
         timeText.setText("keine Zeit");
         timeText.setOnClickListener(this);
 
@@ -196,13 +198,15 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         switch (v.getId()) {
 
             case R.id.letsgobutton:
-                Toast.makeText(getContext().getApplicationContext(), "GO BUTTON", Toast.LENGTH_SHORT).show();
+                Log.e("HELP", "onClick: letsgo" );
+                Toast.makeText(this.getContext(), "GO BUTTON", Toast.LENGTH_SHORT).show();
 
                 break;
             case R.id.dateButton:
                 //datePickerDialog.show();
 
-                Toast.makeText(getContext().getApplicationContext(), "GO BUTTON", Toast.LENGTH_SHORT).show();
+                Log.e("HELP", "onClick: dateBuoon" );
+                Toast.makeText(this.getContext(), "GO BUTTON", Toast.LENGTH_SHORT).show();
 
                 planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
                 trippicker_fragment.getTrips("","");
