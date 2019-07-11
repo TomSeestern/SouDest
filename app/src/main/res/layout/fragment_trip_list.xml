@@ -9,7 +9,9 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     android:isScrollContainer="true"
-    android:nestedScrollingEnabled="true"
+    android:nestedScrollingEnabled="false"
+    android:verticalScrollbarPosition="right"
+    android:scrollbars="vertical"
     app:layoutManager="LinearLayoutManager"
     tools:context=".planner_pullup_trippicker"
     tools:listitem="@layout/fragment_trip" />
