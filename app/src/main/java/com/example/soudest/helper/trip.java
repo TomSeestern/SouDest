@@ -4,13 +4,13 @@ import org.json.JSONObject;
 import android.util.Log;
 
 public final class trip {
-    private trip(){
-        throw new IllegalStateException("No instances allowed!");
-    }
+    //private trip(){       throw new IllegalStateException("No instances allowed!");    }
+    public final String id;
+    public final String content;
+    public final String details;
 
     public static JSONObject gettrip(double pointA, double pointB){
         //TODO Make call to API to request Connections between both Points
-
         JSONObject obj;
 
         String json = "{\n" +
@@ -68,4 +68,12 @@ public final class trip {
 
         return obj;
     }
+
+
+    public trip(String id, String content, String details) {
+        this.id = id;
+        this.content = content;
+        this.details = details;
+    }
+
 }

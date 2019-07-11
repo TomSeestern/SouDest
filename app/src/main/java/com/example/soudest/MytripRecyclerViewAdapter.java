@@ -7,21 +7,20 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.soudest.planner_pullup_trippicker.OnListFragmentInteractionListener;
-import com.example.soudest.dummy.DummyContent.DummyItem;
-
 import java.util.List;
+import com.example.soudest.helper.trip;
 
 /**
- * {@link RecyclerView.Adapter} that can display a {@link DummyItem} and makes a call to the
+ * {@link RecyclerView.Adapter} that can display a {@link trip} and makes a call to the
  * specified {@link OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
 public class MytripRecyclerViewAdapter extends RecyclerView.Adapter<MytripRecyclerViewAdapter.ViewHolder> {
 
-    private final List<DummyItem> mValues;
+    private final List<trip> mValues;
     private final OnListFragmentInteractionListener mListener;
 
-    public MytripRecyclerViewAdapter(List<DummyItem> items, OnListFragmentInteractionListener listener) {
+    public MytripRecyclerViewAdapter(List<trip> items, OnListFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
     }
@@ -60,7 +59,7 @@ public class MytripRecyclerViewAdapter extends RecyclerView.Adapter<MytripRecycl
         public final View mView;
         public final TextView mIdView;
         public final TextView mContentView;
-        public DummyItem mItem;
+        public trip mItem;
 
         public ViewHolder(View view) {
             super(view);

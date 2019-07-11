@@ -10,9 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.soudest.dummy.DummyContent;
-import com.example.soudest.dummy.DummyContent.DummyItem;
-
 import org.json.JSONObject;
 
 import java.util.ArrayList;
@@ -33,7 +30,7 @@ public class planner_pullup_trippicker extends Fragment {
     // TODO: Customize parameters
     private int mColumnCount = 1;
     private OnListFragmentInteractionListener mListener;
-    private List<DummyItem> TrippsList = new ArrayList<DummyItem>();
+    private List<trip> TrippsList = new ArrayList<trip>();
     MytripRecyclerViewAdapter MyAdapter;
 
     /**
@@ -115,7 +112,7 @@ public class planner_pullup_trippicker extends Fragment {
              TripID="FEHLER";
         }
 
-        TrippsList.add(new DummyItem(TripID,TripID,TripID));
+        TrippsList.add(new trip(TripID,TripID,TripID));
         MyAdapter.notifyDataSetChanged();
 
 
@@ -133,6 +130,6 @@ public class planner_pullup_trippicker extends Fragment {
      */
     public interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onListFragmentInteraction(DummyItem item);
+        void onListFragmentInteraction(trip item);
     }
 }
