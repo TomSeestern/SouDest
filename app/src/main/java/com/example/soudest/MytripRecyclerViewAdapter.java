@@ -73,7 +73,7 @@ public class MytripRecyclerViewAdapter extends RecyclerView.Adapter<MytripRecycl
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            mContentView = (TextView) view.findViewById(R.id.content);
+            mContentView = (TextView) view.findViewById(R.id.traveldate);
             mstarttime = (TextView) view.findViewById(R.id.starttime);
             marivaltime = (TextView) view.findViewById(R.id.arivaltime);
             mtotalprice = (TextView) view.findViewById(R.id.totalprice);
