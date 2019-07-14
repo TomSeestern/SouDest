@@ -102,7 +102,7 @@ public class planner_pullup_trippicker extends Fragment {
         mListener = null;
     }
 
-    public void getTrips(String p1,String p2){
+    public void getTrips(String source,String dest){
 
         String TripID="PLACEHOLDER";
         String starttime="PLACEHOLDER";
@@ -122,7 +122,9 @@ public class planner_pullup_trippicker extends Fragment {
             arivaltime = dateFormat.format(date);
             totalprice = trips.getJSONObject("Trip").getString("TotalPrice");
             //startpoint = trips.getJSONObject("Trip").getString("EndTime");
+            startpoint=source;
             //endpoint = trips.getJSONObject("Trip").getString("EndTime");
+            endpoint=dest;
         }catch (Exception e){
             //Do nothing //TODO
              TripID="FEHLER";

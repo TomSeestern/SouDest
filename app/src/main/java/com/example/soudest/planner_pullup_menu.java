@@ -199,11 +199,11 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
     }
 
     public void onClick(View v) {
+        AppCompatAutoCompleteTextView src = getView().findViewById(R.id.srcTextField);
+        AppCompatAutoCompleteTextView dest = getView().findViewById(R.id.destTextField);
         switch (v.getId()) {
 
             case R.id.switchIcon:
-                AppCompatAutoCompleteTextView src = getView().findViewById(R.id.srcTextField);
-                AppCompatAutoCompleteTextView dest = getView().findViewById(R.id.destTextField);
                 String temp="";
                 temp= src.getText().toString();
                 src.setText(dest.getText());
@@ -211,8 +211,14 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
 
                 break;
             case R.id.letsgobutton:
-                planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
-                trippicker_fragment.getTrips("","");
+                if(src.getText().toString().equals("") || dest.getText().toString().equals(""))
+                {
+                    Toast.makeText(getContext().getApplicationContext(), "Bitte Ziel und Startort angeben.", Toast.LENGTH_SHORT).show();
+                }else {
+                    planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
+                    trippicker_fragment.getTrips(src.getText().toString(),dest.getText().toString());
+                }
+
                 break;
             case R.id.dateButton:
                 datePickerDialog.show();
