@@ -21,6 +21,10 @@ import android.widget.TimePicker;
 import android.widget.Toast;
 
 import java.util.Calendar;
+import java.time.LocalDate;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
 import android.support.v7.widget.AppCompatAutoCompleteTextView;
 
 import android.widget.ArrayAdapter;
@@ -40,7 +44,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
 
     private Button dateText;
     private Button timeText;
-    private Button gobutton;
+    private Button mygobutton;
 
     private int year, month, day;
     private DatePickerDialog datePickerDialog;
@@ -116,16 +120,15 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         });
 
         //LetsGoButton
-        gobutton = (Button) rootView.findViewById(R.id.letsgobutton);
-        gobutton.setText("pls");
-        gobutton.setOnClickListener(this);
+        mygobutton = (Button) rootView.findViewById(R.id.letsgobutton);
+        mygobutton.setOnClickListener(this);
 
         //Date and Timepicker
         dateText = (Button) rootView.findViewById(R.id.dateButton);
-        dateText.setText("keine Datum");
+        dateText.setText(new SimpleDateFormat("dd.MM").format(new Date()));
         dateText.setOnClickListener(this);
         timeText = (Button) rootView.findViewById(R.id.timeButton);
-        timeText.setText("keine Zeit");
+        timeText.setText(new SimpleDateFormat("HH:mm").format(new Date()));
         timeText.setOnClickListener(this);
 
         Calendar calendar = Calendar.getInstance();
@@ -198,19 +201,11 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         switch (v.getId()) {
 
             case R.id.letsgobutton:
-                Log.e("HELP", "onClick: letsgo" );
-                Toast.makeText(this.getContext(), "GO BUTTON", Toast.LENGTH_SHORT).show();
-
-                break;
-            case R.id.dateButton:
-                //datePickerDialog.show();
-
-                Log.e("HELP", "onClick: dateBuoon" );
-                Toast.makeText(this.getContext(), "GO BUTTON", Toast.LENGTH_SHORT).show();
-
                 planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
                 trippicker_fragment.getTrips("","");
-
+                break;
+            case R.id.dateButton:
+                datePickerDialog.show();
                 break;
             case R.id.timeButton:
                 timePickerDialog.show();

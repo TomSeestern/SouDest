@@ -64,12 +64,6 @@ public class planner extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_planner, container, false);
 
-        //Add the Listener to the Button
-        Button b = (Button) rootView.findViewById(R.id.letsgobutton);
-        b.setOnClickListener(this);
-
-
-
 
         //Things for the MAP
         SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.frag_planner_map);  //use SuppoprtMapFragment for using in fragment instead of activity  MapFragment = activity   SupportMapFragment = fragment
