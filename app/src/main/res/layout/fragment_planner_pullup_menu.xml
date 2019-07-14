@@ -11,6 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:id="@+id/switchIcon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/destTextField"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/srcTextField"
+            app:layout_constraintTop_toBottomOf="@+id/srcTextField"
+            app:srcCompat="@drawable/ic_swap_vert_24dp" />
+
         <Button
             android:id="@+id/letsgobutton"
             android:layout_width="0dp"
@@ -29,7 +41,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <android.support.v7.widget.AppCompatAutoCompleteTextView
-            android:id="@+id/p1text"
+            android:id="@+id/srcTextField"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -40,67 +52,75 @@
             android:imeOptions="actionSend"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintStart_toEndOf="@+id/srcIcon"
             app:layout_constraintTop_toBottomOf="@+id/letsgobutton" />
 
         <android.support.v7.widget.AppCompatAutoCompleteTextView
-            android:id="@+id/p2text"
+            android:id="@+id/destTextField"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="64dp"
             android:ems="10"
             android:hint="Zielpunkt"
             android:imeOptions="actionSend"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textView2"
-            app:layout_constraintTop_toBottomOf="@+id/p1text" />
+            app:layout_constraintStart_toEndOf="@+id/destIcon"
+            app:layout_constraintTop_toBottomOf="@+id/srcTextField" />
 
         <Button
             android:id="@+id/dateButton"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_today_calender_24dp"
             android:ems="10"
             android:hint="Datum"
+            android:padding="16dp"
             app:layout_constraintEnd_toStartOf="@+id/timeButton"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/p2text" />
+            app:layout_constraintTop_toBottomOf="@+id/destTextField" />
 
         <Button
             android:id="@+id/timeButton"
             android:layout_width="0dp"
             android:layout_height="48dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_access_time_24dp"
             android:ems="10"
             android:hint="Zeit"
+            android:padding="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/dateButton"
-            app:layout_constraintTop_toBottomOf="@+id/p2text" />
+            app:layout_constraintTop_toBottomOf="@+id/destTextField" />
 
-        <TextView
-            android:id="@+id/textView"
+        <ImageView
+            android:id="@+id/srcIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="X"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/srcTextField"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/letsgobutton" />
+            app:layout_constraintTop_toBottomOf="@+id/letsgobutton"
+            app:srcCompat="@drawable/ic_pin_drop_24dp" />
 
-        <TextView
-            android:id="@+id/textView2"
+        <ImageView
+            android:id="@+id/destIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="64dp"
-            android:text="Y"
+            app:layout_constraintBottom_toBottomOf="@+id/destTextField"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toTopOf="@+id/destTextField"
+            app:srcCompat="@drawable/ic_flag_24dp" />
 
         <fragment
             android:id="@+id/TripPickFragment"

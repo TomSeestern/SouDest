@@ -6,9 +6,6 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,12 +13,12 @@ import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
 import java.util.Calendar;
-import java.time.LocalDate;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
@@ -30,7 +27,6 @@ import android.support.v7.widget.AppCompatAutoCompleteTextView;
 import android.widget.ArrayAdapter;
 
 import com.example.soudest.helper.location;
-import com.example.soudest.planner;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -45,6 +41,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
     private Button dateText;
     private Button timeText;
     private Button mygobutton;
+    private ImageView myswitchIcon;
 
     private int year, month, day;
     private DatePickerDialog datePickerDialog;
@@ -88,8 +85,8 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         View rootView = inflater.inflate(R.layout.fragment_planner_pullup_menu, container, false);
 
         //For auto complete
-        p1autotext = (AppCompatAutoCompleteTextView) rootView.findViewById(R.id.p1text);
-        p2autotext = (AppCompatAutoCompleteTextView) rootView.findViewById(R.id.p2text);
+        p1autotext = (AppCompatAutoCompleteTextView) rootView.findViewById(R.id.srcTextField);
+        p2autotext = (AppCompatAutoCompleteTextView) rootView.findViewById(R.id.destTextField);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this.getContext(), android.R.layout.select_dialog_item , vorschlage);
         p1autotext.setThreshold(1); //will start working from first character
         p1autotext.setAdapter(adapter);
@@ -123,9 +120,13 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         mygobutton = (Button) rootView.findViewById(R.id.letsgobutton);
         mygobutton.setOnClickListener(this);
 
+        //Switch Icon
+        myswitchIcon = (ImageView) rootView.findViewById(R.id.switchIcon);
+        myswitchIcon.setOnClickListener(this);
+
         //Date and Timepicker
         dateText = (Button) rootView.findViewById(R.id.dateButton);
-        dateText.setText(new SimpleDateFormat("dd.MM").format(new Date()));
+        dateText.setText(new SimpleDateFormat("EEE. MMM d").format(new Date()));
         dateText.setOnClickListener(this);
         timeText = (Button) rootView.findViewById(R.id.timeButton);
         timeText.setText(new SimpleDateFormat("HH:mm").format(new Date()));
@@ -200,6 +201,15 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()) {
 
+            case R.id.switchIcon:
+                AppCompatAutoCompleteTextView src = getView().findViewById(R.id.srcTextField);
+                AppCompatAutoCompleteTextView dest = getView().findViewById(R.id.destTextField);
+                String temp="";
+                temp= src.getText().toString();
+                src.setText(dest.getText());
+                dest.setText(temp);
+
+                break;
             case R.id.letsgobutton:
                 planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
                 trippicker_fragment.getTrips("","");
