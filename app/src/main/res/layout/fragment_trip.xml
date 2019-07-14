@@ -10,9 +10,10 @@
         android:id="@+id/starttime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="starttime"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,6 +38,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:text="arivaltime"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/starttime"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -47,17 +49,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="totalprice"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/item_number"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:hint="X"
-        android:textAppearance="?attr/textAppearanceListItem"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
@@ -76,6 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
+        android:drawableRight="@drawable/ic_pin_drop_24dp"
         android:text="startpoint"
         app:layout_constraintBottom_toTopOf="@+id/endpoint"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -86,6 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
+        android:drawableRight="@drawable/ic_flag_24dp"
         android:text="endpoint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
