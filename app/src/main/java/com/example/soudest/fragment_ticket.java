@@ -10,9 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.soudest.dummy.DummyContent;
-import com.example.soudest.dummy.DummyContent.DummyItem;
+import com.example.soudest.helper.ticketOBJ;
+import com.example.soudest.helper.tickets;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -28,6 +29,10 @@ public class fragment_ticket extends Fragment {
     // TODO: Customize parameters
     private int mColumnCount = 1;
     private OnListFragmentInteractionListener mListener;
+
+    private List<ticketOBJ> TicketList = new ArrayList<ticketOBJ>();
+    MyticketRecyclerViewAdapter MyAdapter;
+
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -69,7 +74,10 @@ public class fragment_ticket extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new MyticketRecyclerViewAdapter(DummyContent.ITEMS, mListener));
+            TicketList = tickets.getAllTicketsFromDB();
+            MyAdapter = new MyticketRecyclerViewAdapter(TicketList, mListener);
+            recyclerView.setAdapter(MyAdapter);
+            MyAdapter.notifyDataSetChanged();
         }
         return view;
     }
@@ -86,6 +94,7 @@ public class fragment_ticket extends Fragment {
             //        + " must implement OnListFragmentInteractionListener");
         }
     }
+
 
     @Override
     public void onDetach() {
@@ -105,6 +114,6 @@ public class fragment_ticket extends Fragment {
      */
     public interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onListFragmentInteraction(DummyItem item);
+        void onListFragmentInteraction(ticketOBJ item);
     }
 }

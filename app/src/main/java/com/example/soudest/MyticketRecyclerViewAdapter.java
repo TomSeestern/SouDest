@@ -7,21 +7,21 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.soudest.fragment_ticket.OnListFragmentInteractionListener;
-import com.example.soudest.dummy.DummyContent.DummyItem;
+import com.example.soudest.helper.ticketOBJ;
 
 import java.util.List;
 
 /**
- * {@link RecyclerView.Adapter} that can display a {@link DummyItem} and makes a call to the
+ * {@link RecyclerView.Adapter} that can display a {@link ticketOBJ} and makes a call to the
  * specified {@link OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
 public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRecyclerViewAdapter.ViewHolder> {
 
-    private final List<DummyItem> mValues;
+    private final List<ticketOBJ> mValues;
     private final OnListFragmentInteractionListener mListener;
 
-    public MyticketRecyclerViewAdapter(List<DummyItem> items, OnListFragmentInteractionListener listener) {
+    public MyticketRecyclerViewAdapter(List<ticketOBJ> items, OnListFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
     }
@@ -36,7 +36,7 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.mContentView.setText(mValues.get(position).content);
+        holder.mTicketId.setText(mValues.get(position).TicketID);
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,19 +57,19 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final View mView;
-        public final TextView mContentView;
-        public DummyItem mItem;
+        public final TextView mTicketId;
+        public ticketOBJ mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
 
-            mContentView = (TextView) view.findViewById(R.id.traveldate);
+            mTicketId = (TextView) view.findViewById(R.id.traveldate);
         }
 
         @Override
         public String toString() {
-            return super.toString() + " '" + mContentView.getText() + "'";
+            return super.toString() + " '" + mTicketId.getText() + "'";
         }
     }
 }
