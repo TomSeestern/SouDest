@@ -64,7 +64,7 @@
             android:layout_marginEnd="64dp"
             android:ems="10"
             android:hint="Zielpunkt"
-            android:imeOptions="actionSend"
+            android:imeOptions="actionDone|actionSend"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/destIcon"

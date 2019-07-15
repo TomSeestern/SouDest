@@ -21,6 +21,7 @@ import android.widget.Toast;
 import java.util.Calendar;
 import java.util.Date;
 import java.text.SimpleDateFormat;
+import android.view.inputmethod.InputMethodManager;
 
 import android.support.v7.widget.AppCompatAutoCompleteTextView;
 
@@ -100,7 +101,9 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
                 if (actionId == EditorInfo.IME_ACTION_SEND){
                     String ort = v.getText().toString();
                     ((planner) getParentFragment()).addMyMarker(0,location.getFakeCordsToLocation(ort) ,ort,location.getFakeCordsToLocation(ort).toString());
+                    p2autotext.requestFocus();
                 }
+                //Needs to be True so the Keyboard STAYS after send is pressed and switch to second textfield
                 return true;
             }
         });
@@ -108,11 +111,13 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         p2autotext.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if (actionId == EditorInfo.IME_ACTION_SEND){
+                if (actionId == EditorInfo.IME_ACTION_SEND || actionId == EditorInfo.IME_ACTION_DONE ){
                     String ort = v.getText().toString();
                     ((planner) getParentFragment()).addMyMarker(0,location.getFakeCordsToLocation(ort) ,ort,location.getFakeCordsToLocation(ort).toString());
+                    p2autotext.clearFocus();
                 }
-                return true;
+                //Needs to be false so the Keyboard hides after send is pressed
+                return false;
             }
         });
 
