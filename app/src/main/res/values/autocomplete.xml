@@ -1,0 +1,5383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="autocomplete_array">
+        <item>Altheim (Hess)</item>
+        <item>Assmannshausen</item>
+        <item>Auringen-Medenbach</item>
+        <item>Babenhausen (Hess)</item>
+        <item>Babenhausen Langstadt</item>
+        <item>Bad König</item>
+        <item>Bad König-Zell</item>
+        <item>Beerfelden-Hetzbach</item>
+        <item>Bensheim</item>
+        <item>Bensheim-Auerbach</item>
+        <item>Biblis</item>
+        <item>Bickenbach (Bergstr)</item>
+        <item>Biebesheim</item>
+        <item>Bobstadt</item>
+        <item>Bürstadt</item>
+        <item>Bürstadt (Ried)</item>
+        <item>Darmstadt Hbf</item>
+        <item>Darmstadt Nord</item>
+        <item>Darmstadt Ost</item>
+        <item>Darmstadt Süd</item>
+        <item>Darmstadt-Eberstadt</item>
+        <item>Darmstadt-Kranichstein</item>
+        <item>Darmstadt-Lichtwiese</item>
+        <item>Dieburg</item>
+        <item>Dreieich-Buchschlag</item>
+        <item>Dreieich-Dreieichenhain</item>
+        <item>Dreieich-Götzenhain</item>
+        <item>Dreieich-Offenthal</item>
+        <item>Dreieich-Sprendlingen</item>
+        <item>Dreieich-Weibelfeld</item>
+        <item>Eltville</item>
+        <item>Eppertshausen</item>
+        <item>Erbach (Odenw)</item>
+        <item>Erbach (Odenw) Nord</item>
+        <item>Erbach (Rheingau)</item>
+        <item>Geisenheim</item>
+        <item>Gernsheim</item>
+        <item>Groß Gerau</item>
+        <item>Groß Gerau-Dornberg</item>
+        <item>Groß Gerau-Dornheim</item>
+        <item>Groß Rohrheim</item>
+        <item>Groß Umstadt Mitte</item>
+        <item>Groß Umstadt-Klein Umstadt</item>
+        <item>Groß Umstadt-Wiebelsbach</item>
+        <item>Hähnlein-Alsbach</item>
+        <item>Hainburg Hainstadt</item>
+        <item>Hattenheim</item>
+        <item>Heppenheim (Bergstr)</item>
+        <item>Hergershausen</item>
+        <item>Hesseneck-Kailbach</item>
+        <item>Hesseneck-Schöllenbach</item>
+        <item>Höchst Mümling-Grumbach</item>
+        <item>Höchst (Odenw)</item>
+        <item>Höchst-Hetschbach</item>
+        <item>Hofheim (Ried)</item>
+        <item>Idstein (Taunus)</item>
+        <item>Klein Gerau</item>
+        <item>Lampertheim</item>
+        <item>Langen (Hess)</item>
+        <item>Lorch (Rhein)</item>
+        <item>Lorchhausen</item>
+        <item>Lorsch</item>
+        <item>Mainhausen Zellhausen</item>
+        <item>Messel</item>
+        <item>Michelstadt</item>
+        <item>Mörfelden</item>
+        <item>Mühltal</item>
+        <item>Münster (b Dieburg)</item>
+        <item>Nauheim (b Groß Gerau)</item>
+        <item>Niedernhausen (Taunus)</item>
+        <item>Niederwalluf</item>
+        <item>Ober Ramstadt</item>
+        <item>Oestrich-Winkel</item>
+        <item>Otzberg-Lengfeld</item>
+        <item>Pfungstadt</item>
+        <item>Reinheim (Odenw)</item>
+        <item>Riedrode</item>
+        <item>Riedstadt-Goddelau</item>
+        <item>Riedstadt-Wolfskehlen</item>
+        <item>Rödermark-Ober Roden</item>
+        <item>Rödermark-Urberach</item>
+        <item>Rüdesheim (Rhein)</item>
+        <item>Seligenstadt (Hess)</item>
+        <item>Stockstadt (Rhein)</item>
+        <item>Walldorf (Hess)</item>
+        <item>Weiterstadt</item>
+        <item>Wiesbaden Hbf</item>
+        <item>Wiesbaden-Biebrich</item>
+        <item>Wiesbaden-Erbenheim</item>
+        <item>Wiesbaden-Igstadt</item>
+        <item>Wiesbaden-Schierstein</item>
+        <item>Wörsdorf</item>
+        <item>Zeppelinheim</item>
+        <item>Zwingenberg (Bergstr)</item>
+        <item>Bad Homburg</item>
+        <item>Bad Soden (Taunus)</item>
+        <item>Bad Vilbel</item>
+        <item>Bad Vilbel Süd</item>
+        <item>Bruchenbrücken</item>
+        <item>Darmstadt-Arheilgen</item>
+        <item>Darmstadt-Wixhausen</item>
+        <item>Dietzenbach Bahnhof</item>
+        <item>Dietzenbach-Mitte</item>
+        <item>Dietzenbach-Steinberg</item>
+        <item>Dortelweil</item>
+        <item>Eddersheim</item>
+        <item>Egelsbach</item>
+        <item>Eppstein</item>
+        <item>Eppstein-Bremthal</item>
+        <item>Erzhausen</item>
+        <item>Eschborn</item>
+        <item>Eschborn Süd</item>
+        <item>Flörsheim (Main)</item>
+        <item>Frankfurt am Main Flughafen Fernbahnhof</item>
+        <item>Frankfurt am Main Messe</item>
+        <item>Frankfurt am Main Stadion</item>
+        <item>Frankfurt (Main) Flughafen Regionalbahnhof</item>
+        <item>Frankfurt (Main) Galluswarte</item>
+        <item>Frankfurt (Main) Hauptwache</item>
+        <item>Frankfurt (Main) Hbf</item>
+        <item>Frankfurt (Main) Konstablerwache</item>
+        <item>Frankfurt (Main) Lokalbahnhof</item>
+        <item>Frankfurt (Main) Mühlberg</item>
+        <item>Frankfurt (Main) Niederrad</item>
+        <item>Frankfurt (Main) Ost</item>
+        <item>Frankfurt (Main) Ostendstraße</item>
+        <item>Frankfurt (Main) Stresemannallee</item>
+        <item>Frankfurt (Main) Süd</item>
+        <item>Frankfurt (Main) Taunusanlage</item>
+        <item>Frankfurt (Main) West</item>
+        <item>Frankfurt-Berkersheim</item>
+        <item>Frankfurt-Eschersheim</item>
+        <item>Frankfurt-Frankfurter Berg</item>
+        <item>Frankfurt-Griesheim</item>
+        <item>Frankfurt-Höchst</item>
+        <item>Frankfurt-Höchst Farbwerke</item>
+        <item>Frankfurt-Louisa</item>
+        <item>Frankfurt-Mainkur</item>
+        <item>Frankfurt-Nied</item>
+        <item>Frankfurt-Rödelheim</item>
+        <item>Frankfurt-Sindlingen</item>
+        <item>Frankfurt-Sossenheim</item>
+        <item>Frankfurt-Zeilsheim</item>
+        <item>Friedrichsdorf (Taunus)</item>
+        <item>Groß Karben</item>
+        <item>Großauheim (Kr Hanau)</item>
+        <item>Großkrotzenburg</item>
+        <item>Hanau Hbf</item>
+        <item>Hanau Klein Auheim</item>
+        <item>Hanau Nord</item>
+        <item>Hanau West</item>
+        <item>Hanau-Wilhelmsbad</item>
+        <item>Hattersheim (Main)</item>
+        <item>Heusenstamm</item>
+        <item>Hochheim (Main)</item>
+        <item>Hofheim (Taunus)</item>
+        <item>Kelsterbach</item>
+        <item>Kriftel</item>
+        <item>Kronberg (Taunus)</item>
+        <item>Kronberg (Taunus) Süd</item>
+        <item>Langen-Flugsicherung</item>
+        <item>Lorsbach</item>
+        <item>Maintal Ost</item>
+        <item>Maintal West</item>
+        <item>Mainz-Bischofsheim</item>
+        <item>Mainz-Gustavsburg</item>
+        <item>Mainz-Kastel</item>
+        <item>Mühlheim (Main)</item>
+        <item>Mühlheim-Dietesheim</item>
+        <item>Neu Isenburg</item>
+        <item>Nieder Wöllstadt</item>
+        <item>Niederhöchstadt</item>
+        <item>Niederjosbach</item>
+        <item>Obertshausen (Kr Offenbach)</item>
+        <item>Oberursel (Taunus)</item>
+        <item>Oberursel-Stierstadt</item>
+        <item>Oberursel-Weißkirchen/Steinbach</item>
+        <item>Offenbach Ledermuseum</item>
+        <item>Offenbach (Main) Hbf</item>
+        <item>Offenbach (Main) Ost</item>
+        <item>Offenbach Marktplatz</item>
+        <item>Offenbach-Bieber</item>
+        <item>Offenbach-Kaiserlei</item>
+        <item>Offenbach-Waldhof</item>
+        <item>Okarben</item>
+        <item>Raunheim</item>
+        <item>Rodgau-Dudenhofen</item>
+        <item>Rodgau-Hainhausen</item>
+        <item>Rodgau-Jügesheim</item>
+        <item>Rodgau-Nieder Roden</item>
+        <item>Rodgau-Rollwald</item>
+        <item>Rodgau-Weiskirchen</item>
+        <item>Rüsselsheim</item>
+        <item>Rüsselsheim Opelwerk</item>
+        <item>Schwalbach a Ts (Limes)</item>
+        <item>Schwalbach Nord</item>
+        <item>Seulberg</item>
+        <item>Steinheim/Main</item>
+        <item>Sulzbach (Taunus)</item>
+        <item>Sulzbach (Taunus) Nord</item>
+        <item>Wiesbaden Ost</item>
+        <item>Wolfgang (Kr Hanau)</item>
+        <item>Albshausen</item>
+        <item>Allendorf (Dillkr)</item>
+        <item>Altenstadt (Hess)</item>
+        <item>Altenstadt-Höchst</item>
+        <item>Altenstadt-Lindheim</item>
+        <item>Anzefahr</item>
+        <item>Arfurt (Lahn)</item>
+        <item>Aßlar</item>
+        <item>Assenheim (Oberhess)</item>
+        <item>Aumenau</item>
+        <item>Bad Camberg</item>
+        <item>Bad Nauheim</item>
+        <item>Bad Salzhausen</item>
+        <item>Beienheim</item>
+        <item>Bleichenbach (Oberhess)</item>
+        <item>Borsdorf (Hess)</item>
+        <item>Büches-Düdelsheim</item>
+        <item>Büdingen (Oberhess)</item>
+        <item>Burg (Dillkr) Nord</item>
+        <item>Bürgeln</item>
+        <item>Burgholzhausen v d Höhe</item>
+        <item>Butzbach</item>
+        <item>Cölbe</item>
+        <item>Dillbrecht</item>
+        <item>Dillenburg</item>
+        <item>Dorheim (Wetterau)</item>
+        <item>Dutenhofen (Kr Wetzlar)</item>
+        <item>Echzell</item>
+        <item>Edingen (Kr Wetzlar)</item>
+        <item>Effolderbach</item>
+        <item>Ehringshausen (Kr Wetzlar)</item>
+        <item>Elz (Kr Limburg/Lahn)</item>
+        <item>Elz (Kr Limburg/Lahn) Süd</item>
+        <item>Eschhofen</item>
+        <item>Frickhofen</item>
+        <item>Friedberg (Hess)</item>
+        <item>Friedberg Süd</item>
+        <item>Friedelhausen</item>
+        <item>Fronhausen (Lahn)</item>
+        <item>Fürfurt</item>
+        <item>Garbenteich</item>
+        <item>Gettenau-Bingenheim</item>
+        <item>Gießen</item>
+        <item>Gießen Erdkauter Weg</item>
+        <item>Gießen Licher Straße</item>
+        <item>Gießen Oswaldsgarten</item>
+        <item>Glauburg-Glauberg</item>
+        <item>Glauburg-Stockheim</item>
+        <item>Göbelnrod</item>
+        <item>Gräveneck</item>
+        <item>Großen Buseck</item>
+        <item>Großen Linden</item>
+        <item>Grünberg (Oberhess)</item>
+        <item>Hadamar</item>
+        <item>Haiger</item>
+        <item>Haiger Obertor</item>
+        <item>Häuserhof</item>
+        <item>Herborn (Dillkr)</item>
+        <item>Hungen</item>
+        <item>Katzenfurt</item>
+        <item>Kerkerbach</item>
+        <item>Kirch Göns</item>
+        <item>Kirchhain (Bz Kassel)</item>
+        <item>Lang Göns</item>
+        <item>Langsdorf (Oberhess)</item>
+        <item>Lehnheim</item>
+        <item>Leun/Braunfels</item>
+        <item>Lich (Oberhess)</item>
+        <item>Limburg (Lahn)</item>
+        <item>Limburg Süd</item>
+        <item>Lindenholzhausen</item>
+        <item>Löhnberg</item>
+        <item>Lollar</item>
+        <item>Marburg (Lahn)</item>
+        <item>Marburg Süd</item>
+        <item>Melbach</item>
+        <item>Neustadt (Kr Marburg)</item>
+        <item>Nidda</item>
+        <item>Niederbrechen</item>
+        <item>Niederhadamar</item>
+        <item>Niederscheld (Dillkr) Süd</item>
+        <item>Niederselters</item>
+        <item>Niederwalgern</item>
+        <item>Niederweimar</item>
+        <item>Niederzeuzheim</item>
+        <item>Ober Widdersheim</item>
+        <item>Oberbrechen</item>
+        <item>Ostheim (b Butzbach)</item>
+        <item>Ranstadt</item>
+        <item>Reichelsheim (Wetterau)</item>
+        <item>Reiskirchen (Kr Gießen)</item>
+        <item>Rodenbach (Dillkr)</item>
+        <item>Rodheim v d Höhe</item>
+        <item>Rosbach v d Höhe</item>
+        <item>Runkel</item>
+        <item>Saasen</item>
+        <item>Sechshelden</item>
+        <item>Sinn</item>
+        <item>Solms</item>
+        <item>Stadtallendorf</item>
+        <item>Staffel</item>
+        <item>Stockhausen (Lahn)</item>
+        <item>Trais-Horloff</item>
+        <item>Villmar</item>
+        <item>Watzenborn-Steinberg</item>
+        <item>Weckesheim</item>
+        <item>Weilburg</item>
+        <item>Werdorf</item>
+        <item>Wetzlar</item>
+        <item>Wilsenroth</item>
+        <item>Wölfersheim-Södel</item>
+        <item>Albersweiler (Pfalz)</item>
+        <item>Albsheim (Eis)</item>
+        <item>Alsenz</item>
+        <item>Altenglan</item>
+        <item>Annweiler am Trifels</item>
+        <item>Annweiler-Sarnstall</item>
+        <item>Asselheim</item>
+        <item>Bad Bergzabern</item>
+        <item>Bad Dürkheim</item>
+        <item>Bad Dürkheim-Trift</item>
+        <item>Barbelroth</item>
+        <item>Bellheim</item>
+        <item>Bellheim Am Mühlbuckel</item>
+        <item>Berg (Pfalz)</item>
+        <item>Berghausen (Pfalz)</item>
+        <item>Bobenheim</item>
+        <item>Bockenheim-Kindenheim</item>
+        <item>Böhl-Iggelheim</item>
+        <item>Bruchmühlbach-Miesau</item>
+        <item>Contwig</item>
+        <item>Deidesheim</item>
+        <item>Dellfeld</item>
+        <item>Dellfeld Ort</item>
+        <item>Ebertsheim</item>
+        <item>Edenkoben</item>
+        <item>Edesheim (Pfalz)</item>
+        <item>Einsiedlerhof</item>
+        <item>Eisenbach-Matzenbach</item>
+        <item>Eisenberg (Pfalz)</item>
+        <item>Eiswoog</item>
+        <item>Enkenbach</item>
+        <item>Erpolzheim</item>
+        <item>Flomersheim</item>
+        <item>Frankenstein (Pfalz)</item>
+        <item>Frankenthal Hbf</item>
+        <item>Frankenthal Süd</item>
+        <item>Freinsheim</item>
+        <item>Galgenschanze</item>
+        <item>Germersheim</item>
+        <item>Germersheim Mitte/Rhein</item>
+        <item>Germersheim Süd/Nolte</item>
+        <item>Glan-Münchweiler</item>
+        <item>Godramstein</item>
+        <item>Grünstadt</item>
+        <item>Grünstadt Nord</item>
+        <item>Hagenbach</item>
+        <item>Haßloch (Pfalz)</item>
+        <item>Hauenstein Mitte</item>
+        <item>Hauenstein (Pfalz)</item>
+        <item>Hauptstuhl</item>
+        <item>Heiligenstein (Pfalz)</item>
+        <item>Heinzenhausen</item>
+        <item>Herxheim am Berg</item>
+        <item>Hinterweidenthal</item>
+        <item>Hinterweidenthal Ost</item>
+        <item>Hirschhorn (Pfalz)</item>
+        <item>Hochspeyer</item>
+        <item>Hohenecken</item>
+        <item>Höhmühlbach</item>
+        <item>Imsweiler</item>
+        <item>Insheim</item>
+        <item>Jockgrim</item>
+        <item>Kaiserslautern Hbf</item>
+        <item>Kaiserslautern Pfaffwerk</item>
+        <item>Kaiserslautern West</item>
+        <item>Kandel</item>
+        <item>Kapellen-Drusweiler</item>
+        <item>Kapsweyer</item>
+        <item>Katzweiler</item>
+        <item>Kennelgarten</item>
+        <item>Kindsbach</item>
+        <item>Kirchheim (Weinstr)</item>
+        <item>Knöringen-Essingen</item>
+        <item>Kreimbach-Kaulbach</item>
+        <item>Kusel</item>
+        <item>Lambrecht (Pfalz)</item>
+        <item>Lambsheim</item>
+        <item>Lampertsmühle-Otterbach</item>
+        <item>Landau (Pfalz) Hbf</item>
+        <item>Landau (Pfalz) Süd</item>
+        <item>Landau (Pfalz) West</item>
+        <item>Landstuhl</item>
+        <item>Lauterecken-Grumbach</item>
+        <item>Limburgerhof</item>
+        <item>Lingenfeld</item>
+        <item>Lohnweiler</item>
+        <item>Ludwigshafen (Rhein) Hbf</item>
+        <item>Ludwigshafen (Rhein) Mitte</item>
+        <item>Ludwigshafen-Mundenheim</item>
+        <item>Ludwigshafen-Oggersheim</item>
+        <item>Ludwigshafen-Rheingönheim</item>
+        <item>Maikammer-Kirrweiler</item>
+        <item>Maximiliansau im Rüsten</item>
+        <item>Mertesheim</item>
+        <item>Miesenbach</item>
+        <item>Münchweiler (Alsenz)</item>
+        <item>Münchweiler (Rodalb)</item>
+        <item>Mußbach</item>
+        <item>Neidenfels</item>
+        <item>Neuburg (Rhein)</item>
+        <item>Neustadt Süd</item>
+        <item>Neustadt (Weinstr) Böbig</item>
+        <item>Neustadt (Weinstr) Hbf</item>
+        <item>Niedermohr</item>
+        <item>Obermohr</item>
+        <item>Olsbrücken</item>
+        <item>Pirmasens Hbf</item>
+        <item>Pirmasens Nord</item>
+        <item>Rammelsbach</item>
+        <item>Ramsen</item>
+        <item>Ramstein</item>
+        <item>Reckweilerhof</item>
+        <item>Rehweiler</item>
+        <item>Rheinzabern</item>
+        <item>Rheinzabern Alte Römerstraße</item>
+        <item>Rheinzabern Rappengasse</item>
+        <item>Rieschweiler</item>
+        <item>Rinnthal</item>
+        <item>Rockenhausen</item>
+        <item>Rodalben</item>
+        <item>Rohrbach (Pfalz)</item>
+        <item>Roßbach (Pfalz)</item>
+        <item>Rülzheim</item>
+        <item>Rülzheim Freizeitzentrum</item>
+        <item>Schaidt (Pf)</item>
+        <item>Schifferstadt</item>
+        <item>Schifferstadt Süd</item>
+        <item>Schopp</item>
+        <item>Schweighofen</item>
+        <item>Siebeldingen-Birkweiler</item>
+        <item>Sondernheim</item>
+        <item>Speyer Hbf</item>
+        <item>Speyer Nord-West</item>
+        <item>Stambach</item>
+        <item>Steinalben</item>
+        <item>Steinfeld (Pfalz)</item>
+        <item>Steinweiler</item>
+        <item>Steinwenden</item>
+        <item>Thaleischweiler-Fröschen</item>
+        <item>Theisbergstegen</item>
+        <item>Untersulzbach</item>
+        <item>Vogelweh</item>
+        <item>Wachenheim (Pfalz)</item>
+        <item>Waldfischbach</item>
+        <item>Weidenthal</item>
+        <item>Weisenheim (Sand)</item>
+        <item>Wilgartswiesen</item>
+        <item>Winden (Pfalz)</item>
+        <item>Winnweiler</item>
+        <item>Wolfstein</item>
+        <item>Wörth (Rhein)</item>
+        <item>Wörth (Rhein)-Mozartstraße</item>
+        <item>Wörth Zügelstraße</item>
+        <item>Zweibrücken Hbf</item>
+        <item>Alheim-Heinebach</item>
+        <item>Alsfeld (Oberhess)</item>
+        <item>Altenfeld (Rhön)</item>
+        <item>Angersbach</item>
+        <item>Bad Hersfeld</item>
+        <item>Bad Salzschlirf</item>
+        <item>Bad Soden-Salmünster</item>
+        <item>Bad Sooden-Allendorf</item>
+        <item>Bad Vilbel-Gronau</item>
+        <item>Baunatal-Guntershausen</item>
+        <item>Baunatal-Rengershausen</item>
+        <item>Bebra</item>
+        <item>Borken (Hess)</item>
+        <item>Bruchköbel</item>
+        <item>Burghaun (Kr Hünfeld)</item>
+        <item>Burg-und Nieder Gemünden</item>
+        <item>Edermünde-Grifte</item>
+        <item>Ehringshausen (Oberhess)</item>
+        <item>Eichenzell</item>
+        <item>Espenau-Mönchehof</item>
+        <item>Felsberg-Altenbrunslar</item>
+        <item>Felsberg-Gensungen</item>
+        <item>Felsberg-Wolfershausen</item>
+        <item>Flieden</item>
+        <item>Fulda</item>
+        <item>Fuldatal-Ihringshausen</item>
+        <item>Gelnhausen</item>
+        <item>Gersfeld (Rhön)</item>
+        <item>Grebenstein</item>
+        <item>Großenlüder</item>
+        <item>Guxhagen</item>
+        <item>Hailer-Meerholz</item>
+        <item>Haitz-Höchst</item>
+        <item>Haunetal-Neukirchen</item>
+        <item>Hettenhausen</item>
+        <item>Hofgeismar</item>
+        <item>Hofgeismar-Hümme</item>
+        <item>Hünfeld</item>
+        <item>Immenhausen (Hess)</item>
+        <item>Kassel Hbf</item>
+        <item>Kassel-Harleshausen</item>
+        <item>Kassel-Jungfernkopf</item>
+        <item>Kassel-Kirchditmold</item>
+        <item>Kassel-Oberzwehren</item>
+        <item>Kassel-Wilhelmshöhe</item>
+        <item>Körle</item>
+        <item>Langenselbold</item>
+        <item>Lauterbach (Hess) Nord</item>
+        <item>Lieblos</item>
+        <item>Ludwigsau-Friedlos</item>
+        <item>Lütter</item>
+        <item>Malsfeld</item>
+        <item>Malsfeld-Beiseförth</item>
+        <item>Melsungen</item>
+        <item>Melsungen-Bartenwetzerbrücke</item>
+        <item>Melsungen-Röhrenfurth</item>
+        <item>Mittel Gründau</item>
+        <item>Morschen-Altmorschen</item>
+        <item>Mücke (Hessen)</item>
+        <item>Neuhof (Kr Fulda)</item>
+        <item>Nidderau</item>
+        <item>Nidderau-Eichen</item>
+        <item>Nidderau-Windecken</item>
+        <item>Nieder Ohmen</item>
+        <item>Niederdorfelden</item>
+        <item>Niedermittlau</item>
+        <item>Oberbimbach</item>
+        <item>Ostheim (Kr Hanau)</item>
+        <item>Ried</item>
+        <item>Rodenbach bei Hanau</item>
+        <item>Ronshausen</item>
+        <item>Rönshausen</item>
+        <item>Rotenburg an der Fulda</item>
+        <item>Rotenburg an der Fulda-Lispenhausen</item>
+        <item>Schlierbach (Kr Schwalm-Eder)</item>
+        <item>Schlüchtern</item>
+        <item>Schmalnau</item>
+        <item>Schöneck-Büdesheim</item>
+        <item>Schöneck-Kilianstädten</item>
+        <item>Schöneck-Oberdorfelden</item>
+        <item>Schwalmstadt-Wiera</item>
+        <item>Singlis</item>
+        <item>Sontra</item>
+        <item>Staufenberg-Speele</item>
+        <item>Steinau (Straße)</item>
+        <item>Sterbfritz</item>
+        <item>Treysa</item>
+        <item>Vellmar-Niedervellmar</item>
+        <item>Vellmar-Obervellmar</item>
+        <item>Vellmar-Osterberg/EKZ</item>
+        <item>Wabern (Bz Kassel)</item>
+        <item>Wächtersbach</item>
+        <item>Wehretal-Reichensachsen</item>
+        <item>Welkers</item>
+        <item>Wildeck-Bosserode</item>
+        <item>Wildeck-Hönebach</item>
+        <item>Wildeck-Obersuhl</item>
+        <item>Wirtheim</item>
+        <item>Zell-Romrod</item>
+        <item>Zimmersrode</item>
+        <item>Ahrbrück</item>
+        <item>Ahrweiler</item>
+        <item>Ahrweiler Markt</item>
+        <item>Altenahr</item>
+        <item>Altenkirchen (Westerw)</item>
+        <item>Andernach</item>
+        <item>Bad Bodendorf</item>
+        <item>Bad Breisig</item>
+        <item>Bad Ems</item>
+        <item>Bad Ems West</item>
+        <item>Bad Hönningen</item>
+        <item>Bad Neuenahr</item>
+        <item>Balduinstein</item>
+        <item>Bengel</item>
+        <item>Berzhahn</item>
+        <item>Betzdorf (Sieg)</item>
+        <item>Boppard Hbf</item>
+        <item>Boppard Süd</item>
+        <item>Boppard-Bad Salzig</item>
+        <item>Boppard-Buchholz</item>
+        <item>Boppard-Fleckertshöhe</item>
+        <item>Boppard-Hirzenach</item>
+        <item>Brachbach</item>
+        <item>Braubach</item>
+        <item>Breitscheidt (Kr Altenkirchen)</item>
+        <item>Brohl</item>
+        <item>Büdingen</item>
+        <item>Bullay DB</item>
+        <item>Cochem (Mosel)</item>
+        <item>Dausenau</item>
+        <item>Dernau</item>
+        <item>Dernbach (Westerw)</item>
+        <item>Diez</item>
+        <item>Diez Ost</item>
+        <item>Dreikirchen</item>
+        <item>Ediger-Eller</item>
+        <item>Ehr</item>
+        <item>Emmelshausen</item>
+        <item>Engers</item>
+        <item>Enspel</item>
+        <item>Erpel (Rhein)</item>
+        <item>Etzbach</item>
+        <item>Fachingen (Lahn)</item>
+        <item>Filsen</item>
+        <item>Föhren</item>
+        <item>Freusburg Siedlung</item>
+        <item>Friedrichssegen</item>
+        <item>Geilhausen</item>
+        <item>Girod</item>
+        <item>Goldhausen</item>
+        <item>Grünebach Ort</item>
+        <item>Grünebacher Hütte</item>
+        <item>Hachenburg</item>
+        <item>Hattert</item>
+        <item>Hatzenport</item>
+        <item>Heimersheim</item>
+        <item>Herdorf</item>
+        <item>Hetzerath</item>
+        <item>Hohegrete</item>
+        <item>Ingelbach</item>
+        <item>Kaisersesch</item>
+        <item>Kamp-Bornhofen</item>
+        <item>Kattenes</item>
+        <item>Kaub</item>
+        <item>Kestert</item>
+        <item>Kirchen</item>
+        <item>Kloster Marienthal</item>
+        <item>Klotten</item>
+        <item>Kobern-Gondorf</item>
+        <item>Koblenz Hbf</item>
+        <item>Koblenz Stadtmitte</item>
+        <item>Koblenz-Ehrenbreitstein</item>
+        <item>Koblenz-Güls</item>
+        <item>Koblenz-Lützel</item>
+        <item>Koblenz-Moselweiß</item>
+        <item>Königsstollen</item>
+        <item>Kottenheim</item>
+        <item>Kövenig</item>
+        <item>Kreuzberg (Ahr)</item>
+        <item>Kruft</item>
+        <item>Langenhahn</item>
+        <item>Laurenburg (Lahn)</item>
+        <item>Lehmen</item>
+        <item>Leubsdorf (Rhein)</item>
+        <item>Leutesdorf (Rhein)</item>
+        <item>Linz (Rhein)</item>
+        <item>Löf</item>
+        <item>Mayen Ost</item>
+        <item>Mayen West</item>
+        <item>Mayschoß</item>
+        <item>Mendig</item>
+        <item>Miesenheim</item>
+        <item>Monreal</item>
+        <item>Montabaur</item>
+        <item>Moselkern</item>
+        <item>Müden (Mosel)</item>
+        <item>Mudersbach</item>
+        <item>Namedy</item>
+        <item>Nassau (Lahn)</item>
+        <item>Neef</item>
+        <item>Neuwied</item>
+        <item>Niedererbach</item>
+        <item>Niederhövels</item>
+        <item>Niederlahnstein</item>
+        <item>Niederschelden</item>
+        <item>Nievern</item>
+        <item>Nistertal-Bad Marienberg</item>
+        <item>Obererbach</item>
+        <item>Oberlahnstein</item>
+        <item>Obernhof (Lahn)</item>
+        <item>Oberwesel</item>
+        <item>Oberwinter</item>
+        <item>Osterspai</item>
+        <item>Plaidt</item>
+        <item>Pommern (Mosel)</item>
+        <item>Rech</item>
+        <item>Reil DB</item>
+        <item>Remagen</item>
+        <item>Rheinbrohl</item>
+        <item>Rhens</item>
+        <item>Rolandseck</item>
+        <item>Rotenhain</item>
+        <item>Salmtal</item>
+        <item>Sassenroth</item>
+        <item>Scheuerfeld (Sieg)</item>
+        <item>Schweich DB</item>
+        <item>Sehlem (Kr Wittlich)</item>
+        <item>Siershahn</item>
+        <item>Sinzig (Rhein)</item>
+        <item>Spay</item>
+        <item>St. Goar</item>
+        <item>St. Goarshausen</item>
+        <item>Steinefrenz</item>
+        <item>Thür</item>
+        <item>Traben-Trarbach DB</item>
+        <item>Treis-Karden</item>
+        <item>Unkel</item>
+        <item>Unnau-Korb</item>
+        <item>Urmersbach</item>
+        <item>Urmitz</item>
+        <item>Urmitz Rheinbrücke</item>
+        <item>Ürzig DB</item>
+        <item>Vallendar</item>
+        <item>Walporzheim</item>
+        <item>Weißenthurm</item>
+        <item>Westerburg</item>
+        <item>Willmenrod</item>
+        <item>Winningen (Mosel)</item>
+        <item>Wirges</item>
+        <item>Wissen (Sieg)</item>
+        <item>Wittlich Hbf</item>
+        <item>Albig</item>
+        <item>Alsheim</item>
+        <item>Altenbamberg</item>
+        <item>Alzey</item>
+        <item>Alzey Süd</item>
+        <item>Armsheim</item>
+        <item>Bacharach</item>
+        <item>Bad Kreuznach</item>
+        <item>Bad Münster am Stein</item>
+        <item>Bad Sobernheim</item>
+        <item>Bingen (Rhein) Hbf</item>
+        <item>Bingen (Rhein) Stadt</item>
+        <item>Bingen-Gaulsheim</item>
+        <item>Bodenheim</item>
+        <item>Bretzenheim (Nahe)</item>
+        <item>Budenheim</item>
+        <item>Dienheim</item>
+        <item>Eppelsheim (Rheinhess)</item>
+        <item>Fischbach-Weierbach</item>
+        <item>Gau Algesheim</item>
+        <item>Gau Bickelheim</item>
+        <item>Gensingen-Horrweiler</item>
+        <item>Gundersheim (Rheinhess)</item>
+        <item>Guntersblum</item>
+        <item>Heidesheim (Rheinhess)</item>
+        <item>Heimbach (Nahe)</item>
+        <item>Hochstätten (Pfalz)</item>
+        <item>Hochstetten (Nahe)</item>
+        <item>Hohensülzen</item>
+        <item>Hoppstädten (Nahe)</item>
+        <item>Idar-Oberstein</item>
+        <item>Ingelheim</item>
+        <item>Kirn</item>
+        <item>Kirnsulzbach</item>
+        <item>Klein Winternheim-Ober Olm</item>
+        <item>Kronweiler</item>
+        <item>Langenlonsheim</item>
+        <item>Laubenheim (Nahe)</item>
+        <item>Mainz Hbf</item>
+        <item>Mainz Nord</item>
+        <item>Mainz Römisches Theater</item>
+        <item>Mainz-Gonsenheim</item>
+        <item>Mainz-Laubenheim</item>
+        <item>Mainz-Marienborn</item>
+        <item>Mainz-Mombach</item>
+        <item>Martinstein</item>
+        <item>Mettenheim</item>
+        <item>Monsheim</item>
+        <item>Monzingen</item>
+        <item>Münster-Sarmsheim</item>
+        <item>Nackenheim</item>
+        <item>Neubrücke (Nahe)</item>
+        <item>Nieder Flörsheim-Dalsheim</item>
+        <item>Nieder Olm</item>
+        <item>Niederheimbach</item>
+        <item>Nierstein</item>
+        <item>Nohen</item>
+        <item>Norheim</item>
+        <item>Ockenheim</item>
+        <item>Oppenheim</item>
+        <item>Osthofen</item>
+        <item>Pfeddersheim</item>
+        <item>Saulheim</item>
+        <item>Sprendlingen (Rheinhess)</item>
+        <item>Staudernheim</item>
+        <item>Trechtingshausen</item>
+        <item>Uhlerborn</item>
+        <item>Waggonfabrik</item>
+        <item>Wallertheim</item>
+        <item>Welgesheim-Zotzenheim</item>
+        <item>Worms Hbf</item>
+        <item>Wörrstadt</item>
+        <item>Auersmacher</item>
+        <item>Auw an der Kyll</item>
+        <item>Baltersweiler</item>
+        <item>Beckingen (Saar)</item>
+        <item>Besch</item>
+        <item>Besseringen</item>
+        <item>Bexbach</item>
+        <item>Bierbach</item>
+        <item>Bildstock</item>
+        <item>Birresborn</item>
+        <item>Bitburg-Erdorf</item>
+        <item>Blieskastel-Lautzkirchen</item>
+        <item>Bous (Saar)</item>
+        <item>Brebach</item>
+        <item>Bubach</item>
+        <item>Bübingen</item>
+        <item>Burbach Mitte</item>
+        <item>Daufenbach</item>
+        <item>Densborn</item>
+        <item>Dillingen (Saar)</item>
+        <item>Dirmingen</item>
+        <item>Dudweiler</item>
+        <item>Ehrang</item>
+        <item>Ehrang Ort</item>
+        <item>Einöd (Saar)</item>
+        <item>Ensdorf (Saar)</item>
+        <item>Eppelborn</item>
+        <item>Fischbach-Camphausen</item>
+        <item>Fremersdorf</item>
+        <item>Friedrichsthal Mitte</item>
+        <item>Friedrichsthal (Saar)</item>
+        <item>Gennweiler</item>
+        <item>Gerolstein</item>
+        <item>Güdingen</item>
+        <item>Hanweiler-Bad Rilchingen</item>
+        <item>Hassel (Saar)</item>
+        <item>Hemmersdorf (Saar)</item>
+        <item>Hofeld</item>
+        <item>Homburg (Saar) Hbf</item>
+        <item>Hüttingen</item>
+        <item>Igel</item>
+        <item>Illingen (Saar)</item>
+        <item>Jägersfreude</item>
+        <item>Jünkerath</item>
+        <item>Kanzem</item>
+        <item>Karthaus</item>
+        <item>Kirkel</item>
+        <item>Kleinblittersdorf</item>
+        <item>Konz</item>
+        <item>Konz Mitte</item>
+        <item>Kordel</item>
+        <item>Kreuz Konz</item>
+        <item>Kyllburg</item>
+        <item>Landsweiler-Reden</item>
+        <item>Lebach</item>
+        <item>Lebach-Jabach</item>
+        <item>Limbach (b Homburg</item>
+        <item>Lissendorf</item>
+        <item>Luisenthal (Saar)</item>
+        <item>Merchweiler</item>
+        <item>Merzig (Saar)</item>
+        <item>Merzig Stadtmitte</item>
+        <item>Mettlach</item>
+        <item>Mürlenbach</item>
+        <item>Namborn</item>
+        <item>Nennig</item>
+        <item>Neunkirchen (Saar) Hbf</item>
+        <item>Neunkirchen (Saar)-Wellesweiler</item>
+        <item>Niedaltdorf</item>
+        <item>Niederlinxweiler</item>
+        <item>Nittel</item>
+        <item>Nohfelden</item>
+        <item>Oberbettingen-Hillesheim</item>
+        <item>Oberbillig</item>
+        <item>Oberlinxweiler</item>
+        <item>Ottweiler (Saar)</item>
+        <item>Palzem</item>
+        <item>Perl</item>
+        <item>Pfalzel</item>
+        <item>Philippsheim</item>
+        <item>Quierschied</item>
+        <item>Quint</item>
+        <item>Rentrisch</item>
+        <item>Rohrbach (Saar)</item>
+        <item>Saarbrücken Hbf</item>
+        <item>Saarbrücken Ost</item>
+        <item>Saarbrücken-Burbach</item>
+        <item>Saarburg (Bz Trier)</item>
+        <item>Saarhölzbach</item>
+        <item>Saarlouis Hbf</item>
+        <item>Schafbrücke</item>
+        <item>Scheidt (Saar)</item>
+        <item>Schiffweiler</item>
+        <item>Schoden-Ockfen</item>
+        <item>Serrig</item>
+        <item>Siersburg</item>
+        <item>Speicher</item>
+        <item>St. Ingbert</item>
+        <item>St. Thomas</item>
+        <item>St. Wendel</item>
+        <item>Sulzbach (Saar)</item>
+        <item>Sulzbach (Saar) Altenwald</item>
+        <item>Taben</item>
+        <item>Temmels</item>
+        <item>Trier Hbf</item>
+        <item>Trier Süd</item>
+        <item>Türkismühle</item>
+        <item>Usch-Zendscheid</item>
+        <item>Völklingen</item>
+        <item>Walhausen (Saar)</item>
+        <item>Wasserliesch</item>
+        <item>Wehr (Mosel)</item>
+        <item>Wellen (Mosel)</item>
+        <item>Wemmetsweiler Rathaus</item>
+        <item>Wiebelskirchen</item>
+        <item>Wiltingen (Saar)</item>
+        <item>Wincheringen</item>
+        <item>Würzbach (Saar)</item>
+        <item>Wustweiler</item>
+        <item>Adelebsen</item>
+        <item>Alfeld (Leine)</item>
+        <item>Algermissen</item>
+        <item>Bad Bevensen</item>
+        <item>Bad Bodenteich</item>
+        <item>Bad Gandersheim</item>
+        <item>Bad Harzburg</item>
+        <item>Bad Karlshafen</item>
+        <item>Bad Lauterberg im Harz Barbis</item>
+        <item>Bad Sachsa</item>
+        <item>Bad Salzdetfurth</item>
+        <item>Bad Salzdetfurth-Solebad</item>
+        <item>Baddeckenstedt</item>
+        <item>Banteln</item>
+        <item>Barnten</item>
+        <item>Bienenbüttel</item>
+        <item>Bodenburg</item>
+        <item>Bodenfelde</item>
+        <item>Börßum</item>
+        <item>Braunschweig Hbf</item>
+        <item>Braunschweig-Gliesmarode</item>
+        <item>Brockhöfe</item>
+        <item>Calberlah</item>
+        <item>Coppenbrügge</item>
+        <item>Derneburg (Han)</item>
+        <item>Dettum</item>
+        <item>Ebstorf (Kr Uelzen)</item>
+        <item>Eichenberg</item>
+        <item>Einbeck-Salzderhelden</item>
+        <item>Elze (Han)</item>
+        <item>Emmerke</item>
+        <item>Fallersleben</item>
+        <item>Freden (Leine)</item>
+        <item>Frellstedt</item>
+        <item>Friedland (Han)</item>
+        <item>Gertenbach</item>
+        <item>Gifhorn</item>
+        <item>Gifhorn-Stadt</item>
+        <item>Gittelde</item>
+        <item>Goslar</item>
+        <item>Göttingen</item>
+        <item>Großdüngen</item>
+        <item>Hann Münden</item>
+        <item>Hardegsen</item>
+        <item>Harsum</item>
+        <item>Hattorf</item>
+        <item>Hedemünden</item>
+        <item>Helmstedt</item>
+        <item>Herzberg (Harz)</item>
+        <item>Herzberg Schloß</item>
+        <item>Hildesheim Hbf</item>
+        <item>Hildesheim Ost</item>
+        <item>Hoheneggelsen</item>
+        <item>Holzminden</item>
+        <item>Katlenburg</item>
+        <item>Knesebeck</item>
+        <item>Königslutter</item>
+        <item>Kreiensen</item>
+        <item>Langelsheim</item>
+        <item>Lauenförde</item>
+        <item>Leiferde (b Gifhorn)</item>
+        <item>Lengede-Broistedt</item>
+        <item>Lenglern</item>
+        <item>Lödingsen</item>
+        <item>Meine</item>
+        <item>Meinersen</item>
+        <item>Münchehof (Harz)</item>
+        <item>Munster (Örtze)</item>
+        <item>Neudorf-Platendorf</item>
+        <item>Nordstemmen</item>
+        <item>Nörten-Hardenberg</item>
+        <item>Northeim (Han)</item>
+        <item>Offensen (Kr Northeim)</item>
+        <item>Oker</item>
+        <item>Osterode am Harz Leege</item>
+        <item>Osterode am Harz Mitte</item>
+        <item>Osterwald</item>
+        <item>Peine</item>
+        <item>Rötgesbüttel</item>
+        <item>Salzgitter Bad</item>
+        <item>Salzgitter-Immendorf</item>
+        <item>Salzgitter-Lebenstedt</item>
+        <item>Salzgitter-Ringelheim</item>
+        <item>Salzgitter-Thiede</item>
+        <item>Salzgitter-Watenstedt</item>
+        <item>Sarstedt</item>
+        <item>Schandelah</item>
+        <item>Schladen (Harz)</item>
+        <item>Schnega</item>
+        <item>Schönewörde</item>
+        <item>Schöppenstedt</item>
+        <item>Seesen</item>
+        <item>Soltendieck</item>
+        <item>Stadtoldendorf</item>
+        <item>Stederdorf (Kr Uelzen)</item>
+        <item>Suderburg</item>
+        <item>Triangel</item>
+        <item>Uelzen</item>
+        <item>Uslar</item>
+        <item>Vechelde</item>
+        <item>Vernawahlshausen</item>
+        <item>Vienenburg</item>
+        <item>Vöhrum</item>
+        <item>Voldagsen</item>
+        <item>Volpriehausen</item>
+        <item>Vorhop</item>
+        <item>Wahrenholz</item>
+        <item>Walkenried</item>
+        <item>Weddel (Braunschw)</item>
+        <item>Wesseln</item>
+        <item>Wieren</item>
+        <item>Wittingen</item>
+        <item>Witzenhausen Nord</item>
+        <item>Wolfenbüttel</item>
+        <item>Wolfsburg Hbf</item>
+        <item>Woltwiesche</item>
+        <item>Wulften</item>
+        <item>Achim</item>
+        <item>Achmer</item>
+        <item>Ahlhorn</item>
+        <item>Aschendorf</item>
+        <item>Augustfehn</item>
+        <item>Bad Bentheim</item>
+        <item>Bad Zwischenahn</item>
+        <item>Baden (Kr Verden)</item>
+        <item>Barnstorf (Han)</item>
+        <item>Barrien</item>
+        <item>Bassum</item>
+        <item>Berne</item>
+        <item>Bersenbrück</item>
+        <item>Bohmte</item>
+        <item>Bookholzberg</item>
+        <item>Brake (Unterweser)</item>
+        <item>Bramsche</item>
+        <item>Bramstedt (b Syke)</item>
+        <item>Bremen Hbf</item>
+        <item>Bremen Neustadt</item>
+        <item>Bremen-Burg</item>
+        <item>Bremen-Hemelingen</item>
+        <item>Bremen-Lesum</item>
+        <item>Bremen-Mahndorf</item>
+        <item>Bremen-Oberneuland</item>
+        <item>Bremen-Oslebshausen</item>
+        <item>Bremen-Schönebeck</item>
+        <item>Bremen-Sebaldsbrück</item>
+        <item>Bremen-St Magnus</item>
+        <item>Bremen-Vegesack</item>
+        <item>Bremen-Walle</item>
+        <item>Bremerhaven Hbf</item>
+        <item>Bremerhaven-Lehe Pbf</item>
+        <item>Bremerhaven-Wulsdorf</item>
+        <item>Brettorf</item>
+        <item>Bruchmühlen</item>
+        <item>Buchholz (Nordheide)</item>
+        <item>Burhafe</item>
+        <item>Büsenbachtal</item>
+        <item>Cadenberge</item>
+        <item>Cloppenburg</item>
+        <item>Cuxhaven</item>
+        <item>Delmenhorst</item>
+        <item>Diepholz</item>
+        <item>Dörpen</item>
+        <item>Dorum (Kr Cuxhaven)</item>
+        <item>Dörverden</item>
+        <item>Dreye</item>
+        <item>Elsfleth</item>
+        <item>Emden Hbf</item>
+        <item>Esens (Ostfriesl)</item>
+        <item>Essen (Oldb)</item>
+        <item>Etelsen</item>
+        <item>Ganderkesee</item>
+        <item>Geeste</item>
+        <item>Goldenstedt (Oldb)</item>
+        <item>Großenkneten</item>
+        <item>Halen</item>
+        <item>Hammah</item>
+        <item>Handeloh</item>
+        <item>Haren (Ems)</item>
+        <item>Hasbergen (Kr Osnabrück)</item>
+        <item>Hechthausen</item>
+        <item>Heidkrug</item>
+        <item>Hemmoor</item>
+        <item>Hesepe</item>
+        <item>Himmelpforten</item>
+        <item>Hittfeld</item>
+        <item>Holdorf (Oldb)</item>
+        <item>Holm-Seppensen</item>
+        <item>Hoykenkamp</item>
+        <item>Hude</item>
+        <item>Huntlosen</item>
+        <item>Jever</item>
+        <item>Kirchhammelwarden</item>
+        <item>Kirchweyhe</item>
+        <item>Klecken</item>
+        <item>Kleinensiel</item>
+        <item>Langwedel</item>
+        <item>Lathen</item>
+        <item>Lauenbrück</item>
+        <item>Leer (Ostfriesl)</item>
+        <item>Lemförde</item>
+        <item>Leschede</item>
+        <item>Lingen (Ems)</item>
+        <item>Lohne (Oldb)</item>
+        <item>Loxstedt</item>
+        <item>Lübberstedt</item>
+        <item>Lunestedt</item>
+        <item>Lutten</item>
+        <item>Marienhafe</item>
+        <item>Melle</item>
+        <item>Meppen</item>
+        <item>Mühlen (Oldb)</item>
+        <item>Natrup-Hagen</item>
+        <item>Neuenkirchen (Oldb)</item>
+        <item>Norddeich</item>
+        <item>Norddeich Mole</item>
+        <item>Norden</item>
+        <item>Nordenham</item>
+        <item>Nordholz</item>
+        <item>Oldenburg (Oldb) Hbf</item>
+        <item>Oldenburg-Wechloy</item>
+        <item>Oldenbüttel</item>
+        <item>Osnabrück Altstadt</item>
+        <item>Osnabrück Hbf</item>
+        <item>Osterholz-Scharmbeck</item>
+        <item>Otterndorf</item>
+        <item>Ottersberg (Han)</item>
+        <item>Papenburg (Ems)</item>
+        <item>Quakenbrück</item>
+        <item>Rastede</item>
+        <item>Rechterfeld</item>
+        <item>Rieste</item>
+        <item>Ritterhude</item>
+        <item>Rodenkirchen (Oldb)</item>
+        <item>Rotenburg (Wümme)</item>
+        <item>Sagehorn</item>
+        <item>Salzbergen</item>
+        <item>Sande</item>
+        <item>Sanderbusch</item>
+        <item>Sandkrug</item>
+        <item>Scheeßel</item>
+        <item>Schierbrok</item>
+        <item>Schneverdingen</item>
+        <item>Schortens-Heidmühle (Oldb)</item>
+        <item>Schüttorf</item>
+        <item>Soltau (Han)</item>
+        <item>Soltau (Han) Nord</item>
+        <item>Sottrum</item>
+        <item>Sprötze</item>
+        <item>Steinfeld (Oldb)</item>
+        <item>Stubben</item>
+        <item>Suerhop</item>
+        <item>Syke</item>
+        <item>Tostedt</item>
+        <item>Twistringen</item>
+        <item>Varel (Oldb)</item>
+        <item>Vechta</item>
+        <item>Vechta Stoppelmarkt</item>
+        <item>Verden (Aller)</item>
+        <item>Visselhövede</item>
+        <item>Weener</item>
+        <item>Westerhausen</item>
+        <item>Westerstede-Ocholt</item>
+        <item>Wildeshausen</item>
+        <item>Wilhelmshaven</item>
+        <item>Wingst</item>
+        <item>Wintermoor</item>
+        <item>Wissingen</item>
+        <item>Wittmund</item>
+        <item>Wolterdingen (Han)</item>
+        <item>Wremen</item>
+        <item>Wüsting</item>
+        <item>Agathenburg</item>
+        <item>Allermöhe</item>
+        <item>Alte Wöhr</item>
+        <item>Ashausen</item>
+        <item>Aumühle</item>
+        <item>Bahrenfeld</item>
+        <item>Bardowick</item>
+        <item>Barmbek</item>
+        <item>Bavendorf</item>
+        <item>Berliner Tor</item>
+        <item>Billwerder-Moorfleet</item>
+        <item>Blankenese</item>
+        <item>Buxtehude</item>
+        <item>Dahlenburg</item>
+        <item>Dannenberg Ost</item>
+        <item>Diebsteich</item>
+        <item>Dollern</item>
+        <item>Echem</item>
+        <item>Eidelstedt</item>
+        <item>Elbgaustraße</item>
+        <item>Fischbek</item>
+        <item>Friedrichsberg</item>
+        <item>Göhrde</item>
+        <item>Halstenbek</item>
+        <item>Hamburg Airport (Flughafen)</item>
+        <item>Hamburg Dammtor</item>
+        <item>Hamburg Hbf</item>
+        <item>Hamburg-Altona</item>
+        <item>Hamburg-Bergedorf</item>
+        <item>Hamburg-Harburg</item>
+        <item>Hamburg-Neugraben</item>
+        <item>Hamburg-Rahlstedt</item>
+        <item>Hamburg-Tonndorf</item>
+        <item>Hamburg-Wandsbek</item>
+        <item>Hammerbrook</item>
+        <item>Harburg Rathaus</item>
+        <item>Hasselbrook</item>
+        <item>Heimfeld</item>
+        <item>Hitzacker</item>
+        <item>Hochkamp</item>
+        <item>Hoheneichen</item>
+        <item>Holstenstraße</item>
+        <item>Horneburg</item>
+        <item>Iserbrook</item>
+        <item>Jungfernstieg</item>
+        <item>Klein Flottbek</item>
+        <item>Königstraße</item>
+        <item>Kornweg (Klein Borstel)</item>
+        <item>Krupunder</item>
+        <item>Landungsbrücken</item>
+        <item>Landwehr</item>
+        <item>Langenfelde</item>
+        <item>Leitstade</item>
+        <item>Lüneburg</item>
+        <item>Maschen</item>
+        <item>Meckelfeld</item>
+        <item>Mittlerer Landweg</item>
+        <item>Neetzendorf</item>
+        <item>Nettelnburg</item>
+        <item>Neu Wulmstorf</item>
+        <item>Neukloster (Kr Stade)</item>
+        <item>Neuwiedenthal</item>
+        <item>Ohlsdorf</item>
+        <item>Othmarschen</item>
+        <item>Pinneberg</item>
+        <item>Poppenbüttel</item>
+        <item>Radbruch</item>
+        <item>Reeperbahn</item>
+        <item>Reinbek</item>
+        <item>Rissen</item>
+        <item>Rothenburgsort</item>
+        <item>Rübenkamp</item>
+        <item>Stade</item>
+        <item>Stadthausbrücke</item>
+        <item>Stelle</item>
+        <item>Stellingen</item>
+        <item>Sternschanze</item>
+        <item>Sülldorf</item>
+        <item>Thesdorf</item>
+        <item>Tiefstack</item>
+        <item>Vastorf</item>
+        <item>Veddel</item>
+        <item>Wandsbeker Chaussee</item>
+        <item>Wedel (Holst)</item>
+        <item>Wellingsbüttel</item>
+        <item>Wendisch Evern</item>
+        <item>Wilhelmsburg</item>
+        <item>Winsen (Luhe)</item>
+        <item>Wohltorf</item>
+        <item>Ahlten (Han)</item>
+        <item>Aligse</item>
+        <item>Anderten-Misburg</item>
+        <item>Bad Fallingbostel</item>
+        <item>Bad Münder (Deister)</item>
+        <item>Bad Nenndorf</item>
+        <item>Bad Pyrmont</item>
+        <item>Bantorf</item>
+        <item>Barsinghausen</item>
+        <item>Bennemühlen</item>
+        <item>Bennigsen</item>
+        <item>Bissendorf</item>
+        <item>Bückeburg</item>
+        <item>Burgdorf (Han)</item>
+        <item>Celle Pbf</item>
+        <item>Dedenhausen</item>
+        <item>Dedensen / Gümmer</item>
+        <item>Dollbergen</item>
+        <item>Dorfmark</item>
+        <item>Egestorf (Deister)</item>
+        <item>Ehlershausen</item>
+        <item>Eilvese</item>
+        <item>Emmerthal</item>
+        <item>Empelde</item>
+        <item>Eschede</item>
+        <item>Eystrup</item>
+        <item>Großburgwedel</item>
+        <item>Hagen (Han)</item>
+        <item>Hämelerwald</item>
+        <item>Hameln</item>
+        <item>Hannover - Ledeburg</item>
+        <item>Hannover - Vinnhorst</item>
+        <item>Hannover Bismarckstraße</item>
+        <item>Hannover Hbf</item>
+        <item>Hannover Karl-Wiechert-Allee</item>
+        <item>Hannover-Bornum</item>
+        <item>Hannover-Flughafen</item>
+        <item>Hannover-Kleefeld</item>
+        <item>Hannover-Leinhausen</item>
+        <item>Hannover-Linden/Fischerhof</item>
+        <item>Hannover-Messe / Laatzen</item>
+        <item>Hannover-Nordstadt</item>
+        <item>Haste (Han)</item>
+        <item>Hessisch Oldendorf</item>
+        <item>Hodenhagen</item>
+        <item>Holtensen (b Weetzen)</item>
+        <item>Immensen-Arpke</item>
+        <item>Isernhagen</item>
+        <item>Kirchdorf (Deister)</item>
+        <item>Kirchhorsten</item>
+        <item>Langenhagen - Kaltenweide</item>
+        <item>Langenhagen Pferdemarkt</item>
+        <item>Langenhagen-Mitte</item>
+        <item>Leese-Stolzenau</item>
+        <item>Lehrte</item>
+        <item>Lemmie</item>
+        <item>Letter</item>
+        <item>Lindhorst (Schaumb-Lippe)</item>
+        <item>Lindwedel</item>
+        <item>Linsburg</item>
+        <item>Mellendorf</item>
+        <item>Neustadt a Rübenberge</item>
+        <item>Nienburg (Weser)</item>
+        <item>Otze</item>
+        <item>Poggenhagen</item>
+        <item>Rethen (Leine)</item>
+        <item>Rinteln</item>
+        <item>Ronnenberg (Han)</item>
+        <item>Schwarmstedt</item>
+        <item>Seelze Pbf</item>
+        <item>Sehnde</item>
+        <item>Springe</item>
+        <item>Stadthagen</item>
+        <item>Unterlüß</item>
+        <item>Völksen-Eldagsen</item>
+        <item>Walsrode</item>
+        <item>Weetzen</item>
+        <item>Wennigsen (Deister)</item>
+        <item>Winninghausen</item>
+        <item>Wunstorf</item>
+        <item>Achterwehr</item>
+        <item>Ahrensburg</item>
+        <item>Ahrensburg-Gartenholz</item>
+        <item>Albersdorf</item>
+        <item>Altengörs</item>
+        <item>Ascheberg (Holst)</item>
+        <item>Aukrug</item>
+        <item>Bad Malente-Gremsmühlen</item>
+        <item>Bad Oldesloe</item>
+        <item>Bad Schwartau</item>
+        <item>Bad Segeberg</item>
+        <item>Bad St Peter Süd</item>
+        <item>Bad St Peter-Ording</item>
+        <item>Bargteheide</item>
+        <item>Beldorf</item>
+        <item>Beringstedt</item>
+        <item>Bordesholm</item>
+        <item>Bredenbek</item>
+        <item>Bredstedt</item>
+        <item>Brokstedt</item>
+        <item>Büchen</item>
+        <item>Burg (Dithm)</item>
+        <item>Büsum</item>
+        <item>Dauenhof</item>
+        <item>Eckernförde</item>
+        <item>Einfeld</item>
+        <item>Elmshorn</item>
+        <item>Eutin</item>
+        <item>Fahrenkrug</item>
+        <item>Felde</item>
+        <item>Flensburg</item>
+        <item>Flintbek</item>
+        <item>Fresenburg</item>
+        <item>Friedrichsruh</item>
+        <item>Friedrichstadt</item>
+        <item>Garding</item>
+        <item>Gettorf</item>
+        <item>Glückstadt</item>
+        <item>Gokels</item>
+        <item>Großenbrode</item>
+        <item>Hademarschen</item>
+        <item>Haffkrug</item>
+        <item>Harblek</item>
+        <item>Heide (Holst)</item>
+        <item>Herzhorn</item>
+        <item>Hohenwestedt</item>
+        <item>Horst (Holst)</item>
+        <item>Husby</item>
+        <item>Husum</item>
+        <item>Itzehoe</item>
+        <item>Jarrenwisch</item>
+        <item>Jübek</item>
+        <item>Katharinenheerd</item>
+        <item>Kating</item>
+        <item>Keitum</item>
+        <item>Kiel Hbf</item>
+        <item>Kiel-Elmschenhagen</item>
+        <item>Kiel-Hassee CITTIPARK</item>
+        <item>Kiel-Russee</item>
+        <item>Klanxbüll</item>
+        <item>Krempe</item>
+        <item>Kremperheide</item>
+        <item>Kronshagen</item>
+        <item>Kupfermühle</item>
+        <item>Langenhorn (Schlesw)</item>
+        <item>Lauenburg (Elbe)</item>
+        <item>Lensahn</item>
+        <item>Lübeck Dänischburg IKEA</item>
+        <item>Lübeck Hbf</item>
+        <item>Lübeck Hochschulstadtteil</item>
+        <item>Lübeck-Flughafen</item>
+        <item>Lübeck-Kücknitz</item>
+        <item>Lübeck-St.Jürgen</item>
+        <item>Lübeck-Travemünde Hafen</item>
+        <item>Lübeck-Travemünde Skandinavienkai</item>
+        <item>Lübeck-Travemünde Strand</item>
+        <item>Lunden</item>
+        <item>Meldorf</item>
+        <item>Melsdorf</item>
+        <item>Mölln (Lauenburg)</item>
+        <item>Morsum (Sylt)</item>
+        <item>Müssen</item>
+        <item>Neumünster</item>
+        <item>Neumünster Stadtwald</item>
+        <item>Neustadt (Holst)</item>
+        <item>Niebüll</item>
+        <item>Nordhastedt</item>
+        <item>Nortorf</item>
+        <item>Oldenburg (Holst)</item>
+        <item>Osterstedt</item>
+        <item>Owschlag</item>
+        <item>Pansdorf</item>
+        <item>Plön</item>
+        <item>Pönitz (Holst)</item>
+        <item>Preetz</item>
+        <item>Prisdorf</item>
+        <item>Puttgarden</item>
+        <item>Raisdorf</item>
+        <item>Ratzeburg</item>
+        <item>Reinfeld (Holst)</item>
+        <item>Reinsbüttel</item>
+        <item>Rendsburg</item>
+        <item>Rickling</item>
+        <item>Rieseby</item>
+        <item>Sandwehle</item>
+        <item>Scharbeutz</item>
+        <item>Schleswig</item>
+        <item>Schülldorf</item>
+        <item>Schwarzenbek</item>
+        <item>Sierksdorf</item>
+        <item>Sörup</item>
+        <item>St. Michaelisdonn</item>
+        <item>Suchsdorf</item>
+        <item>Süderbrarup</item>
+        <item>Süderdeich</item>
+        <item>Tarp</item>
+        <item>Tating</item>
+        <item>Tiebensee</item>
+        <item>Timmendorferstrand</item>
+        <item>Tönning</item>
+        <item>Tornesch</item>
+        <item>Wahlstedt</item>
+        <item>Wakendorf</item>
+        <item>Wasbek</item>
+        <item>Wesselburen</item>
+        <item>Westerland (Sylt)</item>
+        <item>Wilster</item>
+        <item>Witzwort</item>
+        <item>Wrist</item>
+        <item>Ahrensfelde</item>
+        <item>Alexanderplatz</item>
+        <item>Altglienicke</item>
+        <item>Alt-Reinickendorf</item>
+        <item>Attilastraße</item>
+        <item>Babelsberg</item>
+        <item>Baumschulenweg</item>
+        <item>Bellevue</item>
+        <item>Bergfelde (b Berlin)</item>
+        <item>Berlin Anhalter Bahnhof</item>
+        <item>Berlin Brandenburger Tor</item>
+        <item>Berlin Frankfurter Allee</item>
+        <item>Berlin Ostbahnhof</item>
+        <item>Berlin Potsdamer Platz</item>
+        <item>Berlin Südkreuz</item>
+        <item>Berlin Zoologischer Garten</item>
+        <item>Berlin-Adlershof</item>
+        <item>Berlin-Blankenburg</item>
+        <item>Berlin-Buch</item>
+        <item>Berlin-Charlottenburg</item>
+        <item>Berlin-Friedrichshagen</item>
+        <item>Berlin-Friedrichstraße</item>
+        <item>Berlin-Frohnau</item>
+        <item>Berlin-Gesundbrunnen</item>
+        <item>Berlin-Grünau</item>
+        <item>Berlin-Grunewald</item>
+        <item>Berlin-Halensee</item>
+        <item>Berlin-Hermsdorf</item>
+        <item>Berlin-Hohenschönhausen</item>
+        <item>Berlin-Karlshorst</item>
+        <item>Berlin-Karow</item>
+        <item>Berlin-Kaulsdorf</item>
+        <item>Berlin-Köpenick</item>
+        <item>Berlin-Lichtenberg</item>
+        <item>Berlin-Lichterfelde Ost</item>
+        <item>Berlin-Lichterfelde West</item>
+        <item>Berlin-Mahlsdorf</item>
+        <item>Berlin-Marienfelde</item>
+        <item>Berlin-Marzahn</item>
+        <item>Berlin-Neukölln</item>
+        <item>Berlin-Nordbahnhof</item>
+        <item>Berlin-Pankow</item>
+        <item>Berlin-Rummelsburg</item>
+        <item>Berlin-Schlachtensee</item>
+        <item>Berlin-Schönefeld Flughafen</item>
+        <item>Berlin-Schöneweide Pbf</item>
+        <item>Berlin-Schönholz</item>
+        <item>Berlin-Spandau</item>
+        <item>Berlin-Spindlersfeld</item>
+        <item>Berlin-Tegel</item>
+        <item>Berlin-Tempelhof</item>
+        <item>Berlin-Wannsee</item>
+        <item>Berlin-Westkreuz</item>
+        <item>Berlin-Wilhelmsruh</item>
+        <item>Berlin-Zehlendorf</item>
+        <item>Bernau-Friedenstal</item>
+        <item>Betriebsbahnhof Berlin-Rummelsburg</item>
+        <item>Betriebsbahnhof Berlin-Schöneweide</item>
+        <item>Beusselstraße</item>
+        <item>Biesdorf</item>
+        <item>Birkenstein</item>
+        <item>Borgsdorf</item>
+        <item>Bornholmer Straße</item>
+        <item>Botanischer Garten</item>
+        <item>Buckower Chaussee</item>
+        <item>Bundesplatz</item>
+        <item>Eichborndamm</item>
+        <item>Eichwalde</item>
+        <item>Feuerbachstraße</item>
+        <item>Fredersdorf (b Berlin)</item>
+        <item>Friedenau</item>
+        <item>Friedrichsfelde Ost</item>
+        <item>Gehrenseestraße</item>
+        <item>Greifswalder Straße</item>
+        <item>Grünbergallee</item>
+        <item>Hackescher Markt</item>
+        <item>Heerstraße</item>
+        <item>Hegermühle</item>
+        <item>Heidelberger Platz</item>
+        <item>Heiligensee</item>
+        <item>Hermannstraße</item>
+        <item>Hirschgarten</item>
+        <item>Hohen Neuendorf (b Berlin)</item>
+        <item>Hohenzollerndamm</item>
+        <item>Hoppegarten (Mark)</item>
+        <item>Humboldthain</item>
+        <item>Innsbrucker Platz</item>
+        <item>Jannowitzbrücke</item>
+        <item>Julius-Leber-Brücke</item>
+        <item>Jungfernheide</item>
+        <item>Karl-Bonhoeffer-Nervenklinik</item>
+        <item>Köllnische Heide</item>
+        <item>Landsberger Allee</item>
+        <item>Lankwitz</item>
+        <item>Lehnitz</item>
+        <item>Lichtenrade</item>
+        <item>Lichterfelde Süd</item>
+        <item>Mahlow</item>
+        <item>Mehrower Allee</item>
+        <item>Messe Nord / ICC (Witzleben)</item>
+        <item>Messe Süd (Eichkamp)</item>
+        <item>Mexikoplatz</item>
+        <item>Mühlenbeck-Mönchmühle</item>
+        <item>Neuenhagen (b Berlin)</item>
+        <item>Nikolassee</item>
+        <item>Nöldnerplatz</item>
+        <item>Oberspree</item>
+        <item>Olympiastadion</item>
+        <item>Oranienburger Straße</item>
+        <item>Osdorferstraße</item>
+        <item>Ostkreuz</item>
+        <item>Pankow-Heinersdorf</item>
+        <item>Petershagen Nord</item>
+        <item>Pichelsberg</item>
+        <item>Plänterwald</item>
+        <item>Poelchaustraße</item>
+        <item>Prenzlauer Allee</item>
+        <item>Priesterweg</item>
+        <item>Rahnsdorf</item>
+        <item>Raoul-Wallenberg-Straße</item>
+        <item>Rathaus Steglitz</item>
+        <item>Röntgental</item>
+        <item>Savignyplatz</item>
+        <item>Schichauweg</item>
+        <item>Schöneberg</item>
+        <item>Schönfließ</item>
+        <item>Schönhauser Allee</item>
+        <item>Schulzendorf (b Tegel)</item>
+        <item>Sonnenallee</item>
+        <item>Springpfuhl</item>
+        <item>Storkower Straße</item>
+        <item>Strausberg Nord</item>
+        <item>Strausberg Stadt</item>
+        <item>Stresow</item>
+        <item>Südende</item>
+        <item>Sundgauer Straße</item>
+        <item>Teltow Stadt</item>
+        <item>Tiergarten</item>
+        <item>Treptower Park</item>
+        <item>Waidmannslust</item>
+        <item>Warschauer Straße</item>
+        <item>Wartenberg</item>
+        <item>Wedding</item>
+        <item>Westend</item>
+        <item>Westhafen</item>
+        <item>Wildau</item>
+        <item>Wilhelmshagen</item>
+        <item>Wittenau (Wilhelmsruher Damm)</item>
+        <item>Wollankstraße</item>
+        <item>Wuhlheide</item>
+        <item>Yorckstraße</item>
+        <item>Yorckstraße (Großgörschenstraße)</item>
+        <item>Zepernick (b Bernau)</item>
+        <item>Zeuthen</item>
+        <item>Berlin Hauptbahnhof</item>
+        <item>Alt Rosenthal</item>
+        <item>Altdöbern</item>
+        <item>Altranft</item>
+        <item>Bad Freienwalde (Oder)</item>
+        <item>Bad Liebenwerda</item>
+        <item>Bad Saarow</item>
+        <item>Bagenz</item>
+        <item>Bahnsdorf</item>
+        <item>Baruth (Mark)</item>
+        <item>Beeskow</item>
+        <item>Berkenbrück</item>
+        <item>Bestensee</item>
+        <item>Beutersitz</item>
+        <item>Blankenfelde (Kr Teltow-Fläming)</item>
+        <item>Brand Tropical Islands</item>
+        <item>Briesen (Mark)</item>
+        <item>Buckow (b Beeskow)</item>
+        <item>Calau (Niederlausitz)</item>
+        <item>Coschen</item>
+        <item>Cottbus Hbf</item>
+        <item>Cottbus-Merzdorf</item>
+        <item>Cottbus-Sandow</item>
+        <item>Cottbus-Willmersdorf Nord</item>
+        <item>Dabendorf</item>
+        <item>Dahlewitz</item>
+        <item>Doberlug-Kirchhain</item>
+        <item>Drahnsdorf</item>
+        <item>Drebkau</item>
+        <item>Eisenhüttenstadt</item>
+        <item>Elsterwerda</item>
+        <item>Elsterwerda-Biehla</item>
+        <item>Erkner</item>
+        <item>Falkenberg (Elster)</item>
+        <item>Falkenberg (Mark)</item>
+        <item>Fangschleuse</item>
+        <item>Fermerswalde</item>
+        <item>Finkenheerd</item>
+        <item>Finsterwalde (Niederlausitz)</item>
+        <item>Forst (Lausitz)</item>
+        <item>Frankfurt (Oder)</item>
+        <item>Frankfurt (Oder)-Neuberesinchen</item>
+        <item>Frankfurt (Oder)-Rosengarten</item>
+        <item>Friedersdorf (b Königs Wusterhausen)</item>
+        <item>Fürstenwalde (Spree)</item>
+        <item>Fürstenwalde (Spree) Süd</item>
+        <item>Gollmitz (Niederlausitz)</item>
+        <item>Golßen (Niederlausitz)</item>
+        <item>Golzow (Oderbruch)</item>
+        <item>Gorgast</item>
+        <item>Groß Köris</item>
+        <item>Großräschen</item>
+        <item>Grunow (Niederlausitz)</item>
+        <item>Guben</item>
+        <item>Halbe</item>
+        <item>Hangelsberg</item>
+        <item>Helenesee</item>
+        <item>Herrensee</item>
+        <item>Herzberg (Elster)</item>
+        <item>Hohenleipisch</item>
+        <item>Hosena</item>
+        <item>Hubertushöhe</item>
+        <item>Jacobsdorf (Mark)</item>
+        <item>Jänschwalde</item>
+        <item>Jänschwalde Ost</item>
+        <item>Kablow</item>
+        <item>Kerkwitz</item>
+        <item>Klasdorf Glashütte</item>
+        <item>Klinge</item>
+        <item>Kolkwitz</item>
+        <item>Kolkwitz Süd</item>
+        <item>Königs Wusterhausen</item>
+        <item>Kraftwerk Finkenheerd</item>
+        <item>Kummersdorf (b Storkow)</item>
+        <item>Kunersdorf</item>
+        <item>Küstrin-Kietz</item>
+        <item>Lauchhammer</item>
+        <item>Letschin</item>
+        <item>Leuthen (b Cottbus)</item>
+        <item>Lindenberg (Mark)</item>
+        <item>Lübben (Spreewald)</item>
+        <item>Lübbenau (Spreewald)</item>
+        <item>Lubolz</item>
+        <item>Luckaitztal</item>
+        <item>Luckau-Uckro</item>
+        <item>Mixdorf</item>
+        <item>Müllrose</item>
+        <item>Müncheberg (Mark)</item>
+        <item>Neuhausen (b Cottbus)</item>
+        <item>Neuhof (b Zossen)</item>
+        <item>Neupetershain</item>
+        <item>Neutrebbin</item>
+        <item>Neuzelle</item>
+        <item>Niederlehme</item>
+        <item>Obersdorf</item>
+        <item>Oderin</item>
+        <item>Oegeln</item>
+        <item>Ortrand</item>
+        <item>Peitz Ost</item>
+        <item>Pillgram</item>
+        <item>Plessa</item>
+        <item>Prösen</item>
+        <item>Prösen Ost</item>
+        <item>Prösen West</item>
+        <item>Raddusch</item>
+        <item>Rangsdorf</item>
+        <item>Rehfeld (b Falkenberg/Elster)</item>
+        <item>Rehfelde</item>
+        <item>Rückersdorf</item>
+        <item>Ruhland</item>
+        <item>Schneeberg (Mark)</item>
+        <item>Schönborn (b Doberlug)</item>
+        <item>Schönfließ Dorf</item>
+        <item>Schönwalde (Spreewald)</item>
+        <item>Schwarzheide Ost</item>
+        <item>Sedlitz Ost</item>
+        <item>Seelow (Mark)</item>
+        <item>Seelow-Gusow</item>
+        <item>Senftenberg</item>
+        <item>Spremberg</item>
+        <item>Storkow (Mark)</item>
+        <item>Strausberg</item>
+        <item>Teichland</item>
+        <item>Trebnitz (Mark)</item>
+        <item>Uebigau</item>
+        <item>Vetschau</item>
+        <item>Walddrehna</item>
+        <item>Wellmitz</item>
+        <item>Wendisch-Rietz</item>
+        <item>Werbig</item>
+        <item>Wiesenau</item>
+        <item>Wriezen</item>
+        <item>Wünsdorf Waldstadt</item>
+        <item>Zeesen</item>
+        <item>Zernsdorf</item>
+        <item>Ziltendorf</item>
+        <item>Zossen</item>
+        <item>Ahrensfelde Friedhof</item>
+        <item>Ahrensfelde Nord</item>
+        <item>Albrechtshof</item>
+        <item>Alt Hüttendorf</item>
+        <item>Altes Lager</item>
+        <item>Angermünde</item>
+        <item>Bad Belzig</item>
+        <item>Baitz</item>
+        <item>Bärenklau</item>
+        <item>Beelitz Stadt</item>
+        <item>Beelitz-Heilstätten</item>
+        <item>Beetz-Sommerfeld</item>
+        <item>Bergsdorf</item>
+        <item>Berlin-Staaken</item>
+        <item>Bernau (b Berlin)</item>
+        <item>Biesenthal</item>
+        <item>Birkengrund</item>
+        <item>Birkenwerder (b Berlin)</item>
+        <item>Blönsdorf</item>
+        <item>Blumberg (b Berlin)</item>
+        <item>Blumberg-Rehhahn</item>
+        <item>Borkheide</item>
+        <item>Brandenburg Hbf</item>
+        <item>Brandenburg-Altstadt</item>
+        <item>Brieselang</item>
+        <item>Britz</item>
+        <item>Brück (Mark)</item>
+        <item>Buchholz (Zauche)</item>
+        <item>Buschow</item>
+        <item>Caputh-Geltow</item>
+        <item>Caputh-Schwielowsee</item>
+        <item>Casekow</item>
+        <item>Chorin</item>
+        <item>Dallgow-Döberitz</item>
+        <item>Dannenwalde (Kr Gransee)</item>
+        <item>Döberitz</item>
+        <item>Eberswalde Hbf</item>
+        <item>Elsholz</item>
+        <item>Elstal</item>
+        <item>Falkensee</item>
+        <item>Ferch-Lienewitz</item>
+        <item>Finkenkrug</item>
+        <item>Fohrde</item>
+        <item>Fürstenberg (Havel)</item>
+        <item>Golm</item>
+        <item>Golzow (b Eberswalde)</item>
+        <item>Görden</item>
+        <item>Götz</item>
+        <item>Gransee</item>
+        <item>Groß Kreutz</item>
+        <item>Großbeeren</item>
+        <item>Großwudicke</item>
+        <item>Grüneberg</item>
+        <item>Hammelspring</item>
+        <item>Hennigsdorf (b Berlin)</item>
+        <item>Hohen Neuendorf West</item>
+        <item>Joachimsthal</item>
+        <item>Joachimsthal Kaiserbahnhof</item>
+        <item>Jüterbog</item>
+        <item>Kirchmöser</item>
+        <item>Kremmen</item>
+        <item>Löwenberg (Mark)</item>
+        <item>Luckenwalde</item>
+        <item>Ludwigsfelde</item>
+        <item>Ludwigsfelde-Struveshof</item>
+        <item>Marquardt</item>
+        <item>Medewitz (Mark)</item>
+        <item>Melchow</item>
+        <item>Michendorf</item>
+        <item>Mögelin</item>
+        <item>Nassenheide</item>
+        <item>Nauen</item>
+        <item>Nechlin</item>
+        <item>Nennhausen</item>
+        <item>Niederfinow</item>
+        <item>Niedergörsdorf</item>
+        <item>Oehna</item>
+        <item>Oranienburg</item>
+        <item>Passow (Uckermark)</item>
+        <item>Petershagen (Uckermark)</item>
+        <item>Pinnow (Uckermark)</item>
+        <item>Potsdam Charlottenhof</item>
+        <item>Potsdam Griebnitzsee</item>
+        <item>Potsdam Hbf</item>
+        <item>Potsdam Medienstadt Babelsberg</item>
+        <item>Potsdam Park Sanssouci</item>
+        <item>Potsdam Pirschheide</item>
+        <item>Potsdam-Rehbrücke</item>
+        <item>Premnitz Nord</item>
+        <item>Premnitz Zentrum</item>
+        <item>Prenzlau</item>
+        <item>Priort</item>
+        <item>Pritzerbe</item>
+        <item>Rathenow</item>
+        <item>Rüdnitz</item>
+        <item>Saarmund</item>
+        <item>Sachsenhausen (Nordb)</item>
+        <item>Schönow (Kr Uckermark)</item>
+        <item>Schwante</item>
+        <item>Schwedt (Oder)</item>
+        <item>Schwedt (Oder) Mitte</item>
+        <item>Seddin</item>
+        <item>Seefeld (Mark)</item>
+        <item>Seegefeld</item>
+        <item>Seehausen (Uckermark)</item>
+        <item>Tantow</item>
+        <item>Teltow</item>
+        <item>Templin</item>
+        <item>Templin Stadt</item>
+        <item>Thyrow</item>
+        <item>Trebbin</item>
+        <item>Treuenbrietzen</item>
+        <item>Treuenbrietzen Süd</item>
+        <item>Vehlefanz</item>
+        <item>Velten (Mark)</item>
+        <item>Vogelsang (Kr Gransee)</item>
+        <item>Warnitz (Uckermark)</item>
+        <item>Werder (Havel)</item>
+        <item>Werneuchen</item>
+        <item>Wiesenburg (Mark)</item>
+        <item>Wilhelmshorst</item>
+        <item>Wilmersdorf (b Angermünde)</item>
+        <item>Woltersdorf (Nuthe-Urstromtal)</item>
+        <item>Wustermark</item>
+        <item>Wusterwitz</item>
+        <item>Zehdenick (Mark)</item>
+        <item>Zehdenick-Neuhof</item>
+        <item>Zellendorf</item>
+        <item>Altefähr</item>
+        <item>Altentreptow</item>
+        <item>Altenwillershagen</item>
+        <item>Althof</item>
+        <item>Anklam</item>
+        <item>Bad Doberan</item>
+        <item>Bentwisch</item>
+        <item>Bergen auf Rügen</item>
+        <item>Blankensee (Meckl)</item>
+        <item>Blumenhagen</item>
+        <item>Broderstorf</item>
+        <item>Buchenhorst</item>
+        <item>Burg Stargard (Meckl)</item>
+        <item>Bützow</item>
+        <item>Cammin (Meckl)</item>
+        <item>Demmin</item>
+        <item>Ducherow</item>
+        <item>Eggesin</item>
+        <item>Elmenhorst</item>
+        <item>Ferdinandshof</item>
+        <item>Gelbensande</item>
+        <item>Gnevkow</item>
+        <item>Graal-Müritz</item>
+        <item>Graal-Müritz-Koppelweg</item>
+        <item>Grambow</item>
+        <item>Greifswald</item>
+        <item>Greifswald Süd</item>
+        <item>Grimmen</item>
+        <item>Groß Kiesow</item>
+        <item>Groß Lüsewitz</item>
+        <item>Groß Schwaß</item>
+        <item>Güstrow</item>
+        <item>Hagebök</item>
+        <item>Hornstorf</item>
+        <item>Huckstorf</item>
+        <item>Jatznick</item>
+        <item>Jeeser</item>
+        <item>Kalsow</item>
+        <item>Kavelstorf</item>
+        <item>Klein Bünzow</item>
+        <item>Kratzeburg</item>
+        <item>Kronskamp</item>
+        <item>Kröpelin</item>
+        <item>Kummerow (b Stralsund)</item>
+        <item>Laage (Meckl)</item>
+        <item>Lalendorf</item>
+        <item>Lancken</item>
+        <item>Langhagen</item>
+        <item>Lietzow (Rügen)</item>
+        <item>Löcknitz</item>
+        <item>Lüssow (Meckl)</item>
+        <item>Malchin</item>
+        <item>Martensdorf</item>
+        <item>Miltzow</item>
+        <item>Mistorf</item>
+        <item>Mölln (Meckl)</item>
+        <item>Mönchhagen</item>
+        <item>Neetzka</item>
+        <item>Neu Wokern</item>
+        <item>Neubrandenburg</item>
+        <item>Neubukow</item>
+        <item>Neustrelitz Hbf</item>
+        <item>Oertzenhof</item>
+        <item>Ostseebad Binz</item>
+        <item>Papendorf</item>
+        <item>Parkentin</item>
+        <item>Pasewalk</item>
+        <item>Pasewalk Ost</item>
+        <item>Plaaz</item>
+        <item>Pölchow</item>
+        <item>Priemerburg</item>
+        <item>Prora</item>
+        <item>Prora Ost</item>
+        <item>Rakow</item>
+        <item>Rambin (Rügen)</item>
+        <item>Reddelich</item>
+        <item>Reuterstadt Stavenhagen</item>
+        <item>Ribnitz-Damgarten Ost</item>
+        <item>Ribnitz-Damgarten West</item>
+        <item>Roggentin</item>
+        <item>Rostock Evershagen</item>
+        <item>Rostock Hbf</item>
+        <item>Rostock Holbeinplatz</item>
+        <item>Rostock Kassebohm</item>
+        <item>Rostock Lichtenhagen</item>
+        <item>Rostock Lütten Klein</item>
+        <item>Rostock Parkstraße</item>
+        <item>Rostock Thierfelder Straße</item>
+        <item>Rostock Torfbrücke</item>
+        <item>Rostock-Bramow</item>
+        <item>Rostock-Marienehe</item>
+        <item>Rövershagen</item>
+        <item>Sagard</item>
+        <item>Samtens</item>
+        <item>Sandförde</item>
+        <item>Sandhagen (b Bad Doberan)</item>
+        <item>Sanitz (b Rostock)</item>
+        <item>Sassnitz</item>
+        <item>Scharstorf</item>
+        <item>Schwaan</item>
+        <item>Sponholz</item>
+        <item>Steinhausen-Neuburg</item>
+        <item>Sternfeld</item>
+        <item>Stralsund Hbf</item>
+        <item>Stralsund Rügendamm</item>
+        <item>Stralsund-Grünhufe</item>
+        <item>Strasburg (Uckerm)</item>
+        <item>Subzin-Liessow</item>
+        <item>Teschenhagen</item>
+        <item>Teschow</item>
+        <item>Tessin</item>
+        <item>Tessin West</item>
+        <item>Teterow</item>
+        <item>Torgelow</item>
+        <item>Ueckermünde</item>
+        <item>Ueckermünde Stadthafen</item>
+        <item>Utzedel</item>
+        <item>Velgast</item>
+        <item>Waren (Müritz)</item>
+        <item>Warnemünde</item>
+        <item>Warnemünde Werft</item>
+        <item>Wittenhagen</item>
+        <item>Wüstenfelde</item>
+        <item>Zarrendorf</item>
+        <item>Zerrenthin</item>
+        <item>Züssow</item>
+        <item>Bad Kleinen</item>
+        <item>Bad Wilsnack</item>
+        <item>Blankenberg (Meckl)</item>
+        <item>Bobitz</item>
+        <item>Boizenburg (Elbe)</item>
+        <item>Brahlstorf</item>
+        <item>Breddin</item>
+        <item>Crivitz</item>
+        <item>Domsühl</item>
+        <item>Dorf Mecklenburg</item>
+        <item>Dossow (Prign)</item>
+        <item>Dütschow</item>
+        <item>Fretzdorf</item>
+        <item>Friedrichsruhe (Meckl)</item>
+        <item>Friesack (Mark)</item>
+        <item>Gadebusch</item>
+        <item>Glöwen</item>
+        <item>Grabow (Meckl)</item>
+        <item>Grevesmühlen</item>
+        <item>Grieben (Meckl)</item>
+        <item>Groß Brütz</item>
+        <item>Groß Laasch</item>
+        <item>Groß Pankow</item>
+        <item>Hagenow Land</item>
+        <item>Heiligengrabe</item>
+        <item>Herrnburg</item>
+        <item>Holdorf (Meckl)</item>
+        <item>Holthusen</item>
+        <item>Jasnitz</item>
+        <item>Karstädt</item>
+        <item>Kirch Jesar</item>
+        <item>Liebenthal (Prign)</item>
+        <item>Lüblow (Meckl)</item>
+        <item>Lübstorf</item>
+        <item>Lüdersdorf (Meckl)</item>
+        <item>Ludwigslust</item>
+        <item>Lützow</item>
+        <item>Moidentin</item>
+        <item>Netzeband</item>
+        <item>Neuruppin Rheinsberger Tor</item>
+        <item>Neuruppin West</item>
+        <item>Neustadt (Dosse)</item>
+        <item>Neustadt-Glewe</item>
+        <item>Parchim</item>
+        <item>Paulinenaue</item>
+        <item>Perleberg</item>
+        <item>Plate (Meckl)</item>
+        <item>Plüschow</item>
+        <item>Pritzier</item>
+        <item>Pritzwalk</item>
+        <item>Rastow</item>
+        <item>Rehna</item>
+        <item>Ruthenbeck</item>
+        <item>Schönberg (Meckl)</item>
+        <item>Schwanheide</item>
+        <item>Schwerin Görries</item>
+        <item>Schwerin Hbf</item>
+        <item>Schwerin Mitte</item>
+        <item>Schwerin Süd</item>
+        <item>Schwerin-Lankow</item>
+        <item>Schwerin-Margaretenhof</item>
+        <item>Schwerin-Warnitz</item>
+        <item>Schwerin-Wüstmark</item>
+        <item>Spornitz</item>
+        <item>Strohkirchen</item>
+        <item>Sukow (b Schwerin)</item>
+        <item>Sülstorf</item>
+        <item>Ventschow</item>
+        <item>Walsleben</item>
+        <item>Weisen</item>
+        <item>Wismar</item>
+        <item>Wittenberge</item>
+        <item>Wittstock (Dosse)</item>
+        <item>Wustrau-Radensleben</item>
+        <item>Zachun</item>
+        <item>Aichach</item>
+        <item>Aletshausen</item>
+        <item>Altenstadt (Iller)</item>
+        <item>Althegnenberg</item>
+        <item>Altstädten (Allgäu)</item>
+        <item>Augsburg Haunstetterstraße</item>
+        <item>Augsburg Hbf</item>
+        <item>Augsburg Messe</item>
+        <item>Augsburg Morellstraße</item>
+        <item>Augsburg-Hochzoll</item>
+        <item>Augsburg-Oberhausen</item>
+        <item>Bad Grönenbach</item>
+        <item>Bad Wörishofen</item>
+        <item>Bäumenheim</item>
+        <item>Bellenberg</item>
+        <item>Biessenhofen</item>
+        <item>Billenhausen</item>
+        <item>Blaichach (Allgäu)</item>
+        <item>Blindheim</item>
+        <item>Bobingen</item>
+        <item>Bodelsberg</item>
+        <item>Breitenbrunn (Schwab)</item>
+        <item>Buchloe</item>
+        <item>Burgau (Schwab)</item>
+        <item>Dasing</item>
+        <item>Diedorf (Schwab)</item>
+        <item>Dietmannsried</item>
+        <item>Dillingen (Donau)</item>
+        <item>Dinkelscherben</item>
+        <item>Donauwörth</item>
+        <item>Durach</item>
+        <item>Ebenhofen</item>
+        <item>Ebermergen</item>
+        <item>Ellzee</item>
+        <item>Enzisweiler</item>
+        <item>Finningerstraße</item>
+        <item>Fischen</item>
+        <item>Freihalden</item>
+        <item>Friedberg (b Augsburg)</item>
+        <item>Füssen</item>
+        <item>Gablingen</item>
+        <item>Genderkingen</item>
+        <item>Gerlenhofen</item>
+        <item>Gersthofen</item>
+        <item>Gessertshausen</item>
+        <item>Graben (Lechfeld) Gewerbepark</item>
+        <item>Gundelfingen (Bay)</item>
+        <item>Günzach</item>
+        <item>Günzburg</item>
+        <item>Harburg (Schwab)</item>
+        <item>Haspelmoor</item>
+        <item>Haupeltshofen</item>
+        <item>Hausen (Schwab)</item>
+        <item>Heimenkirch</item>
+        <item>Herbertshofen</item>
+        <item>Hergatz</item>
+        <item>Hirschfelden</item>
+        <item>Höchstädt (Donau)</item>
+        <item>Hochwang</item>
+        <item>Hoppingen</item>
+        <item>Ichenhausen</item>
+        <item>Illertissen</item>
+        <item>Immenstadt</item>
+        <item>Inningen</item>
+        <item>Jettingen</item>
+        <item>Kaufbeuren</item>
+        <item>Kellmünz</item>
+        <item>Kempten (Allgäu) Hbf</item>
+        <item>Kempten (Allgäu) Ost</item>
+        <item>Kissing</item>
+        <item>Kleinkötz</item>
+        <item>Klosterlechfeld</item>
+        <item>Krumbach (Schwab)</item>
+        <item>Krumbach (Schwab) Schule</item>
+        <item>Kutzenhausen</item>
+        <item>Lagerlechfeld</item>
+        <item>Langenwang (Schwab)</item>
+        <item>Langweid (Lech)</item>
+        <item>Lauingen</item>
+        <item>Leipheim</item>
+        <item>Lengenwang</item>
+        <item>Leuterschach</item>
+        <item>Lindau Hbf</item>
+        <item>Lindau-Aeschach</item>
+        <item>Loppenhausen</item>
+        <item>Maria Rain</item>
+        <item>Marktoberdorf</item>
+        <item>Marktoberdorf Schule</item>
+        <item>Martinszell (Allgäu)</item>
+        <item>Meitingen</item>
+        <item>Memmingen</item>
+        <item>Merching</item>
+        <item>Mering</item>
+        <item>Mering-St Afra</item>
+        <item>Mertingen Bahnhof</item>
+        <item>Mindelaltheim</item>
+        <item>Mindelheim</item>
+        <item>Möttingen</item>
+        <item>Nassenbeuren</item>
+        <item>Nersingen</item>
+        <item>Nesselwang</item>
+        <item>Neu Ulm</item>
+        <item>Neuburg (Kammel)</item>
+        <item>Neusäß</item>
+        <item>Niederraunau</item>
+        <item>Nonnenhorn</item>
+        <item>Nordendorf</item>
+        <item>Nördlingen</item>
+        <item>Obergriesbach</item>
+        <item>Oberottmarshausen</item>
+        <item>Oberstaufen</item>
+        <item>Oberstdorf</item>
+        <item>Offingen</item>
+        <item>Otting-Weilheim</item>
+        <item>Oy-Mittelberg</item>
+        <item>Pfaffenhausen</item>
+        <item>Pfronten-Ried</item>
+        <item>Pfronten-Steinach</item>
+        <item>Pfronten-Weißbach</item>
+        <item>Radersdorf</item>
+        <item>Rain</item>
+        <item>Rammingen (Bay)</item>
+        <item>Röthenbach (Allgäu)</item>
+        <item>Schmiechen (Schwab)</item>
+        <item>Schwabmünchen</item>
+        <item>Schwenningen (Bay)</item>
+        <item>Seeg</item>
+        <item>Senden</item>
+        <item>Sontheim (Schwab)</item>
+        <item>Sonthofen</item>
+        <item>St. Mang</item>
+        <item>Stetten (Schwab)</item>
+        <item>Sulzberg</item>
+        <item>Tapfheim</item>
+        <item>Türkheim (Bay) Bahnhof</item>
+        <item>Vöhringen</item>
+        <item>Wasserburg (Bodensee)</item>
+        <item>Wasserburg (Günz)</item>
+        <item>Weilbach</item>
+        <item>Weizern-Hopferau</item>
+        <item>Wertach-Haslach</item>
+        <item>Westendorf</item>
+        <item>Westheim (Schwab)</item>
+        <item>Wörnitzstein</item>
+        <item>Zollhaus-Petersthal</item>
+        <item>Arzberg (Oberfr)</item>
+        <item>Bad Rodach (b Coburg)</item>
+        <item>Bad Staffelstein</item>
+        <item>Bad Steben</item>
+        <item>Bamberg</item>
+        <item>Baunach</item>
+        <item>Bayreuth Hbf</item>
+        <item>Bindlach</item>
+        <item>Breitengüßbach</item>
+        <item>Burgkunstadt</item>
+        <item>Buttenheim</item>
+        <item>Coburg</item>
+        <item>Coburg Nord</item>
+        <item>Coburg-Neuses</item>
+        <item>Creidlitz</item>
+        <item>Creußen (Oberfr)</item>
+        <item>Dörfles-Esbach</item>
+        <item>Ebelsbach-Eltmann</item>
+        <item>Ebensfeld</item>
+        <item>Ebern</item>
+        <item>Ebersdorf (b Coburg)</item>
+        <item>Ebing</item>
+        <item>Eggolsheim</item>
+        <item>Erkersreuth</item>
+        <item>Feilitzsch</item>
+        <item>Förbau</item>
+        <item>Förtschendorf</item>
+        <item>Großwalbur</item>
+        <item>Grub am Forst</item>
+        <item>Gundelsdorf</item>
+        <item>Haidenaab-Göppmannsbühl</item>
+        <item>Hallstadt (b Bamberg)</item>
+        <item>Harsdorf</item>
+        <item>Helmbrechts</item>
+        <item>Hildbrandsgrün</item>
+        <item>Hirschaid</item>
+        <item>Hochstadt-Marktzeuln</item>
+        <item>Hof Hbf</item>
+        <item>Hof-Neuhof</item>
+        <item>Höllenthal</item>
+        <item>Immenreuth</item>
+        <item>Kirchenlaibach</item>
+        <item>Kirchenlamitz Ost</item>
+        <item>Köditz</item>
+        <item>Kronach</item>
+        <item>Kulmbach</item>
+        <item>Küps</item>
+        <item>Lichtenfels</item>
+        <item>Ludwigschorgast</item>
+        <item>Ludwigsstadt</item>
+        <item>Mainleus</item>
+        <item>Mainroth</item>
+        <item>Manndorf</item>
+        <item>Marktleuthen</item>
+        <item>Marktredwitz</item>
+        <item>Marktschorgast</item>
+        <item>Martinlamitz</item>
+        <item>Marxgrün</item>
+        <item>Meeder</item>
+        <item>Michelau (Oberfr)</item>
+        <item>Mönchröden</item>
+        <item>Münchberg</item>
+        <item>Naila</item>
+        <item>Neuenmarkt-Wirsberg</item>
+        <item>Neuses (b Kronach)</item>
+        <item>Neusorg</item>
+        <item>Neustadt (b Coburg)</item>
+        <item>Oberhaid</item>
+        <item>Oberkotzau</item>
+        <item>Pressig-Rothenkirchen</item>
+        <item>Ramsenthal</item>
+        <item>Reckendorf</item>
+        <item>Redwitz (Rodach)</item>
+        <item>Rehau</item>
+        <item>Rentweinsdorf</item>
+        <item>Rödental</item>
+        <item>Rödental Mitte</item>
+        <item>Röslau</item>
+        <item>Rothenbürg</item>
+        <item>Schirnding</item>
+        <item>Schnabelwaid</item>
+        <item>Schney</item>
+        <item>Schönwald (Oberfr)</item>
+        <item>Schwarzenbach (Saale)</item>
+        <item>Selb Nord</item>
+        <item>Selb Stadt</item>
+        <item>Selbitz</item>
+        <item>Selb-Plößberg</item>
+        <item>Seulbitz</item>
+        <item>Seybothenreuth</item>
+        <item>Stammbach</item>
+        <item>Stegenwaldhaus</item>
+        <item>Steinbach a Wald</item>
+        <item>Stockau</item>
+        <item>Stockheim (Oberfr)</item>
+        <item>Strullendorf</item>
+        <item>Trebgast</item>
+        <item>Unfriedsdorf</item>
+        <item>Untersteinach (b Stadtsteinach)</item>
+        <item>Waldershof</item>
+        <item>Wiesenfeld (b Coburg)</item>
+        <item>Wunsiedel-Holenbrunn</item>
+        <item>Wurlitz</item>
+        <item>Wüstenselbitz</item>
+        <item>Zapfendorf</item>
+        <item>Zeil</item>
+        <item>Altenerding</item>
+        <item>Altomünster</item>
+        <item>Arnbach</item>
+        <item>Aufhausen (b Erding)</item>
+        <item>Aying</item>
+        <item>Bachern</item>
+        <item>Baierbrunn</item>
+        <item>Baldham</item>
+        <item>Buchenau (Oberbay)</item>
+        <item>Buchenhain</item>
+        <item>Dachau Bahnhof</item>
+        <item>Dachau Stadt</item>
+        <item>Deisenhofen</item>
+        <item>Dürrnhaar</item>
+        <item>Ebenhausen-Schäftlarn</item>
+        <item>Ebersberg (Oberbay)</item>
+        <item>Eching</item>
+        <item>Eglharting</item>
+        <item>Eichenau (Oberbay)</item>
+        <item>Erding</item>
+        <item>Erdweg</item>
+        <item>Esting</item>
+        <item>Fasanenpark</item>
+        <item>Feldafing</item>
+        <item>Feldkirchen (b München)</item>
+        <item>Flughafen München</item>
+        <item>Flughafen München Besucherpark</item>
+        <item>Freising</item>
+        <item>Fürstenfeldbruck</item>
+        <item>Furth (b Deisenhofen)</item>
+        <item>Gauting</item>
+        <item>Geisenbrunn</item>
+        <item>Geltendorf</item>
+        <item>Germering-Unterpfaffenhofen</item>
+        <item>Gernlinden</item>
+        <item>Gilching-Argelsried</item>
+        <item>Gräfelfing</item>
+        <item>Grafing Bahnhof</item>
+        <item>Grafing Stadt</item>
+        <item>Grafrath</item>
+        <item>Gröbenzell</item>
+        <item>Gronsdorf</item>
+        <item>Großhelfendorf</item>
+        <item>Großhesselohe Isartalbahnhof</item>
+        <item>Grub (Oberbay)</item>
+        <item>Haar</item>
+        <item>Hallbergmoos</item>
+        <item>Harthaus</item>
+        <item>Hebertshausen</item>
+        <item>Heimstetten</item>
+        <item>Herrsching</item>
+        <item>Hohenbrunn</item>
+        <item>Höhenkirchen-Siegertsbrunn</item>
+        <item>Hohenschäftlarn</item>
+        <item>Höllriegelskreuth</item>
+        <item>Holzkirchen</item>
+        <item>Icking</item>
+        <item>Indersdorf</item>
+        <item>Ismaning</item>
+        <item>Kirchseeon</item>
+        <item>Kleinberghofen</item>
+        <item>Kreuzstraße</item>
+        <item>Lochham</item>
+        <item>Lohhof</item>
+        <item>Maisach</item>
+        <item>Malching (Oberbay)</item>
+        <item>Mammendorf</item>
+        <item>Markt Schwaben</item>
+        <item>München Donnersbergerbrücke</item>
+        <item>München Harras</item>
+        <item>München Hbf</item>
+        <item>München Heimeranplatz</item>
+        <item>München Isartor</item>
+        <item>München Karlsplatz</item>
+        <item>München Leienfelsstraße</item>
+        <item>München Leuchtenbergring</item>
+        <item>München Marienplatz</item>
+        <item>München Ost</item>
+        <item>München Rosenheimer Platz</item>
+        <item>München Siemenswerke</item>
+        <item>München St Martin Straße</item>
+        <item>München-Allach</item>
+        <item>München-Aubing</item>
+        <item>München-Berg am Laim</item>
+        <item>München-Daglfing</item>
+        <item>München-Englschalking</item>
+        <item>München-Fasanerie</item>
+        <item>München-Fasangarten</item>
+        <item>München-Feldmoching</item>
+        <item>München-Freiham</item>
+        <item>München-Giesing</item>
+        <item>München-Hackerbrücke</item>
+        <item>München-Hirschgarten</item>
+        <item>München-Johanneskirchen</item>
+        <item>München-Karlsfeld</item>
+        <item>München-Laim Pbf</item>
+        <item>München-Langwied</item>
+        <item>München-Lochhausen</item>
+        <item>München-Mittersendling</item>
+        <item>München-Moosach</item>
+        <item>München-Neuaubing</item>
+        <item>München-Neuperlach Süd</item>
+        <item>München-Obermenzing</item>
+        <item>München-Pasing</item>
+        <item>München-Perlach</item>
+        <item>München-Riem Pbf</item>
+        <item>München-Solln</item>
+        <item>München-Trudering</item>
+        <item>München-Untermenzing</item>
+        <item>München-Westkreuz</item>
+        <item>Neubiberg</item>
+        <item>Neufahrn (b Freising)</item>
+        <item>Neugilching</item>
+        <item>Niederroth</item>
+        <item>Oberschleißheim</item>
+        <item>Olching</item>
+        <item>Ottenhofen (Oberbay)</item>
+        <item>Otterfing</item>
+        <item>Ottobrunn</item>
+        <item>Peiß</item>
+        <item>Petershausen (Oberbay)</item>
+        <item>Planegg (Krailling)</item>
+        <item>Poing</item>
+        <item>Possenhofen</item>
+        <item>Puchheim</item>
+        <item>Pullach</item>
+        <item>Pulling (b Freising)</item>
+        <item>Röhrmoos</item>
+        <item>Sauerlach</item>
+        <item>Schöngeising</item>
+        <item>Schwabhausen (b Dachau)</item>
+        <item>Seefeld-Hechendorf</item>
+        <item>St. Koloman</item>
+        <item>Starnberg</item>
+        <item>Starnberg-Nord</item>
+        <item>Steinebach</item>
+        <item>Stockdorf</item>
+        <item>Taufkirchen</item>
+        <item>Türkenfeld</item>
+        <item>Tutzing</item>
+        <item>Unterföhring</item>
+        <item>Unterhaching</item>
+        <item>Unterschleißheim</item>
+        <item>Vaterstetten</item>
+        <item>Vierkirchen-Esterhofen</item>
+        <item>Wächterhof</item>
+        <item>Weßling (Oberbay)</item>
+        <item>Wolfratshausen</item>
+        <item>Zorneding</item>
+        <item>Adelsdorf (Mittelfr)</item>
+        <item>Allersberg (Rothsee)</item>
+        <item>Altdorf (b Nürnberg)</item>
+        <item>Altdorf West (b Nürnberg)</item>
+        <item>Alte Veste</item>
+        <item>Amberg</item>
+        <item>Ansbach</item>
+        <item>Anwanden</item>
+        <item>Bad Windsheim</item>
+        <item>Baiersdorf</item>
+        <item>Batzhausen</item>
+        <item>Behringersdorf</item>
+        <item>Bubenreuth</item>
+        <item>Büchenbach</item>
+        <item>Burgbernheim</item>
+        <item>Burgbernheim-Wildbad</item>
+        <item>Burgthann</item>
+        <item>Cadolzburg</item>
+        <item>Deining (Oberpf)</item>
+        <item>Dietersheim</item>
+        <item>Dombühl</item>
+        <item>Dottenheim</item>
+        <item>Ebermannstadt</item>
+        <item>Eckersmühlen</item>
+        <item>Egersdorf</item>
+        <item>Ellingen (Bay)</item>
+        <item>Eltersdorf</item>
+        <item>Emskirchen</item>
+        <item>Erlangen</item>
+        <item>Erlangen Paul-Gossen-Straße</item>
+        <item>Erlangen-Bruck</item>
+        <item>Eschenau (Mittelfr)</item>
+        <item>Eschenbach (b Markt Erlbach)</item>
+        <item>Etzelwang</item>
+        <item>Feucht</item>
+        <item>Feucht Ost</item>
+        <item>Feucht-Moosbach</item>
+        <item>Fischbach (b Nürnberg)</item>
+        <item>Forchheim (Oberfr)</item>
+        <item>Forth</item>
+        <item>Freihung</item>
+        <item>Fürth (Bay) Hbf</item>
+        <item>Fürth Westvorstadt</item>
+        <item>Fürth-Burgfarrnbach</item>
+        <item>Fürth-Dambach</item>
+        <item>Fürth-Unterfarrnbach</item>
+        <item>Fürth-Unterfürberg</item>
+        <item>Georgensgmünd</item>
+        <item>Gosberg</item>
+        <item>Gräfenberg</item>
+        <item>Großgeschaidt</item>
+        <item>Gunzenhausen</item>
+        <item>Hagenbüchach</item>
+        <item>Happurg</item>
+        <item>Hardhof</item>
+        <item>Hartershofen</item>
+        <item>Hartmannshof</item>
+        <item>Hedersdorf</item>
+        <item>Heilsbronn</item>
+        <item>Henfenfeld</item>
+        <item>Heroldsberg</item>
+        <item>Heroldsberg Nord</item>
+        <item>Hersbruck (links Pegnitz)</item>
+        <item>Hersbruck (rechts Pegnitz)</item>
+        <item>Hilpoltstein</item>
+        <item>Hohenstadt (Mittelfr)</item>
+        <item>Igensdorf</item>
+        <item>Illesheim</item>
+        <item>Ipsheim</item>
+        <item>Kalchreuth</item>
+        <item>Katzwang</item>
+        <item>Kersbach</item>
+        <item>Kirchehrenbach</item>
+        <item>Langenzenn</item>
+        <item>Langlau</item>
+        <item>Laubendorf</item>
+        <item>Lauf (links Pegnitz)</item>
+        <item>Lauf (rechts Pegnitz)</item>
+        <item>Lauf West</item>
+        <item>Leutershausen-Wiedersbach</item>
+        <item>Lohgarten-Roth</item>
+        <item>Ludersheim</item>
+        <item>Ludwigshöhe</item>
+        <item>Markt Bibart</item>
+        <item>Markt Erlbach</item>
+        <item>Mimberg</item>
+        <item>Mühlstetten</item>
+        <item>Muhr am See</item>
+        <item>Neuendettelsau</item>
+        <item>Neuhaus (Pegnitz)</item>
+        <item>Neukirchen (b Sulzbach-Rosenberg)</item>
+        <item>Neumarkt (Oberpf)</item>
+        <item>Neunkirchen a Sand</item>
+        <item>Neustadt (Aisch) Bahnhof</item>
+        <item>Neustadt (Aisch) Mitte</item>
+        <item>Nürnberg Hbf</item>
+        <item>Nürnberg Nordost</item>
+        <item>Nürnberg Ost</item>
+        <item>Nürnberg Rothenburger Straße</item>
+        <item>Nürnberg-Dürrenhof</item>
+        <item>Nürnberg-Dutzendteich</item>
+        <item>Nürnberg-Eibach</item>
+        <item>Nürnberg-Erlenstegen</item>
+        <item>Nürnberg-Frankenstadion</item>
+        <item>Nürnberg-Gleißhammer</item>
+        <item>Nürnberg-Laufamholz</item>
+        <item>Nürnberg-Mögeldorf</item>
+        <item>Nürnberg-Ostring</item>
+        <item>Nürnberg-Rehhof</item>
+        <item>Nürnberg-Reichelsdorf</item>
+        <item>Nürnberg-Sandreuth</item>
+        <item>Nürnberg-Schweinau</item>
+        <item>Nürnberg-Stein</item>
+        <item>Nürnberg-Steinbühl</item>
+        <item>Oberasbach</item>
+        <item>Oberdachstetten</item>
+        <item>Oberferrieden</item>
+        <item>Ochenbruck</item>
+        <item>Ottenhofen-Bergel</item>
+        <item>Ottensoos</item>
+        <item>Pappenheim</item>
+        <item>Parsberg</item>
+        <item>Pegnitz</item>
+        <item>Petersaurach</item>
+        <item>Petersaurach Nord</item>
+        <item>Pinzberg</item>
+        <item>Pleinfeld</item>
+        <item>Pölling</item>
+        <item>Pommelsbrunn</item>
+        <item>Postbauer-Heng</item>
+        <item>Pretzfeld</item>
+        <item>Puschendorf</item>
+        <item>Raindorf</item>
+        <item>Raitersaich</item>
+        <item>Ramsberg</item>
+        <item>Rednitzhembach</item>
+        <item>Reichelsdorfer Keller</item>
+        <item>Reichenschwand</item>
+        <item>Rollhofen</item>
+        <item>Roßtal</item>
+        <item>Roßtal-Wegbrücke</item>
+        <item>Roth</item>
+        <item>Röthenbach (Pegnitz)</item>
+        <item>Röthenbach-Seespitze</item>
+        <item>Röthenbach-Steinberg</item>
+        <item>Rothenburg ob der Tauber</item>
+        <item>Rückersdorf (Mittelfr)</item>
+        <item>Rupprechtstegen</item>
+        <item>Rüsselbach</item>
+        <item>Sachsen (b Ansbach)</item>
+        <item>Schnaittach Markt</item>
+        <item>Schnelldorf</item>
+        <item>Schwabach</item>
+        <item>Schwabach-Limbach</item>
+        <item>Schwaig</item>
+        <item>Schweinsdorf</item>
+        <item>Seubersdorf</item>
+        <item>Siegelsdorf</item>
+        <item>Simmelsdorf-Hüttenbach</item>
+        <item>Solnhofen</item>
+        <item>Speikern</item>
+        <item>Steinach (b Rothenburg o.d. Tauber)</item>
+        <item>Sulzbach-Rosenberg</item>
+        <item>Sulzbach-Rosenberg Hütte</item>
+        <item>Thansüß</item>
+        <item>Treuchtlingen</item>
+        <item>Triesdorf</item>
+        <item>Uffenheim</item>
+        <item>Unterasbach</item>
+        <item>Unterheckenhofen</item>
+        <item>Vach</item>
+        <item>Velden (b Hersbruck)</item>
+        <item>Vilseck</item>
+        <item>Vorra (Pegnitz)</item>
+        <item>Weiherhof</item>
+        <item>Weißenburg (Bay)</item>
+        <item>Weißenohe</item>
+        <item>Wicklesgreuth</item>
+        <item>Wiesenthau</item>
+        <item>Wilhermsdorf</item>
+        <item>Wilhermsdorf-Mitte</item>
+        <item>Windsbach</item>
+        <item>Winkelhaid</item>
+        <item>Zirndorf</item>
+        <item>Zirndorf Kneippallee</item>
+        <item>Abensberg</item>
+        <item>Altenstadt (Waldnaab)</item>
+        <item>Arnschwang</item>
+        <item>Außenried</item>
+        <item>Bad Abbach</item>
+        <item>Bad Kötzting</item>
+        <item>Balbersdorf</item>
+        <item>Bayerisch Eisenstein</item>
+        <item>Beratzhausen</item>
+        <item>Bettmannsäge</item>
+        <item>Blaibach (Oberpf)</item>
+        <item>Bodenmais</item>
+        <item>Bodenwöhr Nord</item>
+        <item>Bogen</item>
+        <item>Böhmhof</item>
+        <item>Bruckberg</item>
+        <item>Cham (Oberpf)</item>
+        <item>Chamerau</item>
+        <item>Deggendorf Hbf</item>
+        <item>Deuerling</item>
+        <item>Dingolfing</item>
+        <item>Eggmühl</item>
+        <item>Ergoldsbach</item>
+        <item>Etterzhausen</item>
+        <item>Etzenricht</item>
+        <item>Frauenau</item>
+        <item>Freihöls</item>
+        <item>Furth im Wald</item>
+        <item>Geigant</item>
+        <item>Geiselhöring</item>
+        <item>Gotteszell</item>
+        <item>Grafenau</item>
+        <item>Grafling-Arzting</item>
+        <item>Großarmschlag</item>
+        <item>Grub (Oberpf)</item>
+        <item>Gundelshausen</item>
+        <item>Gündlkofen</item>
+        <item>Hagelstadt</item>
+        <item>Irrenlohe</item>
+        <item>Ittling</item>
+        <item>Kemnath-Neustadt</item>
+        <item>Klingenbrunn</item>
+        <item>Köfering</item>
+        <item>Kothmaißling</item>
+        <item>Laaber</item>
+        <item>Laberweinting</item>
+        <item>Landau (Isar)</item>
+        <item>Landshut (Bay) Hbf</item>
+        <item>Langdorf</item>
+        <item>Lichtenthal</item>
+        <item>Ludwigsthal</item>
+        <item>Luhe</item>
+        <item>Luhe-Wildenau</item>
+        <item>Mallersdorf</item>
+        <item>Mausheim</item>
+        <item>Maxhütte-Haidhof</item>
+        <item>Miltach</item>
+        <item>Nabburg</item>
+        <item>Neubäu</item>
+        <item>Neufahrn (Niederbay)</item>
+        <item>Neustadt (Donau)</item>
+        <item>Neustadt (Waldnaab)</item>
+        <item>Niederlindhart</item>
+        <item>Oberlindhart</item>
+        <item>Obertraubling</item>
+        <item>Osterhofen (Niederbay)</item>
+        <item>Pankofen</item>
+        <item>Passau Hbf</item>
+        <item>Pechbrunn</item>
+        <item>Perkam</item>
+        <item>Pfreimd</item>
+        <item>Plattling</item>
+        <item>Poikam</item>
+        <item>Pösing</item>
+        <item>Pressath</item>
+        <item>Radldorf (Niederbay)</item>
+        <item>Regen</item>
+        <item>Regensburg Hbf</item>
+        <item>Regensburg-Burgweinting</item>
+        <item>Regensburg-Prüfening</item>
+        <item>Regenstauf</item>
+        <item>Reuth (b Erbendorf)</item>
+        <item>Roding</item>
+        <item>Rosenau (b Grafenau)</item>
+        <item>Röthenbach (Oberpf)</item>
+        <item>Saal (Donau)</item>
+        <item>Sallach</item>
+        <item>Sand (Niederbay)</item>
+        <item>Schwandorf</item>
+        <item>Schwarzenbach (b Pressath)</item>
+        <item>Schwarzenfeld (Oberpf)</item>
+        <item>Sinzing (b Regensburg)</item>
+        <item>Spiegelau</item>
+        <item>Straßkirchen</item>
+        <item>Straubing</item>
+        <item>Straubing Ost</item>
+        <item>Sünching</item>
+        <item>Trabitz</item>
+        <item>Triefenried</item>
+        <item>Undorf</item>
+        <item>Vilshofen (Niederbay)</item>
+        <item>Waffenbrunn</item>
+        <item>Waldmünchen</item>
+        <item>Wallersdorf</item>
+        <item>Weiden (Oberpf)</item>
+        <item>Weiding</item>
+        <item>Weiherhammer</item>
+        <item>Wernberg</item>
+        <item>Wiesau (Oberpf)</item>
+        <item>Willmering</item>
+        <item>Windischeschenbach</item>
+        <item>Wörth (Isar)</item>
+        <item>Zillendorf</item>
+        <item>Zwiesel (Bay)</item>
+        <item>Zwieselau</item>
+        <item>Adelschlag</item>
+        <item>Agatharied</item>
+        <item>Ainring</item>
+        <item>Altenau (Bay)</item>
+        <item>Ampfing</item>
+        <item>Aschau (Chiemgau)</item>
+        <item>Aßling (Oberbay)</item>
+        <item>Baar-Ebenhausen</item>
+        <item>Bad Aibling</item>
+        <item>Bad Aibling Kurpark</item>
+        <item>Bad Endorf (Oberbay)</item>
+        <item>Bad Kohlgrub</item>
+        <item>Bad Kohlgrub Kurhaus</item>
+        <item>Bad Reichenhall</item>
+        <item>Bad Reichenhall-Kirchberg</item>
+        <item>Bad Tölz</item>
+        <item>Bayerisch Gmain</item>
+        <item>Bayrischzell</item>
+        <item>Benediktbeuern</item>
+        <item>Berchtesgaden Hbf</item>
+        <item>Bergen (Oberbay)</item>
+        <item>Bernau a. Chiemsee</item>
+        <item>Bernried</item>
+        <item>Bichl</item>
+        <item>Bischofswiesen</item>
+        <item>Brannenburg</item>
+        <item>Bruckmühl</item>
+        <item>Burgheim</item>
+        <item>Darching</item>
+        <item>Dießen</item>
+        <item>Dollnstein</item>
+        <item>Dorfen Bahnhof</item>
+        <item>Egling</item>
+        <item>Eichstätt Bahnhof</item>
+        <item>Eichstätt Stadt</item>
+        <item>Eitensheim</item>
+        <item>Ernsgaden</item>
+        <item>Eschenlohe</item>
+        <item>Farchant</item>
+        <item>Fischbachau</item>
+        <item>Fischhausen-Neuhaus</item>
+        <item>Flintsbach</item>
+        <item>Freilassing</item>
+        <item>Freilassing-Hofham</item>
+        <item>Gaimersheim</item>
+        <item>Gaißach</item>
+        <item>Garmisch-Partenkirchen</item>
+        <item>Geitau</item>
+        <item>Grafenaschau</item>
+        <item>Griesen (Oberbay)</item>
+        <item>Großkarolinenfeld</item>
+        <item>Hammerau</item>
+        <item>Hausham</item>
+        <item>Heufeld</item>
+        <item>Heufeldmühle</item>
+        <item>Hinrichssegen</item>
+        <item>Hohenpeißenberg</item>
+        <item>Hörlkofen</item>
+        <item>Huglfing</item>
+        <item>Iffeldorf</item>
+        <item>Ingolstadt Hbf</item>
+        <item>Ingolstadt Nord</item>
+        <item>Kainzenbad</item>
+        <item>Kaufering</item>
+        <item>Kiefersfelden</item>
+        <item>Kinding (Altmühltal)</item>
+        <item>Klais</item>
+        <item>Kochel</item>
+        <item>Kolbermoor</item>
+        <item>Landsberg (Lech)</item>
+        <item>Landsberg (Lech) Schule</item>
+        <item>Langenbach (Oberbay)</item>
+        <item>Lenggries</item>
+        <item>Marzling</item>
+        <item>Miesbach</item>
+        <item>Mittenwald</item>
+        <item>Moosburg</item>
+        <item>Münchsmünster</item>
+        <item>Murnau</item>
+        <item>Murnau Ort</item>
+        <item>Neuburg (Donau)</item>
+        <item>Oberammergau</item>
+        <item>Oberau</item>
+        <item>Oberaudorf</item>
+        <item>Obergries</item>
+        <item>Ohlstadt</item>
+        <item>Osterhofen (Oberbay)</item>
+        <item>Ostermünchen</item>
+        <item>Paindorf</item>
+        <item>Peißenberg</item>
+        <item>Peißenberg Nord</item>
+        <item>Peiting Nord</item>
+        <item>Peiting Ost</item>
+        <item>Penzberg Pbf</item>
+        <item>Pfaffenhofen (Ilm)</item>
+        <item>Piding</item>
+        <item>Prien am Chiemsee</item>
+        <item>Raisting</item>
+        <item>Raubling</item>
+        <item>Rebdorf-Hofmühle</item>
+        <item>Reichersbeuern</item>
+        <item>Reichertshausen (Ilm)</item>
+        <item>Riederau</item>
+        <item>Rohrbach (Ilm)</item>
+        <item>Rohrenfeld</item>
+        <item>Rosenheim</item>
+        <item>Saulgrub</item>
+        <item>Schaftlach</item>
+        <item>Schliersee</item>
+        <item>Schondorf (Bay)</item>
+        <item>Schongau</item>
+        <item>Schrobenhausen</item>
+        <item>Schwindegg</item>
+        <item>Seeleiten-Berggeist</item>
+        <item>Seeshaupt</item>
+        <item>St. Alban</item>
+        <item>St. Ottilien</item>
+        <item>Straß-Moos</item>
+        <item>Tauberfeld</item>
+        <item>Teisendorf</item>
+        <item>Thann-Matzbach</item>
+        <item>Traunstein</item>
+        <item>Übersee</item>
+        <item>Uffing am Staffelsee</item>
+        <item>Umrathshausen Ort</item>
+        <item>Unterammergau</item>
+        <item>Untergrainau</item>
+        <item>Unterhausen (Bay)</item>
+        <item>Urschalling</item>
+        <item>Utting</item>
+        <item>Vachendorf</item>
+        <item>Vohburg</item>
+        <item>Walleshausen</item>
+        <item>Walpertskirchen</item>
+        <item>Warngau</item>
+        <item>Wasserzell (b Eichstätt)</item>
+        <item>Weichering</item>
+        <item>Weidenbach</item>
+        <item>Weilheim (Oberbay)</item>
+        <item>Westerham</item>
+        <item>Aschaffenburg Hbf</item>
+        <item>Aschaffenburg Hochschule</item>
+        <item>Aschaffenburg Süd</item>
+        <item>Bad Kissingen</item>
+        <item>Bad Neustadt (Saale)</item>
+        <item>Bergtheim</item>
+        <item>Buchbrunn-Mainstockheim</item>
+        <item>Burglauer</item>
+        <item>Burgsinn</item>
+        <item>Dettelbach Bahnhof</item>
+        <item>Dettingen (Main)</item>
+        <item>Diebach</item>
+        <item>Ebenhausen (Unterfr)</item>
+        <item>Elfershausen-Trimberg</item>
+        <item>Eßleben</item>
+        <item>Euerdorf</item>
+        <item>Gemünden (Main)</item>
+        <item>Geroldshausen</item>
+        <item>Goßmannsdorf</item>
+        <item>Gräfendorf</item>
+        <item>Hammelburg</item>
+        <item>Hammelburg Ost</item>
+        <item>Haßfurt</item>
+        <item>Heigenbrücken</item>
+        <item>Himmelstadt</item>
+        <item>Hösbach</item>
+        <item>Iphofen</item>
+        <item>Jossa</item>
+        <item>Kahl (Main)</item>
+        <item>Karlstadt (Main)</item>
+        <item>Kirchheim (Unterfr)</item>
+        <item>Kitzingen</item>
+        <item>Kleingemünden</item>
+        <item>Kleinostheim</item>
+        <item>Langenprozelten</item>
+        <item>Laufach</item>
+        <item>Lohr Bahnhof</item>
+        <item>Mainaschaff</item>
+        <item>Marktbreit</item>
+        <item>Mellrichstadt Bahnhof</item>
+        <item>Michelaubrück</item>
+        <item>Mittelsinn</item>
+        <item>Morlesau</item>
+        <item>Münnerstadt</item>
+        <item>Obersinn</item>
+        <item>Oberwerrn</item>
+        <item>Ochsenfurt</item>
+        <item>Oerlenbach</item>
+        <item>Partenstein</item>
+        <item>Poppenhausen</item>
+        <item>Reichenberg</item>
+        <item>Retzbach-Zellingen</item>
+        <item>Rieneck</item>
+        <item>Rottendorf</item>
+        <item>Rottershausen</item>
+        <item>Rückersbacher Schlucht</item>
+        <item>Schonungen</item>
+        <item>Schweinfurt Hbf</item>
+        <item>Schweinfurt Stadt</item>
+        <item>Schweinfurt-Mitte</item>
+        <item>Seligenstadt (b Würzburg)</item>
+        <item>Stockstadt (Main)</item>
+        <item>Thüngersheim</item>
+        <item>Veitshöchheim</item>
+        <item>Waigolshausen</item>
+        <item>Weickersgrüben</item>
+        <item>Wernfeld</item>
+        <item>Westheim-Langendorf</item>
+        <item>Wiesthal</item>
+        <item>Winterhausen</item>
+        <item>Wolfsmünster</item>
+        <item>Würzburg Hbf</item>
+        <item>Würzburg Süd</item>
+        <item>Würzburg-Zell</item>
+        <item>Adorf (Vogtl)</item>
+        <item>Altenburg</item>
+        <item>Altmittweida</item>
+        <item>Auerbach (Vogtl) Hp</item>
+        <item>Auerbach (Vogtl) ob Bf</item>
+        <item>Auerbach (Vogtl) unt Bf</item>
+        <item>Bachfeld</item>
+        <item>Bad Blankenburg (Thüringerw)</item>
+        <item>Bad Brambach</item>
+        <item>Bad Elster</item>
+        <item>Bad Köstritz</item>
+        <item>Barthmühle</item>
+        <item>Berga (Elster)</item>
+        <item>Berthelsdorf (Erzgeb)</item>
+        <item>Bienenmühle</item>
+        <item>Blankenstein (Saale)</item>
+        <item>Blechhammer (Thür)</item>
+        <item>Braunsdorf-Lichtenwalde</item>
+        <item>Breternitz</item>
+        <item>Burgstädt</item>
+        <item>Camburg (Saale)</item>
+        <item>Chemnitz Hbf</item>
+        <item>Chemnitz Kinderwaldstätte</item>
+        <item>Chemnitz Mitte</item>
+        <item>Chemnitz Süd</item>
+        <item>Chemnitz-Borna Hp</item>
+        <item>Chemnitz-Hilbersdorf Hp</item>
+        <item>Chemnitz-Küchwald</item>
+        <item>Chemnitz-Schönau</item>
+        <item>Chemnitz-Siegmar</item>
+        <item>Clausnitz</item>
+        <item>Cranzahl</item>
+        <item>Crimmitschau</item>
+        <item>Crossen a. d. Elster</item>
+        <item>Crossen Ort</item>
+        <item>Dittersbach (b Frankenberg/Sachs)</item>
+        <item>Dornburg (Saale)</item>
+        <item>Ebersbrunn</item>
+        <item>Effelder (Thür)</item>
+        <item>Eisfeld</item>
+        <item>Ellefeld</item>
+        <item>Elsterberg</item>
+        <item>Elsterberg Kunstseidenwerk</item>
+        <item>Erlau (Sachs)</item>
+        <item>Ernstthal am Rennsteig</item>
+        <item>Falkenau (Sachs) Süd</item>
+        <item>Falkenstein (Vogtl)</item>
+        <item>Flöha</item>
+        <item>Frankenberg (Sachs)</item>
+        <item>Frankenberg (Sachs) Süd</item>
+        <item>Frankenstein (Sachs)</item>
+        <item>Freiberg (Sachs)</item>
+        <item>Freienorla</item>
+        <item>Gera Hbf</item>
+        <item>Gera Süd</item>
+        <item>Gera-Langenberg</item>
+        <item>Gera-Zwötzen</item>
+        <item>Glauchau (Sachs)</item>
+        <item>Glauchau-Schönbörnchen</item>
+        <item>Gößnitz</item>
+        <item>Greiz</item>
+        <item>Greiz-Dölau</item>
+        <item>Grobau</item>
+        <item>Grüna (Sachs)</item>
+        <item>Grünbach</item>
+        <item>Gutenfürst</item>
+        <item>Hainichen</item>
+        <item>Harra</item>
+        <item>Harra Nord</item>
+        <item>Harras (Thür)</item>
+        <item>Herlasgrün</item>
+        <item>Hermsdorf-Klosterlausnitz</item>
+        <item>Hildburghausen</item>
+        <item>Hockeroda</item>
+        <item>Hohenleuben</item>
+        <item>Hohenstein-Ernstthal</item>
+        <item>Holzhau</item>
+        <item>Hundsgrün</item>
+        <item>Hüttengrund</item>
+        <item>Irfersgrün</item>
+        <item>Jena Paradies</item>
+        <item>Jena Saalbf</item>
+        <item>Jena West</item>
+        <item>Jena-Göschwitz</item>
+        <item>Jena-Zwätzen</item>
+        <item>Jocketa</item>
+        <item>Jößnitz</item>
+        <item>Kahla (Thür)</item>
+        <item>Kaulsdorf (Saale)</item>
+        <item>Kleinschirma</item>
+        <item>Klingenthal</item>
+        <item>Könitz (Thür)</item>
+        <item>Kraftsdorf</item>
+        <item>Krölpa-Ranis</item>
+        <item>Kürbitz</item>
+        <item>Langenorla Ost</item>
+        <item>Langenorla West</item>
+        <item>Lauscha (Thür)</item>
+        <item>Lehndorf (Kr Altenburg)</item>
+        <item>Lengenfeld (Vogtl)</item>
+        <item>Leutenberg</item>
+        <item>Lichtenberg (Erzgeb)</item>
+        <item>Lichtenstein (Sachs)</item>
+        <item>Lichtentanne (Sachs)</item>
+        <item>Lichtentanne (Thür)</item>
+        <item>Limbach (Vogtl)</item>
+        <item>Lobenstein (Thür)</item>
+        <item>Loitsch-Hohenleuben</item>
+        <item>Meerane</item>
+        <item>Mehltheuer</item>
+        <item>Mengersgereuth-Hämmern</item>
+        <item>Mengersgereuth-Hämmern Ost</item>
+        <item>Mittweida</item>
+        <item>Mosel</item>
+        <item>Mulda (Sachs)</item>
+        <item>Muldenberg Floßplatz</item>
+        <item>Muldenhütten</item>
+        <item>Nassau (Erzgeb)</item>
+        <item>Netzschkau</item>
+        <item>Neue Schenke</item>
+        <item>Neuhaus-Igelshieb</item>
+        <item>Neumark (Sachs)</item>
+        <item>Neumühle (Elster)</item>
+        <item>Neunhofen</item>
+        <item>Neustadt (Orla)</item>
+        <item>Niederbobritzsch</item>
+        <item>Niederpöllnitz</item>
+        <item>Niederwiesa</item>
+        <item>Niederwürschnitz</item>
+        <item>Nöbdenitz</item>
+        <item>Oberlauscha</item>
+        <item>Oberlichtenau</item>
+        <item>Oberrothenbach</item>
+        <item>Oederan</item>
+        <item>Oelsnitz (Erzgeb)</item>
+        <item>Oelsnitz (Vogtl)</item>
+        <item>Oppurg</item>
+        <item>Orlamünde</item>
+        <item>Ottendorf (b Mittweida)</item>
+        <item>Papiermühle (Kr Stadtroda)</item>
+        <item>Paulinzella</item>
+        <item>Pirk</item>
+        <item>Plauen (Vogtl) Mitte</item>
+        <item>Plauen (Vogtl) ob Bf</item>
+        <item>Plauen (Vogtl) West</item>
+        <item>Plauen (Vogtl)-Straßberg</item>
+        <item>Ponitz</item>
+        <item>Porstendorf</item>
+        <item>Pößneck ob Bf</item>
+        <item>Pößneck unt Bf</item>
+        <item>Probstzella</item>
+        <item>Rauenstein (Thür)</item>
+        <item>Raun</item>
+        <item>Rechenberg</item>
+        <item>Reichenbach (Vogtl) ob Bf</item>
+        <item>Rentzschmühle</item>
+        <item>Reurieth</item>
+        <item>Reuth (b Plauen/Vogtl)</item>
+        <item>Rodewisch</item>
+        <item>Rödlitz-Hohndorf</item>
+        <item>Ronneburg (Thür)</item>
+        <item>Rothenstein (Saale)</item>
+        <item>Rottenbach</item>
+        <item>Rudolstadt (Thür)</item>
+        <item>Rudolstadt-Schwarza</item>
+        <item>Ruppertsgrün</item>
+        <item>Saalfeld (Saale)</item>
+        <item>Schalkau</item>
+        <item>Schalkau-Mitte</item>
+        <item>Schmölln (Thür)</item>
+        <item>Schönberg (Vogtl)</item>
+        <item>Schöneck (Vogtl)</item>
+        <item>Schöneck (Vogtl) Ferienpark</item>
+        <item>Schüptitz</item>
+        <item>Schweikershain</item>
+        <item>Schweinsburg-Culten</item>
+        <item>Seltendorf</item>
+        <item>Sohl</item>
+        <item>Sonneberg (Thür) Hbf</item>
+        <item>Sonneberg (Thür) Nord</item>
+        <item>Sonneberg (Thür) Ost</item>
+        <item>Sonneberg (Thür) West</item>
+        <item>St Egidien</item>
+        <item>Stadtroda</item>
+        <item>Steinach Süd</item>
+        <item>Steinach (Thür)</item>
+        <item>Steinpleis</item>
+        <item>Stenn</item>
+        <item>Stollberg (Sachs)</item>
+        <item>Syrau</item>
+        <item>Töppeln</item>
+        <item>Treben-Lehma</item>
+        <item>Treuen</item>
+        <item>Triebes</item>
+        <item>Triptis</item>
+        <item>Uhlstädt</item>
+        <item>Unterlemnitz</item>
+        <item>Unterloquitz</item>
+        <item>Unterwellenborn</item>
+        <item>Veilsdorf</item>
+        <item>Voigtsgrün</item>
+        <item>Weida</item>
+        <item>Weida Altstadt</item>
+        <item>Weida Mitte</item>
+        <item>Weischlitz</item>
+        <item>Werdau</item>
+        <item>Werdau Nord</item>
+        <item>Wittgensdorf Mitte</item>
+        <item>Wittgensdorf ob Bf</item>
+        <item>Wolfsgefärth</item>
+        <item>Wünschendorf (Elster)</item>
+        <item>Wünschendorf (Elster) Nord</item>
+        <item>Wurzbach (Thür)</item>
+        <item>Wüstenbrand</item>
+        <item>Zeulenroda unt Bf</item>
+        <item>Zeutsch</item>
+        <item>Zwickau (Sachs) Hbf</item>
+        <item>Zwickau-Pölbitz</item>
+        <item>Zwota</item>
+        <item>Zwota-Zechenbach</item>
+        <item>Zwotental</item>
+        <item>Amtshainersdorf</item>
+        <item>Arnsdorf (b Dresden)</item>
+        <item>Bad Schandau</item>
+        <item>Bärenhecke-Johnsbach</item>
+        <item>Bärenstein (b Glashütte/Sachs)</item>
+        <item>Bautzen</item>
+        <item>Bischheim-Gersdorf</item>
+        <item>Bischofswerda</item>
+        <item>Breitendorf</item>
+        <item>Burkhardswalde-Maxen</item>
+        <item>Cossebaude</item>
+        <item>Coswig (Bz Dresden)</item>
+        <item>Demitz-Thumitz</item>
+        <item>Dohna (Sachs)</item>
+        <item>Dresden Bischofsplatz</item>
+        <item>Dresden Flughafen</item>
+        <item>Dresden Freiberger Straße</item>
+        <item>Dresden Grenzstraße</item>
+        <item>Dresden Hbf</item>
+        <item>Dresden Industriegelände</item>
+        <item>Dresden Mitte</item>
+        <item>Dresden-Cotta</item>
+        <item>Dresden-Dobritz</item>
+        <item>Dresden-Friedrichstadt</item>
+        <item>Dresden-Kemnitz</item>
+        <item>Dresden-Klotzsche</item>
+        <item>Dresden-Neustadt</item>
+        <item>Dresden-Niedersedlitz Hp</item>
+        <item>Dresden-Pieschen</item>
+        <item>Dresden-Plauen</item>
+        <item>Dresden-Reick</item>
+        <item>Dresden-Stetzsch</item>
+        <item>Dresden-Strehlen</item>
+        <item>Dresden-Trachau</item>
+        <item>Dresden-Zschachwitz</item>
+        <item>Dürrröhrsdorf</item>
+        <item>Ebersbach (Sachs)</item>
+        <item>Edle Krone</item>
+        <item>Eibau</item>
+        <item>Freital-Deuben</item>
+        <item>Freital-Hainsberg</item>
+        <item>Freital-Hainsberg West</item>
+        <item>Freital-Potschappel</item>
+        <item>Geising</item>
+        <item>Gersdorf (b Görlitz)</item>
+        <item>Glashütte (Sachs)</item>
+        <item>Görlitz</item>
+        <item>Görlitz-Rauschwalde</item>
+        <item>Görlitz-Weinhübel</item>
+        <item>Goßdorf-Kohlmühle</item>
+        <item>Großharthau</item>
+        <item>Großröhrsdorf</item>
+        <item>Großschönau (Sachs)</item>
+        <item>Hagenwerder</item>
+        <item>Hähnichen</item>
+        <item>Hainewalde</item>
+        <item>Hartmannmühle</item>
+        <item>Heidenau</item>
+        <item>Heidenau Süd</item>
+        <item>Heidenau-Großsedlitz</item>
+        <item>Helmsdorf (b Pirna)</item>
+        <item>Hermsdorf (b Dresden)</item>
+        <item>Hirschfelde</item>
+        <item>Horka Pbf</item>
+        <item>Hoyerswerda</item>
+        <item>Hoyerswerda-Neustadt</item>
+        <item>Kamenz (Sachs)</item>
+        <item>Kleinröhrsdorf</item>
+        <item>Klingenberg-Colmnitz</item>
+        <item>Klitten</item>
+        <item>Kodersdorf</item>
+        <item>Königsbrück</item>
+        <item>Königstein (Sächs Schweiz)</item>
+        <item>Köttewitz</item>
+        <item>Krippen</item>
+        <item>Krumhermsdorf</item>
+        <item>Kubschütz</item>
+        <item>Kurort Altenberg (Erzgeb)</item>
+        <item>Kurort Rathen (Kr Pirna)</item>
+        <item>Langebrück (Sachs)</item>
+        <item>Langenwolmsdorf</item>
+        <item>Langenwolmsdorf Mitte</item>
+        <item>Lauenstein (Sachs)</item>
+        <item>Laußnitz</item>
+        <item>Lauta (Niederlausitz)</item>
+        <item>Löbau (Sachs)</item>
+        <item>Lohmen</item>
+        <item>Lohsa</item>
+        <item>Meißen</item>
+        <item>Meißen Altstadt</item>
+        <item>Meißen Triebischtal</item>
+        <item>Mittelherwigsdorf (Sachs)</item>
+        <item>Mücka</item>
+        <item>Mühlbach (b Pirna)</item>
+        <item>Neugersdorf</item>
+        <item>Neukirch (Lausitz) Ost</item>
+        <item>Neukirch (Lausitz) West</item>
+        <item>Neusalza-Spremberg</item>
+        <item>Neusörnewitz</item>
+        <item>Neustadt (Sachs)</item>
+        <item>Niederoderwitz</item>
+        <item>Niederschlottwitz</item>
+        <item>Niederwartha</item>
+        <item>Niesky</item>
+        <item>Oberoderwitz</item>
+        <item>Oberoderwitz Oberdorf</item>
+        <item>Oberschlottwitz</item>
+        <item>Obervogelgesang (Kr Pirna)</item>
+        <item>Ottendorf-Okrilla Hp</item>
+        <item>Ottendorf-Okrilla Nord</item>
+        <item>Ottendorf-Okrilla Süd</item>
+        <item>Petershain</item>
+        <item>Pirna</item>
+        <item>Pirna-Copitz</item>
+        <item>Pirna-Copitz Nord</item>
+        <item>Pommritz</item>
+        <item>Porschdorf (Kr Pirna)</item>
+        <item>Pulsnitz</item>
+        <item>Pulsnitz Süd</item>
+        <item>Putzkau</item>
+        <item>Radeberg</item>
+        <item>Radebeul Ost</item>
+        <item>Radebeul-Kötzschenbroda</item>
+        <item>Radebeul-Naundorf</item>
+        <item>Radebeul-Weintraube</item>
+        <item>Radebeul-Zitzschewig</item>
+        <item>Rathmannsdorf (Kr Pirna)</item>
+        <item>Reichenbach (Oberlausitz)</item>
+        <item>Rietschen</item>
+        <item>Schirgiswalde-Kirschau</item>
+        <item>Schleife</item>
+        <item>Schmilka-Hirschmühle</item>
+        <item>Schmölln (Oberlausitz)</item>
+        <item>Schöna</item>
+        <item>Schwarzkollm</item>
+        <item>Sebnitz (Sachs)</item>
+        <item>Seitschen</item>
+        <item>Sohland</item>
+        <item>Stadt Wehlen (Sachs)</item>
+        <item>Stolpen</item>
+        <item>Taubenheim (Spree)</item>
+        <item>Tharandt</item>
+        <item>Uhsmannsdorf</item>
+        <item>Uhyst</item>
+        <item>Ulbersdorf</item>
+        <item>Weesenstein</item>
+        <item>Weickersdorf (Sachs)</item>
+        <item>Weißwasser (Oberlausitz)</item>
+        <item>Weixdorf</item>
+        <item>Weixdorf Bad</item>
+        <item>Wilthen</item>
+        <item>Zittau</item>
+        <item>Zoblitz</item>
+        <item>Altersbach</item>
+        <item>Ammern</item>
+        <item>Apolda</item>
+        <item>Arenshausen</item>
+        <item>Arnstadt Hbf</item>
+        <item>Arnstadt Süd</item>
+        <item>Artern</item>
+        <item>Auehütte</item>
+        <item>Auerstedt</item>
+        <item>Bad Berka</item>
+        <item>Bad Berka Zeughausplatz</item>
+        <item>Bad Langensalza</item>
+        <item>Bad Salzungen</item>
+        <item>Bad Sulza</item>
+        <item>Bad Sulza Nord</item>
+        <item>Ballstädt (Kr Gotha)</item>
+        <item>Benshausen</item>
+        <item>Bernterode</item>
+        <item>Beuren</item>
+        <item>Bibra</item>
+        <item>Birkungen</item>
+        <item>Bleicherode Ost</item>
+        <item>Bodenrode</item>
+        <item>Breitungen (Werra)</item>
+        <item>Bretleben</item>
+        <item>Bufleben</item>
+        <item>Buttstädt</item>
+        <item>Dachrieden</item>
+        <item>Dachwig</item>
+        <item>Dietzhausen</item>
+        <item>Döllstädt</item>
+        <item>Dörrberg</item>
+        <item>Eckardtsleben</item>
+        <item>Eckartsberga (Thür)</item>
+        <item>Eisenach</item>
+        <item>Eisenach Opelwerk</item>
+        <item>Eisenach West</item>
+        <item>Elgersburg</item>
+        <item>Ellrich</item>
+        <item>Elxleben</item>
+        <item>Erfurt Hbf</item>
+        <item>Erfurt Nord</item>
+        <item>Erfurt Ost</item>
+        <item>Erfurt-Bischleben</item>
+        <item>Erfurt-Gispersleben</item>
+        <item>Ettenhausen</item>
+        <item>Etzleben</item>
+        <item>Förtha (Kr Eisenach)</item>
+        <item>Friedrichroda</item>
+        <item>Fröttstädt</item>
+        <item>Gangloffsömmern</item>
+        <item>Gebra (Hainleite)</item>
+        <item>Gehlberg</item>
+        <item>Geraberg</item>
+        <item>Gernrode-Niederorschel</item>
+        <item>Gerstungen</item>
+        <item>Glückauf</item>
+        <item>Görsbach</item>
+        <item>Gotha</item>
+        <item>Gotha Ost</item>
+        <item>Gräfenroda</item>
+        <item>Gräfentonna</item>
+        <item>Greußen</item>
+        <item>Griefstedt</item>
+        <item>Grimmenthal</item>
+        <item>Großengottern</item>
+        <item>Großfurra</item>
+        <item>Großheringen</item>
+        <item>Großneuhausen</item>
+        <item>Großrudestedt</item>
+        <item>Großschwabhausen</item>
+        <item>Guthmannshausen</item>
+        <item>Haarhausen</item>
+        <item>Hausen</item>
+        <item>Heilbad Heiligenstadt</item>
+        <item>Heldrungen</item>
+        <item>Heringen (Helme)</item>
+        <item>Herleshausen</item>
+        <item>Hetschburg</item>
+        <item>Hohenebra Ort</item>
+        <item>Holzdorf (b Weimar)</item>
+        <item>Hopfgarten (Kr Weimar)</item>
+        <item>Hörschel</item>
+        <item>Hörselgau</item>
+        <item>Ilmenau</item>
+        <item>Ilmenau-Pörlitzer Höhe</item>
+        <item>Ilmenau-Roda</item>
+        <item>Immelborn</item>
+        <item>Kiebitzhöhe</item>
+        <item>Kleinfurra</item>
+        <item>Kölleda</item>
+        <item>Kranichfeld</item>
+        <item>Kühnhausen</item>
+        <item>Legefeld</item>
+        <item>Leinefelde</item>
+        <item>Leubingen</item>
+        <item>Marksuhl</item>
+        <item>Marlishausen</item>
+        <item>Martinroda</item>
+        <item>Mechterstädt</item>
+        <item>Meiningen</item>
+        <item>Mellingen (Thür)</item>
+        <item>Mittelschmalkalden</item>
+        <item>Mühlhausen (Thür)</item>
+        <item>München (b Bad Berka)</item>
+        <item>Neudietendorf</item>
+        <item>Niedersachswerfen</item>
+        <item>Niederschmalkalden</item>
+        <item>Niederspier</item>
+        <item>Niedertrebra</item>
+        <item>Niederwillingen</item>
+        <item>Nohra (b Weimar)</item>
+        <item>Nohra (Wipper)</item>
+        <item>Nordhausen</item>
+        <item>Nordhausen-Salza</item>
+        <item>Obergrunstedt</item>
+        <item>Oberhof (Thür)</item>
+        <item>Oberrohn</item>
+        <item>Oberweimar</item>
+        <item>Oßmannstedt</item>
+        <item>Plaue (Thür)</item>
+        <item>Reinhardsbrunn-Friedrichroda</item>
+        <item>Reinsdorf (b Artern)</item>
+        <item>Rentwertshausen</item>
+        <item>Ringleben-Gebesee</item>
+        <item>Ritschenhausen</item>
+        <item>Rohr (Thür)</item>
+        <item>Sättelstädt</item>
+        <item>Schmalkalden</item>
+        <item>Schmalkalden Fachhochschule</item>
+        <item>Schönau (Hörsel)</item>
+        <item>Schönstedt</item>
+        <item>Schwallungen</item>
+        <item>Seebach (Kr Mühlhausen)</item>
+        <item>Seebergen</item>
+        <item>Silberhausen</item>
+        <item>Singen (Thür)</item>
+        <item>Sollstedt</item>
+        <item>Sömmerda</item>
+        <item>Sondershausen</item>
+        <item>Stadtilm</item>
+        <item>Steinbach-Hallenberg</item>
+        <item>Stotternheim</item>
+        <item>Straußfurt</item>
+        <item>Suhl</item>
+        <item>Suhl-Heinrichs</item>
+        <item>Sülzenbrücken</item>
+        <item>Tannroda</item>
+        <item>Themar</item>
+        <item>Tromsdorf</item>
+        <item>Uder</item>
+        <item>Untermaßfeld</item>
+        <item>Vachdorf</item>
+        <item>Viernau</item>
+        <item>Vieselbach</item>
+        <item>Voigtstedt</item>
+        <item>Walldorf (Werra)</item>
+        <item>Walschleben</item>
+        <item>Waltershausen</item>
+        <item>Waltershausen-Schnepfenthal</item>
+        <item>Wandersleben</item>
+        <item>Wasserthaleben</item>
+        <item>Wasungen</item>
+        <item>Weimar</item>
+        <item>Weimar Berkaer Bf</item>
+        <item>Weimar West</item>
+        <item>Wernshausen</item>
+        <item>Werther</item>
+        <item>Wingerode</item>
+        <item>Wipperdorf</item>
+        <item>Woffleben</item>
+        <item>Wölfershausen</item>
+        <item>Wolkramshausen</item>
+        <item>Wutha</item>
+        <item>Zella-Mehlis</item>
+        <item>Zella-Mehlis West</item>
+        <item>Amsdorf</item>
+        <item>Angersdorf</item>
+        <item>Annaburg</item>
+        <item>Bad Dürrenberg</item>
+        <item>Bad Kösen</item>
+        <item>Balgstädt</item>
+        <item>Bennungen</item>
+        <item>Berga-Kelbra</item>
+        <item>Bergwitz</item>
+        <item>Beuna (Geiseltal)</item>
+        <item>Biesenrode</item>
+        <item>Bitterfeld</item>
+        <item>Blankenheim (Kr Sangerhausen)</item>
+        <item>Braunsbedra</item>
+        <item>Braunsbedra Ost</item>
+        <item>Brehna</item>
+        <item>Bülzig</item>
+        <item>Burgkemnitz</item>
+        <item>Dessauer Brücke</item>
+        <item>Deuben (b Zeitz)</item>
+        <item>Dieskau</item>
+        <item>Elster (Elbe)</item>
+        <item>Erdeborn</item>
+        <item>Frankleben</item>
+        <item>Freyburg (Unstrut)</item>
+        <item>Friesdorf</item>
+        <item>Friesdorf Ost</item>
+        <item>Gräfenhainichen</item>
+        <item>Gräfenstuhl-Klippmühle</item>
+        <item>Greppin</item>
+        <item>Gröbers</item>
+        <item>Großkorbetha</item>
+        <item>Großkugel</item>
+        <item>Halle MESSE</item>
+        <item>Halle (Saale) Hbf</item>
+        <item>Halle-Ammendorf</item>
+        <item>Halle-Neustadt</item>
+        <item>Halle-Nietleben</item>
+        <item>Halle-Trotha</item>
+        <item>Hettstedt</item>
+        <item>Hohenthurm</item>
+        <item>Holzdorf (Elster)</item>
+        <item>Jeßnitz (Anh)</item>
+        <item>Jessen (Elster)</item>
+        <item>Karsdorf</item>
+        <item>Kirchscheidungen</item>
+        <item>Kleinjena</item>
+        <item>Klostermansfeld</item>
+        <item>Klostermansfeld Randsiedlung</item>
+        <item>Kötzschau</item>
+        <item>Krumpa</item>
+        <item>Landsberg (b Halle/Saale)</item>
+        <item>Landsberg (b Halle/Saale) Süd</item>
+        <item>Langendorf</item>
+        <item>Langeneichstädt</item>
+        <item>Laucha (Unstrut)</item>
+        <item>Leißling</item>
+        <item>Leuna Werke Nord</item>
+        <item>Leuna Werke Süd</item>
+        <item>Linda (Elster)</item>
+        <item>Luckenau</item>
+        <item>Lutherstadt Eisleben</item>
+        <item>Lutherstadt Wittenberg Altstadt</item>
+        <item>Lutherstadt Wittenberg Hauptbahnhof</item>
+        <item>Lutherstadt Wittenberg-Labetz</item>
+        <item>Lutherstadt Wittenberg-Piesteritz</item>
+        <item>Mansfeld (Südharz)</item>
+        <item>Marke</item>
+        <item>Merseburg</item>
+        <item>Merseburg Bergmannsring</item>
+        <item>Mücheln (Geiseltal)</item>
+        <item>Mücheln (Geiseltal) - Stadt</item>
+        <item>Mühlanger</item>
+        <item>Muldenstein</item>
+        <item>Naumburg (Saale) Hbf</item>
+        <item>Naumburg (Saale) Ost</item>
+        <item>Nebra</item>
+        <item>Nemsdorf-Göhrendorf</item>
+        <item>Niemberg</item>
+        <item>Oberröblingen (Helme)</item>
+        <item>Peißen</item>
+        <item>Petersroda</item>
+        <item>Pratau</item>
+        <item>Prittitz</item>
+        <item>Profen</item>
+        <item>Querfurt</item>
+        <item>Radis</item>
+        <item>Raguhn</item>
+        <item>Reinsdorf (b Nebra)</item>
+        <item>Reußen</item>
+        <item>Riestedt</item>
+        <item>Röblingen am See</item>
+        <item>Roitzsch (Kr Bitterfeld)</item>
+        <item>Roßbach</item>
+        <item>Rosengarten</item>
+        <item>Roßla</item>
+        <item>Sandersleben (Anh)</item>
+        <item>Sangerhausen</item>
+        <item>Schkopau</item>
+        <item>Silberhöhe</item>
+        <item>Steintorbrücke</item>
+        <item>Stumsdorf</item>
+        <item>Südstadt</item>
+        <item>Teuchern</item>
+        <item>Teutschenthal</item>
+        <item>Teutschenthal Ost</item>
+        <item>Theißen</item>
+        <item>Vatterode</item>
+        <item>Vatteröder Teich</item>
+        <item>Wallhausen (Helme)</item>
+        <item>Wansleben am See</item>
+        <item>Weißandt-Gölzau</item>
+        <item>Weißenfels</item>
+        <item>Weißenfels West</item>
+        <item>Wetterzeube</item>
+        <item>Wippra</item>
+        <item>Wohnstadt Nord</item>
+        <item>Wolfen (Kr Bitterfeld)</item>
+        <item>Wolferode</item>
+        <item>Zahna</item>
+        <item>Zeitz</item>
+        <item>Zöberitz</item>
+        <item>Zoo</item>
+        <item>Zörnigall</item>
+        <item>Zscherben</item>
+        <item>Zscherbener Straße</item>
+        <item>Allee-Center Leipzig</item>
+        <item>Altenbach</item>
+        <item>Bad Lausick</item>
+        <item>Beilrode</item>
+        <item>Belgershain</item>
+        <item>Bennewitz</item>
+        <item>Beucha</item>
+        <item>Böhlen (b Leipzig)</item>
+        <item>Böhlen Werke</item>
+        <item>Borna (b Leipzig)</item>
+        <item>Borsdorf (Sachs)</item>
+        <item>Dahlen (Sachs)</item>
+        <item>Delitzsch ob Bf</item>
+        <item>Delitzsch unt Bf</item>
+        <item>Deutzen</item>
+        <item>Döbeln Hbf</item>
+        <item>Doberschütz</item>
+        <item>Eilenburg</item>
+        <item>Eilenburg Ost</item>
+        <item>Flughafen Leipzig/Halle</item>
+        <item>Frauenhain</item>
+        <item>Frohburg</item>
+        <item>Geithain</item>
+        <item>Gerichshain</item>
+        <item>Glaubitz (b Riesa)</item>
+        <item>Grimma ob Bf</item>
+        <item>Gröditz (b Riesa)</item>
+        <item>Großbothen</item>
+        <item>Großdeuben</item>
+        <item>Großenhain Cottb Bf</item>
+        <item>Großlehna</item>
+        <item>Großpösna</item>
+        <item>Großsteinberg</item>
+        <item>Hohenroda</item>
+        <item>Hopfgarten (Sachs)</item>
+        <item>Jesewitz (b Leipzig)</item>
+        <item>Kämmereiforst</item>
+        <item>Klitschmar</item>
+        <item>Klosterbuch</item>
+        <item>Krensitz</item>
+        <item>Kühren</item>
+        <item>Kyhna</item>
+        <item>Lampertswalde</item>
+        <item>Lauterbach-Steinbach</item>
+        <item>Leipzig Anger-Crottendorf</item>
+        <item>Leipzig Bayerischer Bahnhof</item>
+        <item>Leipzig Coppiplatz</item>
+        <item>Leipzig Essener Straße</item>
+        <item>Leipzig Grünauer Allee</item>
+        <item>Leipzig Hbf</item>
+        <item>Leipzig Karlsruher Straße</item>
+        <item>Leipzig Knautnaundorf</item>
+        <item>Leipzig Markt</item>
+        <item>Leipzig MDR</item>
+        <item>Leipzig Messe</item>
+        <item>Leipzig Miltitz</item>
+        <item>Leipzig Miltitzer Allee</item>
+        <item>Leipzig Nord</item>
+        <item>Leipzig Werkstättenstraße</item>
+        <item>Leipzig Wilhelm-Leuschner-Platz</item>
+        <item>Leipzig-Connewitz</item>
+        <item>Leipzig-Engelsdorf</item>
+        <item>Leipzig-Gohlis</item>
+        <item>Leipzig-Heiterblick</item>
+        <item>Leipzig-Holzhausen</item>
+        <item>Leipzig-Knauthain</item>
+        <item>Leipzig-Leutzsch</item>
+        <item>Leipzig-Liebertwolkwitz</item>
+        <item>Leipzig-Lindenau</item>
+        <item>Leipzig-Lützschena</item>
+        <item>Leipzig-Möckern</item>
+        <item>Leipzig-Mölkau</item>
+        <item>Leipzig-Olbrichtstraße</item>
+        <item>Leipzig-Paunsdorf</item>
+        <item>Leipzig-Plagwitz</item>
+        <item>Leipzig-Rückmarsdorf</item>
+        <item>Leipzig-Sellerhausen</item>
+        <item>Leipzig-Slevogtstraße</item>
+        <item>Leipzig-Stötteritz</item>
+        <item>Leipzig-Thekla</item>
+        <item>Leipzig-Völkerschlachtdenkmal</item>
+        <item>Leipzig-Wahren</item>
+        <item>Leisnig</item>
+        <item>Limmritz (Sachs)</item>
+        <item>Lobstädt</item>
+        <item>Machern (Sachs)</item>
+        <item>Markkleeberg</item>
+        <item>Markkleeberg Mitte</item>
+        <item>Markkleeberg Nord</item>
+        <item>Markkleeberg-Gaschwitz</item>
+        <item>Markkleeberg-Großstädteln</item>
+        <item>Markranstädt</item>
+        <item>Mockrehna</item>
+        <item>Narsdorf</item>
+        <item>Naunhof</item>
+        <item>Neukieritzsch</item>
+        <item>Neukirchen-Wyhra</item>
+        <item>Niederau</item>
+        <item>Nünchritz</item>
+        <item>Oberholz</item>
+        <item>Oschatz</item>
+        <item>Ostrau</item>
+        <item>Otterwisch</item>
+        <item>Pegau</item>
+        <item>Petergrube</item>
+        <item>Pönitz (b Leipzig)</item>
+        <item>Priestewitz</item>
+        <item>Rackwitz (B Leipzig)</item>
+        <item>Regis-Breitingen</item>
+        <item>Riesa</item>
+        <item>Schkeuditz</item>
+        <item>Schkeuditz West</item>
+        <item>Seerhausen</item>
+        <item>Stauchitz</item>
+        <item>Steina</item>
+        <item>Tanndorf</item>
+        <item>Taucha (b Leipzig)</item>
+        <item>Tautenhain</item>
+        <item>Tiefenau</item>
+        <item>Torgau</item>
+        <item>Waldheim</item>
+        <item>Weinböhla Hp</item>
+        <item>Westewitz-Hochweitzschen</item>
+        <item>Wülknitz</item>
+        <item>Wurzen</item>
+        <item>Zabeltitz</item>
+        <item>Zeithain</item>
+        <item>Zschaitz</item>
+        <item>Zschortau</item>
+        <item>Zwenkau-Großdalzig</item>
+        <item>Angern-Rogätz</item>
+        <item>Arensdorf (b Köthen)</item>
+        <item>Aschersleben Pbf</item>
+        <item>Baalberge</item>
+        <item>Barleben</item>
+        <item>Barleber See</item>
+        <item>Bebitz</item>
+        <item>Belleben</item>
+        <item>Bernburg</item>
+        <item>Bernburg-Friedenshall</item>
+        <item>Bernburg-Strenzfeld</item>
+        <item>Bernburg-Waldau Hp</item>
+        <item>Beyendorf</item>
+        <item>Biederitz</item>
+        <item>Biendorf</item>
+        <item>Bindfelde</item>
+        <item>Blankenburg (Harz)</item>
+        <item>Blumenberg</item>
+        <item>Börnecke (Harz)</item>
+        <item>Bösdorf (Sachs-Anh)</item>
+        <item>Brunau-Packebusch</item>
+        <item>Burg (b Magdeburg)</item>
+        <item>Calbe (Saale) Ost</item>
+        <item>Calbe (Saale) Stadt</item>
+        <item>Calbe (Saale) West</item>
+        <item>Coswig (Anh)</item>
+        <item>Darlingerode</item>
+        <item>Demker</item>
+        <item>Dessau Hbf</item>
+        <item>Dessau Süd</item>
+        <item>Dessau-Alten</item>
+        <item>Dessau-Mosigkau</item>
+        <item>Ditfurt</item>
+        <item>Dodendorf</item>
+        <item>Domnitz (SaalKr)</item>
+        <item>Dreileben-Drackenstedt</item>
+        <item>Drohndorf-Mehringen</item>
+        <item>Eggersdorf</item>
+        <item>Eichstedt (Altm)</item>
+        <item>Eickendorf</item>
+        <item>Eilsleben (b Magdeburg)</item>
+        <item>Elsnigk (Anh)</item>
+        <item>Flechtingen</item>
+        <item>Fleetmark</item>
+        <item>Förderstedt</item>
+        <item>Freckleben</item>
+        <item>Frenz</item>
+        <item>Frose</item>
+        <item>Gardelegen</item>
+        <item>Gatersleben</item>
+        <item>Geestgottberg</item>
+        <item>Genthin</item>
+        <item>Gerwisch</item>
+        <item>Giersleben</item>
+        <item>Gnadau</item>
+        <item>Goldbeck (Kr Osterburg)</item>
+        <item>Gommern</item>
+        <item>Griebo</item>
+        <item>Groß Ammensleben</item>
+        <item>Güsen (Kr Genthin)</item>
+        <item>Güsten</item>
+        <item>Güterglück</item>
+        <item>Hadmersleben</item>
+        <item>Halberstadt</item>
+        <item>Halberstadt Oststraße</item>
+        <item>Halberstadt-Spiegelsberge</item>
+        <item>Haldensleben</item>
+        <item>Hämerten</item>
+        <item>Hedersleben-Wedderstedt</item>
+        <item>Heudeber-Danstedt</item>
+        <item>Hohenwulsch</item>
+        <item>Ilberstedt</item>
+        <item>Ilsenburg</item>
+        <item>Jävenitz</item>
+        <item>Jeber-Bergfrieden</item>
+        <item>Kläden (Kr Stendal)</item>
+        <item>Klieken</item>
+        <item>Königsborn</item>
+        <item>Könnern</item>
+        <item>Köthen</item>
+        <item>Langenstein</item>
+        <item>Langenweddingen</item>
+        <item>Lübs (b Magdeburg)</item>
+        <item>Magdeburg Hbf</item>
+        <item>Magdeburg SKET Industriepark</item>
+        <item>Magdeburg Südost</item>
+        <item>Magdeburg-Buckau</item>
+        <item>Magdeburg-Eichenweiler</item>
+        <item>Magdeburg-Hasselbachplatz</item>
+        <item>Magdeburg-Herrenkrug</item>
+        <item>Magdeburg-Neustadt</item>
+        <item>Magdeburg-Rothensee</item>
+        <item>Magdeburg-Salbke</item>
+        <item>Magdeburg-Sudenburg</item>
+        <item>Mahlwinkel</item>
+        <item>Marienborn</item>
+        <item>Meinsdorf</item>
+        <item>Meitzendorf</item>
+        <item>Meßdorf</item>
+        <item>Mieste</item>
+        <item>Miesterhorst</item>
+        <item>Miltern</item>
+        <item>Möringen (Altm)</item>
+        <item>Möser</item>
+        <item>Nachterstedt-Hoym</item>
+        <item>Nauendorf (Saalkr)</item>
+        <item>Neinstedt</item>
+        <item>Neundorf (Anh)</item>
+        <item>Niederndodeleben</item>
+        <item>Nienburg (Saale)</item>
+        <item>Nienhagen (b Halberstadt)</item>
+        <item>Ochtmersleben</item>
+        <item>Oebisfelde</item>
+        <item>Oschersleben (Bode)</item>
+        <item>Osterburg</item>
+        <item>Osternienburg</item>
+        <item>Osterweddingen</item>
+        <item>Ovelgünne</item>
+        <item>Pretzier (Altm)</item>
+        <item>Prödel</item>
+        <item>Quedlinburg</item>
+        <item>Rätzlingen</item>
+        <item>Rodleben</item>
+        <item>Roßlau (Elbe)</item>
+        <item>Sachsendorf (b Calbe)</item>
+        <item>Salzwedel</item>
+        <item>Schierstedt</item>
+        <item>Schönebeck (Elbe)</item>
+        <item>Schönebeck (Elbe) Süd</item>
+        <item>Schönebeck-Bad Salzelmen</item>
+        <item>Schönebeck-Felgeleben</item>
+        <item>Schönebeck-Frohse</item>
+        <item>Schönhausen (Elbe)</item>
+        <item>Seehausen (Altm)</item>
+        <item>Solpke</item>
+        <item>Stapelburg</item>
+        <item>Staßfurt</item>
+        <item>Steinfeld (b Stendal)</item>
+        <item>Stendal</item>
+        <item>Stendal Vorbf</item>
+        <item>Stendal-Stadtsee</item>
+        <item>Tangerhütte</item>
+        <item>Tangermünde</item>
+        <item>Tangermünde West</item>
+        <item>Teicha</item>
+        <item>Thale Hbf</item>
+        <item>Thale Musestieg</item>
+        <item>Trebitz (b Könnern)</item>
+        <item>Uchtspringe</item>
+        <item>Vahldorf</item>
+        <item>Vinzelberg</item>
+        <item>Wahlitz</item>
+        <item>Wallwitz (Saalkr)</item>
+        <item>Wefensleben</item>
+        <item>Wegeleben</item>
+        <item>Wegenstedt</item>
+        <item>Wellen (b Magdeburg)</item>
+        <item>Wernigerode</item>
+        <item>Wernigerode Elmowerk</item>
+        <item>Wolmirstedt</item>
+        <item>Wulfen (Anh)</item>
+        <item>Zerbst/Anhalt</item>
+        <item>Zielitz</item>
+        <item>Zielitz Ort</item>
+        <item>Achern</item>
+        <item>Aha</item>
+        <item>Albbruck</item>
+        <item>Aldingen</item>
+        <item>Altglashütten-Falkau</item>
+        <item>Appenweier</item>
+        <item>Auggen</item>
+        <item>Bachheim</item>
+        <item>Bad Bellingen</item>
+        <item>Bad Griesbach</item>
+        <item>Bad Krozingen</item>
+        <item>Bad Peterstal</item>
+        <item>Bad Säckingen</item>
+        <item>Balgheim</item>
+        <item>Batzenhäusle</item>
+        <item>Beuggen</item>
+        <item>Biberach (Baden)</item>
+        <item>Bleibach</item>
+        <item>Breisach</item>
+        <item>Brigachtal Kirchdorf</item>
+        <item>Brigachtal Klengen</item>
+        <item>Buchholz (Baden)</item>
+        <item>Buggingen</item>
+        <item>Deißlingen Mitte</item>
+        <item>Denzlingen</item>
+        <item>Dogern</item>
+        <item>Döggingen</item>
+        <item>Donaueschingen</item>
+        <item>Donaueschingen Allmendshofen</item>
+        <item>Donaueschingen Aufen</item>
+        <item>Donaueschingen Grüningen</item>
+        <item>Donaueschingen Mitte/Siedlung</item>
+        <item>Ebringen</item>
+        <item>Efringen-Kirchen</item>
+        <item>Eimeldingen</item>
+        <item>Elzach</item>
+        <item>Emmendingen</item>
+        <item>Erzingen (Baden)</item>
+        <item>Fahrnau</item>
+        <item>Feldberg-Bärental</item>
+        <item>Freiburg (Breisgau) Hbf</item>
+        <item>Freiburg Messe/Universität</item>
+        <item>Freiburg West</item>
+        <item>Freiburg-Herdern</item>
+        <item>Freiburg-Klinikum</item>
+        <item>Freiburg-Littenweiler</item>
+        <item>Freiburg-St Georgen</item>
+        <item>Freiburg-Wiehre</item>
+        <item>Freiburg-Zähringen</item>
+        <item>Friesenheim (Baden)</item>
+        <item>Geisingen</item>
+        <item>Gengenbach</item>
+        <item>Gottenheim</item>
+        <item>Grenzach</item>
+        <item>Grießen (Baden)</item>
+        <item>Gundelfingen</item>
+        <item>Gutach (Breisgau)</item>
+        <item>Gutach Freilichtmuseum</item>
+        <item>Haltingen</item>
+        <item>Haslach</item>
+        <item>Hausach</item>
+        <item>Hausen-Raitbach</item>
+        <item>Heitersheim</item>
+        <item>Herbolzheim (Breisgau)</item>
+        <item>Herten (Baden)</item>
+        <item>Himmelreich</item>
+        <item>Hinterzarten</item>
+        <item>Hornberg</item>
+        <item>Hubacker</item>
+        <item>Hüfingen Mitte</item>
+        <item>Hugstetten</item>
+        <item>Ibach</item>
+        <item>Ihringen</item>
+        <item>Immendingen</item>
+        <item>Immendingen Mitte</item>
+        <item>Immendingen Zimmern</item>
+        <item>Istein</item>
+        <item>Kehl</item>
+        <item>Kenzingen</item>
+        <item>Kirchzarten</item>
+        <item>Kleinkems</item>
+        <item>Kollmarsreute</item>
+        <item>Kollnau</item>
+        <item>Köndringen</item>
+        <item>Kork</item>
+        <item>Lahr (Schwarzw)</item>
+        <item>Lauchringen</item>
+        <item>Lauchringen West</item>
+        <item>Laufenburg (Baden)</item>
+        <item>Laufenburg (Baden) Ost</item>
+        <item>Lautenbach (Baden)</item>
+        <item>Legelshurst</item>
+        <item>Löcherberg</item>
+        <item>Löffingen</item>
+        <item>Lörrach Dammstraße</item>
+        <item>Lörrach Hbf</item>
+        <item>Lörrach Museum/Burghof</item>
+        <item>Lörrach Schwarzwaldstraße</item>
+        <item>Lörrach-Brombach/Hauingen</item>
+        <item>Lörrach-Haagen/Messe</item>
+        <item>Lörrach-Stetten</item>
+        <item>Marbach Ost Villingen-Schwenningen</item>
+        <item>Marbach West Villingen-Schwenningen</item>
+        <item>Maulburg</item>
+        <item>Möhringen Bahnhof</item>
+        <item>Möhringen Rathaus</item>
+        <item>Müllheim (Baden)</item>
+        <item>Murg (Baden)</item>
+        <item>Neuenburg (Baden)</item>
+        <item>Neustadt (Schwarzw)</item>
+        <item>Niederwinden</item>
+        <item>Norsingen</item>
+        <item>Oberkirch</item>
+        <item>Oberkirch-Koehlersiedlung</item>
+        <item>Oberndorf (Neckar)</item>
+        <item>Oberwinden</item>
+        <item>Offenburg</item>
+        <item>Offenburg Kreisschulzentrum</item>
+        <item>Oppenau</item>
+        <item>Orschweier</item>
+        <item>Ramsbach Birkhof</item>
+        <item>Ramsbach Höfle</item>
+        <item>Renchen</item>
+        <item>Rheinfelden (Baden)</item>
+        <item>Rheinweiler</item>
+        <item>Riegel-Malterdingen</item>
+        <item>Rietheim</item>
+        <item>Ringsheim</item>
+        <item>Rötenbach (Baden)</item>
+        <item>Rottweil</item>
+        <item>Rottweil Göllsdorf</item>
+        <item>Rottweil Neufra</item>
+        <item>Rottweil Saline</item>
+        <item>Schallstadt</item>
+        <item>Schliengen</item>
+        <item>Schluchsee</item>
+        <item>Schopfheim</item>
+        <item>Schopfheim West</item>
+        <item>Schopfheim-Schlattholz</item>
+        <item>Schwenningen (Neckar)</item>
+        <item>Schwörstadt</item>
+        <item>Seebrugg</item>
+        <item>Spaichingen</item>
+        <item>Spaichingen Mitte</item>
+        <item>St. Georgen (Schwarzw)</item>
+        <item>Steinach (Baden)</item>
+        <item>Steinen</item>
+        <item>Sulz (Neckar)</item>
+        <item>Teningen-Mundingen</item>
+        <item>Tiengen (Hochrhein)</item>
+        <item>Titisee</item>
+        <item>Triberg</item>
+        <item>Trossingen Bahnhof</item>
+        <item>Tuttlingen</item>
+        <item>Tuttlingen Gänsäcker</item>
+        <item>Tuttlingen Nord</item>
+        <item>Tuttlingen Schulen</item>
+        <item>Tuttlingen Zentrum</item>
+        <item>Unadingen</item>
+        <item>Villingen (Schwarzw)</item>
+        <item>Villingen-Schwenningen Eisstadion</item>
+        <item>Villingen-Schwenningen Hammerstatt</item>
+        <item>Waldkirch</item>
+        <item>Waldshut</item>
+        <item>Wasenweiler</item>
+        <item>Wehr-Brennet</item>
+        <item>Weil am Rhein</item>
+        <item>Weil am Rhein Gartenstadt</item>
+        <item>Weil am Rhein Ost</item>
+        <item>Weil am Rhein Pfädlistraße</item>
+        <item>Weilheim</item>
+        <item>Wurmlingen Mitte</item>
+        <item>Wurmlingen Nord</item>
+        <item>Wyhlen</item>
+        <item>Zell (Wiesental)</item>
+        <item>Zollhaus Villingen-Schwenningen</item>
+        <item>Zusenhofen</item>
+        <item>Aichstetten</item>
+        <item>Albstadt Ebingen West</item>
+        <item>Albstadt-Ebingen</item>
+        <item>Albstadt-Laufen Ort</item>
+        <item>Albstadt-Lautlingen</item>
+        <item>Allensbach</item>
+        <item>Altshausen</item>
+        <item>Alttann</item>
+        <item>Aulendorf</item>
+        <item>Bad Niedernau</item>
+        <item>Bad Saulgau</item>
+        <item>Bad Schussenried</item>
+        <item>Bad Sebastiansweiler-Belsen</item>
+        <item>Bad Waldsee</item>
+        <item>Balingen Süd</item>
+        <item>Balingen (Württ)</item>
+        <item>Bempflingen</item>
+        <item>Bermatingen-Ahausen</item>
+        <item>Beuron</item>
+        <item>Bieringen</item>
+        <item>Bietingen</item>
+        <item>Bisingen</item>
+        <item>Bodelshausen</item>
+        <item>Böhringen-Rickelshausen</item>
+        <item>Dußlingen</item>
+        <item>Engen</item>
+        <item>Engstlatt</item>
+        <item>Eriskirch</item>
+        <item>Eyach</item>
+        <item>Fridingen (b Tuttlingen)</item>
+        <item>Friedrichshafen Flughafen</item>
+        <item>Friedrichshafen Hafen</item>
+        <item>Friedrichshafen Landratsamt</item>
+        <item>Friedrichshafen Manzell</item>
+        <item>Friedrichshafen Ost</item>
+        <item>Friedrichshafen Stadt</item>
+        <item>Friedrichshafen-Fischbach</item>
+        <item>Friedrichshafen-Kluftern</item>
+        <item>Frommern</item>
+        <item>Gottmadingen</item>
+        <item>Hausen i Tal</item>
+        <item>Hechingen</item>
+        <item>Hegne</item>
+        <item>Herbertingen</item>
+        <item>Herbertingen Ort</item>
+        <item>Kehlen</item>
+        <item>Kiebingen</item>
+        <item>Kirchentellinsfurt</item>
+        <item>Kißlegg</item>
+        <item>Konstanz</item>
+        <item>Konstanz Fürstenberg</item>
+        <item>Konstanz-Petershausen</item>
+        <item>Konstanz-Wollmatingen</item>
+        <item>Kressbronn</item>
+        <item>Langenargen</item>
+        <item>Leutkirch</item>
+        <item>Löwental</item>
+        <item>Ludwigshafen (Bodensee)</item>
+        <item>Markdorf (Baden)</item>
+        <item>Markelfingen</item>
+        <item>Marstetten-Aitrach</item>
+        <item>Meckenbeuren</item>
+        <item>Mengen</item>
+        <item>Metzingen</item>
+        <item>Mochenwangen</item>
+        <item>Mössingen</item>
+        <item>Mühlhausen (b Engen)</item>
+        <item>Mühlheim (b Tuttlingen)</item>
+        <item>Nehren</item>
+        <item>Nendingen (b Tuttlingen)</item>
+        <item>Niederbiegen</item>
+        <item>Nürtingen</item>
+        <item>Oberboihingen</item>
+        <item>Oberzell</item>
+        <item>Radolfzell</item>
+        <item>Radolfzell Haselbrunn</item>
+        <item>Ravensburg</item>
+        <item>Reichenau (Baden)</item>
+        <item>Reutlingen Hbf</item>
+        <item>Reutlingen West</item>
+        <item>Reutlingen-Betzingen</item>
+        <item>Reutlingen-Sondelfingen</item>
+        <item>Riedlingen</item>
+        <item>Rottenburg (Neckar)</item>
+        <item>Salem</item>
+        <item>Sigmaringen</item>
+        <item>Sigmaringendorf</item>
+        <item>Singen (Hohentwiel)</item>
+        <item>Singen-Industriegebiet</item>
+        <item>Singen-Landesgartenschau</item>
+        <item>Sipplingen</item>
+        <item>Stahringen</item>
+        <item>Stetten (Donau)</item>
+        <item>Storzingen</item>
+        <item>Straßberg-Winterlingen</item>
+        <item>Tannheim (Württ)</item>
+        <item>Tübingen Hbf</item>
+        <item>Tübingen-Derendingen</item>
+        <item>Tübingen-Lustnau</item>
+        <item>Überlingen</item>
+        <item>Überlingen-Nußdorf</item>
+        <item>Überlingen-Therme</item>
+        <item>Uhldingen-Mühlhofen</item>
+        <item>Wangen (Allgäu)</item>
+        <item>Wannweil</item>
+        <item>Weingarten (Berg)</item>
+        <item>Weißenau</item>
+        <item>Welschingen-Neuhausen</item>
+        <item>Wolfegg</item>
+        <item>Alpirsbach</item>
+        <item>Bad Liebenzell</item>
+        <item>Bad Schönborn Kronau</item>
+        <item>Bad Schönborn Süd</item>
+        <item>Bad Teinach-Neubulach</item>
+        <item>Baden-Baden</item>
+        <item>Baden-Baden Haueneberstein</item>
+        <item>Baden-Baden Rebland</item>
+        <item>Bietigheim (Baden)</item>
+        <item>Bittelbronn</item>
+        <item>Blankenloch</item>
+        <item>Bondorf (b Herrenberg)</item>
+        <item>Bretten</item>
+        <item>Bretten-Rechberg</item>
+        <item>Bretten-Ruit</item>
+        <item>Bruchhausen (b Ettlingen)</item>
+        <item>Bruchsal</item>
+        <item>Bruchsal am Mantel</item>
+        <item>Bruchsal Sportzentrum</item>
+        <item>Bühl (Baden)</item>
+        <item>Calw</item>
+        <item>Dornstetten</item>
+        <item>Durmersheim</item>
+        <item>Durmersheim Nord</item>
+        <item>Enzberg</item>
+        <item>Ergenzingen</item>
+        <item>Ettlingen West</item>
+        <item>Eutingen (Baden)</item>
+        <item>Eutingen im Gäu</item>
+        <item>Forchheim (b Karlsruhe)</item>
+        <item>Freudenstadt Hbf</item>
+        <item>Friedrichstal (Baden)</item>
+        <item>Gäufelden</item>
+        <item>Graben-Neudorf</item>
+        <item>Graben-Neudorf Nord</item>
+        <item>Grüntal/Wittlensweiler</item>
+        <item>Halbmeil</item>
+        <item>Hirsau</item>
+        <item>Hochdorf (b Horb)</item>
+        <item>Horb</item>
+        <item>Horb-Heiligenfeld</item>
+        <item>Huttenheim</item>
+        <item>Illingen (Württ)</item>
+        <item>Karlsdorf</item>
+        <item>Karlsruhe Hbf</item>
+        <item>Karlsruhe West</item>
+        <item>Karlsruhe-Durlach</item>
+        <item>Karlsruhe-Hagsfeld</item>
+        <item>Karlsruhe-Knielingen</item>
+        <item>Karlsruhe-Mühlburg</item>
+        <item>Knittlingen-Kleinvillars</item>
+        <item>Loßburg-Rodt</item>
+        <item>Malsch</item>
+        <item>Malsch Süd</item>
+        <item>Maulbronn West</item>
+        <item>Monbach-Neuhausen</item>
+        <item>Muggensturm</item>
+        <item>Muggensturm-Badesee</item>
+        <item>Mühlacker</item>
+        <item>Mühlacker Rößlesweg</item>
+        <item>Mühlen (b Horb)</item>
+        <item>Nagold</item>
+        <item>Nagold Stadtmitte</item>
+        <item>Nagold-Iselshausen</item>
+        <item>Nagold-Steinberg</item>
+        <item>Niefern</item>
+        <item>Ölbronn-Dürrn</item>
+        <item>Ötigheim</item>
+        <item>Ötisheim</item>
+        <item>Pforzheim Hbf</item>
+        <item>Pforzheim-Weißenstein</item>
+        <item>Philippsburg (Baden)</item>
+        <item>Rastatt</item>
+        <item>Rheinsheim</item>
+        <item>Schenkenzell</item>
+        <item>Schiltach</item>
+        <item>Schiltach Mitte</item>
+        <item>Schopfloch (b Freudenstadt)</item>
+        <item>Sinzheim</item>
+        <item>Sinzheim Nord</item>
+        <item>Ubstadt-Weiher</item>
+        <item>Unterreichenbach</item>
+        <item>Waghäusel</item>
+        <item>Wiesental</item>
+        <item>Wildberg (Württ)</item>
+        <item>Wilferdingen-Singen</item>
+        <item>Wolfach</item>
+        <item>Adelsheim Nord</item>
+        <item>Adelsheim Ost</item>
+        <item>Affaltrach</item>
+        <item>Aglasterhausen</item>
+        <item>Auerbach (b Mosbach)</item>
+        <item>Babstadt</item>
+        <item>Bad Friedrichshall Hbf</item>
+        <item>Bad Friedrichshall-Kochendorf</item>
+        <item>Bad Rappenau</item>
+        <item>Bad Rappenau Kurpark</item>
+        <item>Bad Wimpfen</item>
+        <item>Bad Wimpfen im Tal</item>
+        <item>Bad Wimpfen-Hohenstadt</item>
+        <item>Bammental</item>
+        <item>Besigheim</item>
+        <item>Binau</item>
+        <item>Birkenau</item>
+        <item>Bitzfeld</item>
+        <item>Boxberg-Wölchingen</item>
+        <item>Bretzfeld</item>
+        <item>Dallau</item>
+        <item>Eberbach</item>
+        <item>Eicholzheim</item>
+        <item>Ellhofen</item>
+        <item>Eschelbronn</item>
+        <item>Eschenau (b Heilbronn)</item>
+        <item>Eubigheim</item>
+        <item>Fürth (Odenw)</item>
+        <item>Gaubüttelbrunn</item>
+        <item>Gerlachsheim</item>
+        <item>Grombach</item>
+        <item>Grünsfeld</item>
+        <item>Gundelsheim (Neckar)</item>
+        <item>Haßmersheim</item>
+        <item>HD-Weststadt/Südstadt</item>
+        <item>Heddesheim/Hirschberg</item>
+        <item>Heidelberg Hbf</item>
+        <item>Heidelberg-Altstadt</item>
+        <item>Heidelberg-Kirchheim/Rohrbach</item>
+        <item>Heidelberg-Orthopädie</item>
+        <item>Heidelberg-Pfaffengrund/Wieblingen</item>
+        <item>Heidelberg-Schlierbach-Ziegelhausen</item>
+        <item>Heilbronn Hbf</item>
+        <item>Heilbronn Sülmertor</item>
+        <item>Heilbronn Trappensee</item>
+        <item>Helmstadt (Baden)</item>
+        <item>Hemsbach</item>
+        <item>Herbolzheim (Jagst)</item>
+        <item>Hirschhorn (Neckar)</item>
+        <item>Hockenheim</item>
+        <item>Hoffenheim</item>
+        <item>Ittlingen</item>
+        <item>Kirchheim (Neckar)</item>
+        <item>Königshofen (Baden)</item>
+        <item>Ladenburg</item>
+        <item>Lauda</item>
+        <item>Laudenbach (Bergstr)</item>
+        <item>Lauffen (Neckar)</item>
+        <item>Lindach</item>
+        <item>Lörzenbach-Fahrenbach</item>
+        <item>Mannheim ARENA / Maimarkt</item>
+        <item>Mannheim Hbf</item>
+        <item>Mannheim-Friedrichsfeld Süd</item>
+        <item>Mannheim-Handelshafen</item>
+        <item>Mannheim-Käfertal</item>
+        <item>Mannheim-Luzenberg</item>
+        <item>Mannheim-Neckarau</item>
+        <item>Mannheim-Neckarstadt</item>
+        <item>Mannheim-Rheinau</item>
+        <item>Mannheim-Seckenheim</item>
+        <item>Mannheim-Waldhof</item>
+        <item>Mauer (b Heidelberg)</item>
+        <item>Meckesheim</item>
+        <item>Möckmühl</item>
+        <item>Mörlenbach</item>
+        <item>Mosbach (Baden)</item>
+        <item>Mosbach West</item>
+        <item>Mosbach-Neckarelz</item>
+        <item>Neckarbischofsheim Nord</item>
+        <item>Neckarburken</item>
+        <item>Neckargemünd</item>
+        <item>Neckargemünd Altstadt</item>
+        <item>Neckargerach</item>
+        <item>Neckarhausen bei Neckarsteinach</item>
+        <item>Neckarsteinach</item>
+        <item>Neckarsulm</item>
+        <item>Neckarsulm Mitte</item>
+        <item>Neckarsulm Nord</item>
+        <item>Neckarzimmern</item>
+        <item>Neidenstein</item>
+        <item>Neudenau</item>
+        <item>Neu-Edingen/Friedrichsfeld</item>
+        <item>Neuenstein</item>
+        <item>Neulußheim</item>
+        <item>Nordheim (Württ)</item>
+        <item>Oberschefflenz</item>
+        <item>Offenau</item>
+        <item>Oftersheim</item>
+        <item>Öhringen Cappel</item>
+        <item>Öhringen Hbf</item>
+        <item>Öhringen West</item>
+        <item>Osterburken</item>
+        <item>Reihen</item>
+        <item>Reilsheim</item>
+        <item>Reisen (Hess)</item>
+        <item>Richen (b Eppingen)</item>
+        <item>Rimbach</item>
+        <item>Roigheim</item>
+        <item>Rosenberg (Baden)</item>
+        <item>Rot-Malsch</item>
+        <item>Sachsenheim</item>
+        <item>Scheppach</item>
+        <item>Schwetzingen</item>
+        <item>Seckach</item>
+        <item>Sennfeld</item>
+        <item>Sersheim</item>
+        <item>Siglingen</item>
+        <item>Sinsheim (Elsenz) Hbf</item>
+        <item>Sinsheim Museum/Arena</item>
+        <item>St. Ilgen/Sandhausen</item>
+        <item>Steinsfurt</item>
+        <item>Sülzbach</item>
+        <item>Sülzbach Schule</item>
+        <item>Untergriesheim</item>
+        <item>Vaihingen (Enz)</item>
+        <item>Waibstadt</item>
+        <item>Waldenburg (Württ)</item>
+        <item>Walheim (Württ)</item>
+        <item>Weinheim (Bergstr)</item>
+        <item>Weinheim-Lützelsachsen</item>
+        <item>Weinsberg</item>
+        <item>Weinsberg West</item>
+        <item>Weinsberg/Ellhofen Gewerbegebiet</item>
+        <item>Wieslensdorf</item>
+        <item>Wiesloch-Walldorf</item>
+        <item>Willsbach</item>
+        <item>Wittighausen</item>
+        <item>Zimmern</item>
+        <item>Zimmern bei Seckach</item>
+        <item>Zotzenbach</item>
+        <item>Züttlingen</item>
+        <item>Zuzenhausen</item>
+        <item>Zwingenberg (Baden)</item>
+        <item>Altbach</item>
+        <item>Asperg</item>
+        <item>Backnang</item>
+        <item>Benningen (Neckar)</item>
+        <item>Beutelsbach</item>
+        <item>Bietigheim-Bissingen</item>
+        <item>Böblingen</item>
+        <item>Brucken</item>
+        <item>Burgstall (Murr)</item>
+        <item>Dettingen (Teck)</item>
+        <item>Ditzingen</item>
+        <item>Echterdingen</item>
+        <item>Ehningen (b Böblingen)</item>
+        <item>Ellental</item>
+        <item>Endersbach</item>
+        <item>Erdmannhausen</item>
+        <item>Esslingen (Neckar)</item>
+        <item>Esslingen-Mettingen</item>
+        <item>Esslingen-Zell</item>
+        <item>Favoritepark</item>
+        <item>Fellbach</item>
+        <item>Filderstadt</item>
+        <item>Freiberg (Neckar)</item>
+        <item>Gärtringen</item>
+        <item>Geradstetten</item>
+        <item>Goldberg</item>
+        <item>Grunbach</item>
+        <item>Herrenberg</item>
+        <item>Höfingen</item>
+        <item>Hulb</item>
+        <item>Kirchberg (Murr)</item>
+        <item>Kirchheim (Teck)</item>
+        <item>Kirchheim (Teck) Süd</item>
+        <item>Kirchheim (Teck)-Ötlingen</item>
+        <item>Korntal</item>
+        <item>Kornwestheim Pbf</item>
+        <item>Leinfelden</item>
+        <item>Leonberg</item>
+        <item>Ludwigsburg</item>
+        <item>Magstadt</item>
+        <item>Maichingen</item>
+        <item>Maichingen Nord</item>
+        <item>Malmsheim</item>
+        <item>Marbach (Neckar)</item>
+        <item>Maubach</item>
+        <item>Nellmersbach</item>
+        <item>Neustadt-Hohenacker</item>
+        <item>Neuwirtshaus-Porscheplatz</item>
+        <item>Nufringen</item>
+        <item>Oberaichen</item>
+        <item>Oberesslingen</item>
+        <item>Oberlenningen</item>
+        <item>Owen (Teck)</item>
+        <item>Plochingen</item>
+        <item>Renningen</item>
+        <item>Renningen Süd</item>
+        <item>Rommelshausen</item>
+        <item>Rutesheim</item>
+        <item>Schorndorf</item>
+        <item>Schwaikheim</item>
+        <item>Sindelfingen</item>
+        <item>Stetten-Beinstein</item>
+        <item>Stuttgart Ebitzweg</item>
+        <item>Stuttgart Feuersee</item>
+        <item>Stuttgart Flughafen/Messe</item>
+        <item>Stuttgart Hbf</item>
+        <item>Stuttgart Neckarpark</item>
+        <item>Stuttgart Nord</item>
+        <item>Stuttgart Nürnberger Straße</item>
+        <item>Stuttgart Österfeld</item>
+        <item>Stuttgart Schwabstraße</item>
+        <item>Stuttgart Stadtmitte</item>
+        <item>Stuttgart Universität</item>
+        <item>Stuttgart-Bad Cannstatt</item>
+        <item>Stuttgart-Feuerbach</item>
+        <item>Stuttgart-Münster</item>
+        <item>Stuttgart-Obertürkheim</item>
+        <item>Stuttgart-Rohr</item>
+        <item>Stuttgart-Sommerrain</item>
+        <item>Stuttgart-Untertürkheim Pbf</item>
+        <item>Stuttgart-Vaihingen</item>
+        <item>Stuttgart-Weilimdorf</item>
+        <item>Stuttgart-Zazenhausen</item>
+        <item>Stuttgart-Zuffenhausen</item>
+        <item>Tamm (Württ)</item>
+        <item>Unterlenningen</item>
+        <item>Waiblingen</item>
+        <item>Weil der Stadt</item>
+        <item>Weiler (Rems)</item>
+        <item>Wendlingen (Neckar)</item>
+        <item>Wernau (Neckar)</item>
+        <item>Winnenden</item>
+        <item>Winterbach (b Schorndorf)</item>
+        <item>Aalen Hbf</item>
+        <item>Allmendingen</item>
+        <item>Amstetten (Württ)</item>
+        <item>Aufhausen (Württ)</item>
+        <item>Beimerstetten</item>
+        <item>Bergenweiler</item>
+        <item>Biberach (Riß)</item>
+        <item>Biberach Süd</item>
+        <item>Blaubeuren</item>
+        <item>Blaustein</item>
+        <item>Böbingen (Rems)</item>
+        <item>Bopfingen</item>
+        <item>Crailsheim</item>
+        <item>Ebersbach (Fils)</item>
+        <item>Eckartshausen-Ilshofen</item>
+        <item>Ehingen (Donau)</item>
+        <item>Eislingen (Fils)</item>
+        <item>Ellwangen</item>
+        <item>Erbach (Württ)</item>
+        <item>Faurndau</item>
+        <item>Fichtenberg</item>
+        <item>Fornsbach</item>
+        <item>Gaildorf West</item>
+        <item>Geislingen (Steige)</item>
+        <item>Geislingen West</item>
+        <item>Gerhausen</item>
+        <item>Giengen (Brenz)</item>
+        <item>Gingen (Fils)</item>
+        <item>Goldshöfe</item>
+        <item>Göppingen</item>
+        <item>Heidenheim</item>
+        <item>Heidenheim Voithwerk</item>
+        <item>Heidenheim-Mergelstetten</item>
+        <item>Heidenheim-Schnaitheim</item>
+        <item>Herbrechtingen</item>
+        <item>Hermaringen</item>
+        <item>Herrlingen</item>
+        <item>Hofen (b Aalen)</item>
+        <item>Itzelberg</item>
+        <item>Jagstzell</item>
+        <item>Königsbronn</item>
+        <item>Kuchen</item>
+        <item>Langenau (Württ)</item>
+        <item>Lauchheim</item>
+        <item>Laupheim Stadt</item>
+        <item>Laupheim West</item>
+        <item>Lonsee</item>
+        <item>Lorch (Württ)</item>
+        <item>Mögglingen (b Gmünd)</item>
+        <item>Munderkingen</item>
+        <item>Murrhardt</item>
+        <item>Niederstotzingen</item>
+        <item>Oberelchingen</item>
+        <item>Oberkochen</item>
+        <item>Oppenweiler (Württ)</item>
+        <item>Pflaumloch</item>
+        <item>Plüderhausen</item>
+        <item>Rammingen</item>
+        <item>Reichenbach (Fils)</item>
+        <item>Rottenacker</item>
+        <item>Salach</item>
+        <item>Schelklingen</item>
+        <item>Schemmerberg</item>
+        <item>Schmiechen</item>
+        <item>Schrezheim</item>
+        <item>Schwäbisch Gmünd</item>
+        <item>Schwäbisch Hall</item>
+        <item>Schwäbisch Hall-Hessental</item>
+        <item>Schwabsberg</item>
+        <item>Sontheim-Brenz</item>
+        <item>Sulzbach (Murr)</item>
+        <item>Süßen</item>
+        <item>Thalfingen (b Ulm)</item>
+        <item>Trochtelfingen (b Bopfingen)</item>
+        <item>Uhingen</item>
+        <item>Ulm Hbf</item>
+        <item>Ulm Ost</item>
+        <item>Ulm-Donautal</item>
+        <item>Ulm-Söflingen</item>
+        <item>Unterelchingen</item>
+        <item>Unterkochen</item>
+        <item>Urbach (b Schorndorf)</item>
+        <item>Urspring</item>
+        <item>Wackershofen-Freilandmuseum</item>
+        <item>Waldhausen (b Schorndorf)</item>
+        <item>Warthausen</item>
+        <item>Wasseralfingen</item>
+        <item>Westerstetten</item>
+        <item>Westhausen</item>
+        <item>Altenbeken</item>
+        <item>Bad Driburg (Westf)</item>
+        <item>Bad Oeynhausen</item>
+        <item>Bad Oeynhausen Süd</item>
+        <item>Bad Salzuflen</item>
+        <item>Bielefeld Hbf</item>
+        <item>Bielefeld Ost</item>
+        <item>Bielefeld-Senne</item>
+        <item>Bieren-Rödinghausen</item>
+        <item>Borgholzhausen</item>
+        <item>Brackwede</item>
+        <item>Brake (b Bielefeld)</item>
+        <item>Brakel (Kr Höxter)</item>
+        <item>Bünde (Westf)</item>
+        <item>Clarholz</item>
+        <item>Detmold</item>
+        <item>Dissen-Bad Rothenfelde</item>
+        <item>Ehlenbruch</item>
+        <item>Espelkamp</item>
+        <item>Godelheim</item>
+        <item>Gütersloh Hbf</item>
+        <item>Halle (Westf)</item>
+        <item>Halle (Westf)-Gerry-Weber-Stadion</item>
+        <item>Helpup</item>
+        <item>Herford</item>
+        <item>Herzebrock</item>
+        <item>Hesseln</item>
+        <item>Hiddenhausen-Schweicheln</item>
+        <item>Holzhausen-Heddinghausen</item>
+        <item>Horn-Bad Meinberg</item>
+        <item>Hörstmar (Lippe)</item>
+        <item>Hövelhof</item>
+        <item>Hövelriege</item>
+        <item>Höxter Rathaus</item>
+        <item>Isselhorst-Avenwedde</item>
+        <item>Kirchlengern</item>
+        <item>Künsebeck</item>
+        <item>Lage (Lippe)</item>
+        <item>Leopoldstal</item>
+        <item>Löhne (Westf)</item>
+        <item>Lübbecke (Westf)</item>
+        <item>Lüchtringen</item>
+        <item>Lügde</item>
+        <item>Minden (Westf)</item>
+        <item>Neubeckum</item>
+        <item>Neue Mühle</item>
+        <item>Oelde</item>
+        <item>Oerlinghausen</item>
+        <item>Oldentrup</item>
+        <item>Ottbergen</item>
+        <item>Paderborn Hbf</item>
+        <item>Paderborn Kasseler Tor</item>
+        <item>Paderborn Nord</item>
+        <item>Paderborn-Schloß-Neuhaus</item>
+        <item>Petershagen-Lahde</item>
+        <item>Porta Westfalica</item>
+        <item>Quelle</item>
+        <item>Quelle Kupferheide</item>
+        <item>Rahden (Kr Lübbecke)</item>
+        <item>Rheda-Wiedenbrück</item>
+        <item>Salzkotten</item>
+        <item>Sandebeck</item>
+        <item>Scharmede</item>
+        <item>Schieder</item>
+        <item>Schloß Holte</item>
+        <item>Schötmar</item>
+        <item>Sennelager</item>
+        <item>Sennestadt</item>
+        <item>Steinhagen (Westf)</item>
+        <item>Steinhagen (Westf) Bielefelder Straße</item>
+        <item>Steinheim (Westf)</item>
+        <item>Sylbach</item>
+        <item>Ubbedissen</item>
+        <item>Vlotho</item>
+        <item>Wehrden (Weser)</item>
+        <item>Westbarthausen</item>
+        <item>Willebadessen</item>
+        <item>Windelsbleiche</item>
+        <item>Ahlen (Westf)</item>
+        <item>Ardey</item>
+        <item>Bad Sassendorf</item>
+        <item>Bockum-Hövel</item>
+        <item>Bönen</item>
+        <item>Borgeln</item>
+        <item>Bork (Westf)</item>
+        <item>Dedinghausen</item>
+        <item>Dortmund Hbf</item>
+        <item>Dortmund Signal-Iduna-Park</item>
+        <item>Dortmund-Aplerbeck</item>
+        <item>Dortmund-Aplerbeck Süd</item>
+        <item>Dortmund-Asseln Mitte</item>
+        <item>Dortmund-Barop</item>
+        <item>Dortmund-Bövinghausen</item>
+        <item>Dortmund-Brackel</item>
+        <item>Dortmund-Derne</item>
+        <item>Dortmund-Dorstfeld</item>
+        <item>Dortmund-Dorstfeld Süd</item>
+        <item>Dortmund-Germania</item>
+        <item>Dortmund-Hörde</item>
+        <item>Dortmund-Huckarde</item>
+        <item>Dortmund-Huckarde Nord</item>
+        <item>Dortmund-Kirchderne</item>
+        <item>Dortmund-Kirchhörde</item>
+        <item>Dortmund-Kley</item>
+        <item>Dortmund-Knappschaftskrankenhaus</item>
+        <item>Dortmund-Körne</item>
+        <item>Dortmund-Körne West</item>
+        <item>Dortmund-Kruckel</item>
+        <item>Dortmund-Kurl</item>
+        <item>Dortmund-Löttringhausen</item>
+        <item>Dortmund-Lütgendortmund</item>
+        <item>Dortmund-Lütgendortmund Nord</item>
+        <item>Dortmund-Marten</item>
+        <item>Dortmund-Marten Süd</item>
+        <item>Dortmund-Mengede</item>
+        <item>Dortmund-Möllerbrücke</item>
+        <item>Dortmund-Nette/Oestrich</item>
+        <item>Dortmund-Oespel</item>
+        <item>Dortmund-Rahm</item>
+        <item>Dortmund-Scharnhorst</item>
+        <item>Dortmund-Sölde</item>
+        <item>Dortmund-Somborn</item>
+        <item>Dortmund-Stadthaus</item>
+        <item>Dortmund-Tierpark</item>
+        <item>Dortmund-Universität</item>
+        <item>Dortmund-West</item>
+        <item>Dortmund-Westerfilde</item>
+        <item>Dortmund-Wickede</item>
+        <item>Dortmund-Wickede West</item>
+        <item>Dortmund-Wischlingen</item>
+        <item>Ehringhausen (Kr Lippstadt)</item>
+        <item>Ergste</item>
+        <item>Frömern</item>
+        <item>Fröndenberg</item>
+        <item>Geseke</item>
+        <item>Hamm (Westf)</item>
+        <item>Heessen</item>
+        <item>Hemmerde</item>
+        <item>Holzwickede</item>
+        <item>Kamen</item>
+        <item>Kamen-Methler</item>
+        <item>Lippstadt</item>
+        <item>Lünen Hbf</item>
+        <item>Lünern</item>
+        <item>Massen</item>
+        <item>Nordbögge</item>
+        <item>Preußen</item>
+        <item>Schwerte (Ruhr)</item>
+        <item>Selm (Kr Lüdinghausen)</item>
+        <item>Selm-Beifang</item>
+        <item>Soest</item>
+        <item>Unna</item>
+        <item>Unna-Königsborn</item>
+        <item>Unna-West</item>
+        <item>Welver</item>
+        <item>Werl</item>
+        <item>Werne (a d Lippe)</item>
+        <item>Westönnen</item>
+        <item>Aldekerk</item>
+        <item>Alpen</item>
+        <item>Anrath</item>
+        <item>Bedburg-Hau</item>
+        <item>Blumenkamp</item>
+        <item>Bocholt</item>
+        <item>Bottrop Hbf</item>
+        <item>Bottrop-Boy</item>
+        <item>Bottrop-Vonderort</item>
+        <item>Dingden</item>
+        <item>Dinslaken</item>
+        <item>Duisburg Hbf</item>
+        <item>Duisburg Schlenk</item>
+        <item>Duisburg-Bissingheim</item>
+        <item>Duisburg-Buchholz</item>
+        <item>Duisburg-Entenfang</item>
+        <item>Duisburg-Großenbaum</item>
+        <item>Duisburg-Hochfeld Süd</item>
+        <item>Duisburg-Meiderich Ost</item>
+        <item>Duisburg-Meiderich Süd</item>
+        <item>Duisburg-Obermeiderich</item>
+        <item>Duisburg-Rahm</item>
+        <item>Duisburg-Ruhrort</item>
+        <item>Duisburg-Wedau</item>
+        <item>Emmerich</item>
+        <item>Empel-Rees</item>
+        <item>Feldhausen</item>
+        <item>Forsthaus</item>
+        <item>Friedrichsfeld (Niederrhein)</item>
+        <item>Geldern</item>
+        <item>Goch</item>
+        <item>Haldern (Rheinl)</item>
+        <item>Hamminkeln</item>
+        <item>Kempen (Niederrhein)</item>
+        <item>Kevelaer</item>
+        <item>Kleve</item>
+        <item>Krefeld Hbf</item>
+        <item>Krefeld-Hohenbudberg Chempark</item>
+        <item>Krefeld-Linn</item>
+        <item>Krefeld-Oppum</item>
+        <item>Krefeld-Uerdingen</item>
+        <item>Meerbusch-Osterath</item>
+        <item>Mehrhoog</item>
+        <item>Millingen</item>
+        <item>Millingen (Kr Rees)</item>
+        <item>Moers</item>
+        <item>Mülheim (Ruhr) Hbf</item>
+        <item>Mülheim (Ruhr) West</item>
+        <item>Mülheim (Ruhr)-Styrum</item>
+        <item>Nieukerk</item>
+        <item>Oberhausen Hbf</item>
+        <item>Oberhausen-Holten</item>
+        <item>Oberhausen-Osterfeld Süd</item>
+        <item>Oberhausen-Sterkrade</item>
+        <item>Praest</item>
+        <item>Rheinberg (Rheinl)</item>
+        <item>Rheinhausen</item>
+        <item>Rheinhausen Ost</item>
+        <item>Rumeln</item>
+        <item>Trompet</item>
+        <item>Voerde (Niederrhein)</item>
+        <item>Weeze</item>
+        <item>Wesel</item>
+        <item>Wesel-Feldmark</item>
+        <item>Xanten</item>
+        <item>Aachen Hbf</item>
+        <item>Aachen Schanz</item>
+        <item>Aachen West</item>
+        <item>Aachen-Rothe Erde</item>
+        <item>Angermund</item>
+        <item>Arsbeck</item>
+        <item>Bedburg (Erft)</item>
+        <item>Bergheim (Erft)</item>
+        <item>Boisheim</item>
+        <item>Brachelen</item>
+        <item>Buir</item>
+        <item>Büttgen</item>
+        <item>Dalheim</item>
+        <item>Dormagen</item>
+        <item>Düren</item>
+        <item>Düsseldorf Flughafen</item>
+        <item>Düsseldorf Hbf</item>
+        <item>Düsseldorf Völklinger Straße</item>
+        <item>Düsseldorf Volksgarten</item>
+        <item>Düsseldorf Wehrhahn</item>
+        <item>Düsseldorf Zoo</item>
+        <item>Düsseldorf-Benrath</item>
+        <item>Düsseldorf-Bilk</item>
+        <item>Düsseldorf-Derendorf</item>
+        <item>Düsseldorf-Eller</item>
+        <item>Düsseldorf-Eller Mitte</item>
+        <item>Düsseldorf-Eller Süd</item>
+        <item>Düsseldorf-Flingern</item>
+        <item>Düsseldorf-Friedrichstadt</item>
+        <item>Düsseldorf-Garath</item>
+        <item>Düsseldorf-Gerresheim</item>
+        <item>Düsseldorf-Hamm</item>
+        <item>Düsseldorf-Hellerhof</item>
+        <item>Düsseldorf-Oberbilk</item>
+        <item>Düsseldorf-Rath</item>
+        <item>Düsseldorf-Rath Mitte</item>
+        <item>Düsseldorf-Reisholz</item>
+        <item>Düsseldorf-Unterrath</item>
+        <item>Eilendorf</item>
+        <item>Erkelenz</item>
+        <item>Erkrath</item>
+        <item>Eschweiler Hbf</item>
+        <item>Frimmersdorf</item>
+        <item>Geilenkirchen</item>
+        <item>Gevelsberg Hbf</item>
+        <item>Gevelsberg West</item>
+        <item>Gevelsberg-Kipp</item>
+        <item>Gevelsberg-Knapp</item>
+        <item>Glesch</item>
+        <item>Grevenbroich</item>
+        <item>Gustorf</item>
+        <item>Haan</item>
+        <item>Haan-Gruiten</item>
+        <item>Herrath</item>
+        <item>Herzogenrath</item>
+        <item>Hilden</item>
+        <item>Hilden Süd</item>
+        <item>Hochdahl</item>
+        <item>Hochdahl-Millrath</item>
+        <item>Hochneukirch</item>
+        <item>Holzheim (b Neuss)</item>
+        <item>Horrem</item>
+        <item>Hösel</item>
+        <item>Hückelhoven-Baal</item>
+        <item>Jüchen</item>
+        <item>Kaldenkirchen</item>
+        <item>Kapellen-Wevelinghoven</item>
+        <item>Kleinenbroich</item>
+        <item>Kohlscheid</item>
+        <item>Korschenbroich</item>
+        <item>Langenfeld (Rheinl)</item>
+        <item>Langenfeld (Rheinl)-Berghausen</item>
+        <item>Langerwehe</item>
+        <item>Lindern</item>
+        <item>Merzenich</item>
+        <item>Mönchengladbach Hbf</item>
+        <item>Mönchengladbach-Genhausen</item>
+        <item>Mönchengladbach-Lürrip</item>
+        <item>Mönchengladbach-Rheindahlen</item>
+        <item>Nettetal-Breyell</item>
+        <item>Neuss Allerheiligen</item>
+        <item>Neuss Am Kaiser</item>
+        <item>Neuss Hbf</item>
+        <item>Neuss Rheinpark-Center</item>
+        <item>Neuss Süd</item>
+        <item>Nievenheim</item>
+        <item>Norf</item>
+        <item>Paffendorf</item>
+        <item>Quadrath-Ichendorf</item>
+        <item>Ratingen Ost</item>
+        <item>Remscheid Hbf</item>
+        <item>Remscheid-Güldenwerth</item>
+        <item>Remscheid-Lennep</item>
+        <item>Remscheid-Lüttringhausen</item>
+        <item>Rheydt Hbf</item>
+        <item>Rheydt-Odenkirchen</item>
+        <item>Schwelm</item>
+        <item>Schwelm West</item>
+        <item>Sindorf</item>
+        <item>Solingen Hbf</item>
+        <item>Solingen Vogelpark</item>
+        <item>Solingen-Grünewald</item>
+        <item>Solingen-Mitte</item>
+        <item>Solingen-Schaberg</item>
+        <item>Stolberg (Rheinl) Hbf</item>
+        <item>Übach-Palenberg</item>
+        <item>Velbert-Langenberg</item>
+        <item>Velbert-Neviges</item>
+        <item>Velbert-Nierenhof</item>
+        <item>Velbert-Rosenhügel</item>
+        <item>Viersen</item>
+        <item>Viersen-Dülken</item>
+        <item>Wegberg</item>
+        <item>Wickrath</item>
+        <item>Wülfrath-Aprath</item>
+        <item>Wuppertal Hbf</item>
+        <item>Wuppertal Zoologischer Garten</item>
+        <item>Wuppertal-Barmen</item>
+        <item>Wuppertal-Langerfeld</item>
+        <item>Wuppertal-Oberbarmen</item>
+        <item>Wuppertal-Ronsdorf</item>
+        <item>Wuppertal-Sonnborn</item>
+        <item>Wuppertal-Steinbeck</item>
+        <item>Wuppertal-Unterbarmen</item>
+        <item>Wuppertal-Vohwinkel</item>
+        <item>Zieverich</item>
+        <item>Bochum Hbf</item>
+        <item>Bochum West</item>
+        <item>Bochum-Dahlhausen</item>
+        <item>Bochum-Ehrenfeld</item>
+        <item>Bochum-Hamme</item>
+        <item>Bochum-Langendreer</item>
+        <item>Bochum-Langendreer West</item>
+        <item>Bochum-Riemke</item>
+        <item>Castrop-Rauxel Hbf</item>
+        <item>Castrop-Rauxel Süd</item>
+        <item>Castrop-Rauxel-Merklinde</item>
+        <item>Essen Hbf</item>
+        <item>Essen Stadtwald</item>
+        <item>Essen Süd</item>
+        <item>Essen West</item>
+        <item>Essen-Altenessen</item>
+        <item>Essen-Bergeborbeck</item>
+        <item>Essen-Borbeck</item>
+        <item>Essen-Borbeck Süd</item>
+        <item>Essen-Dellwig</item>
+        <item>Essen-Dellwig Ost</item>
+        <item>Essen-Eiberg</item>
+        <item>Essen-Frohnhausen</item>
+        <item>Essen-Gerschede</item>
+        <item>Essen-Holthausen</item>
+        <item>Essen-Horst</item>
+        <item>Essen-Hügel</item>
+        <item>Essen-Kray Nord</item>
+        <item>Essen-Kray Süd</item>
+        <item>Essen-Kupferdreh</item>
+        <item>Essen-Steele</item>
+        <item>Essen-Steele Ost</item>
+        <item>Essen-Überruhr</item>
+        <item>Essen-Werden</item>
+        <item>Essen-Zollverein Nord</item>
+        <item>Gelsenkirchen Hbf</item>
+        <item>Gelsenkirchen Zoo</item>
+        <item>Gelsenkirchen-Buer Nord</item>
+        <item>Gelsenkirchen-Buer Süd</item>
+        <item>Gelsenkirchen-Hassel</item>
+        <item>Gelsenkirchen-Rotthausen</item>
+        <item>Gladbeck Ost</item>
+        <item>Gladbeck West</item>
+        <item>Gladbeck-Zweckel</item>
+        <item>Hattingen (Ruhr)</item>
+        <item>Hattingen (Ruhr) Mitte</item>
+        <item>Herne</item>
+        <item>Herne-Börnig</item>
+        <item>Kettwig</item>
+        <item>Kettwig Stausee</item>
+        <item>Wanne-Eickel Hbf</item>
+        <item>Wattenscheid</item>
+        <item>Wattenscheid-Höntrop</item>
+        <item>Witten Hbf</item>
+        <item>Witten-Annen Nord</item>
+        <item>Altena (Westf)</item>
+        <item>Altenseelbach</item>
+        <item>Arnsberg (Westf)</item>
+        <item>Attendorn</item>
+        <item>Attendorn Hohen-Hagen</item>
+        <item>Aue-Wingeshausen</item>
+        <item>Bad Berleburg</item>
+        <item>Balve</item>
+        <item>Berghausen</item>
+        <item>Beringhausen</item>
+        <item>Bestwig</item>
+        <item>Bigge</item>
+        <item>Binolen</item>
+        <item>Birkelbach</item>
+        <item>Bösperde</item>
+        <item>Bredelar</item>
+        <item>Brilon Stadt</item>
+        <item>Brilon Wald</item>
+        <item>Burbach (Kr Siegen)</item>
+        <item>Dahl</item>
+        <item>Dahlbruch</item>
+        <item>Dahlerbrück</item>
+        <item>Eichen (Kr Siegen)</item>
+        <item>Eichhagen</item>
+        <item>Eiserfeld (Sieg)</item>
+        <item>Ennepetal</item>
+        <item>Erndtebrück</item>
+        <item>Ferndorf (Kr Siegen)</item>
+        <item>Finnentrop</item>
+        <item>Freienohl</item>
+        <item>Garbeck</item>
+        <item>Hagen Hbf</item>
+        <item>Hagen-Heubing</item>
+        <item>Hagen-Oberhagen</item>
+        <item>Hagen-Vorhalle</item>
+        <item>Hagen-Wehringhausen</item>
+        <item>Hagen-Westerbauer</item>
+        <item>Heggen</item>
+        <item>Hennen</item>
+        <item>Herdecke</item>
+        <item>Hilchenbach</item>
+        <item>Hillnhütten</item>
+        <item>Hohenlimburg</item>
+        <item>Holzhausen (Kr Siegen)</item>
+        <item>Hoppecke</item>
+        <item>Iserlohn</item>
+        <item>Iserlohnerheide</item>
+        <item>Kalthof (Kr Iserlohn)</item>
+        <item>Kirchhundem</item>
+        <item>Kraghammer</item>
+        <item>Kredenbach</item>
+        <item>Kreuztal</item>
+        <item>Kreuztal-Littfeld</item>
+        <item>Küntrop</item>
+        <item>Lendringsen</item>
+        <item>Lennestadt-Altenhundem</item>
+        <item>Lennestadt-Grevenbrück</item>
+        <item>Lennestadt-Meggen</item>
+        <item>Letmathe</item>
+        <item>Letmathe-Dechenhöhle</item>
+        <item>Listerscheid</item>
+        <item>Lüdenscheid</item>
+        <item>Lüdenscheid-Brügge (Westf)</item>
+        <item>Lützel</item>
+        <item>Marsberg</item>
+        <item>Meinerzhagen</item>
+        <item>Menden (Sauerland)</item>
+        <item>Menden (Sauerland) Süd</item>
+        <item>Meschede</item>
+        <item>Messinghausen</item>
+        <item>Neheim-Hüsten</item>
+        <item>Neuenrade</item>
+        <item>Neunkirchen (Kr Siegen)</item>
+        <item>Niederdresselndorf</item>
+        <item>Niederschelden Nord Hp</item>
+        <item>Oeventrop</item>
+        <item>Olpe</item>
+        <item>Olsberg</item>
+        <item>Plettenberg</item>
+        <item>Raumland-Markhausen</item>
+        <item>Rudersdorf (Kr Siegen)</item>
+        <item>Rummenohl</item>
+        <item>Sanssouci</item>
+        <item>Schalksmühle</item>
+        <item>Scherfede</item>
+        <item>Siedlinghausen</item>
+        <item>Siegen Hbf</item>
+        <item>Siegen-Geisweid</item>
+        <item>Siegen-Weidenau</item>
+        <item>Silbach</item>
+        <item>Sondern</item>
+        <item>Stift Keppel-Allenbach</item>
+        <item>Struthütten</item>
+        <item>Volkringhausen</item>
+        <item>Vormwald</item>
+        <item>Vormwald Dorf</item>
+        <item>Wahlbach (Kr Siegen)</item>
+        <item>Warburg (Westf)</item>
+        <item>Welschen Ennest</item>
+        <item>Werdohl</item>
+        <item>Westheim (Westf)</item>
+        <item>Wetter (Ruhr)</item>
+        <item>Wickede (Ruhr)</item>
+        <item>Winterberg (Westf)</item>
+        <item>Wittbräucke</item>
+        <item>Würgendorf</item>
+        <item>Würgendorf Ort</item>
+        <item>Alfter-Impekoven</item>
+        <item>Alfter-Witterschlick</item>
+        <item>Au (Sieg)</item>
+        <item>Bad Honnef (Rhein)</item>
+        <item>Bad Münstereifel</item>
+        <item>Bad Münstereifel Arloff</item>
+        <item>Bad Münstereifel-Iversheim</item>
+        <item>Bergisch Gladbach</item>
+        <item>Blankenberg (Sieg)</item>
+        <item>Blankenheim (Wald)</item>
+        <item>Bonn Hbf</item>
+        <item>Bonn Helmholtzstraße</item>
+        <item>Bonn UN Campus</item>
+        <item>Bonn-Bad Godesberg</item>
+        <item>Bonn-Beuel</item>
+        <item>Bonn-Duisdorf</item>
+        <item>Bonn-Endenich Nord</item>
+        <item>Bonn-Mehlem</item>
+        <item>Bonn-Oberkassel</item>
+        <item>Bornheim-Sechtem</item>
+        <item>Brühl</item>
+        <item>Dahlem (Eifel)</item>
+        <item>Dattenfeld (Sieg)</item>
+        <item>Dieringhausen</item>
+        <item>Dormagen Chempark</item>
+        <item>Duckterath</item>
+        <item>Eitorf</item>
+        <item>Engelskirchen</item>
+        <item>Erftstadt</item>
+        <item>Euskirchen</item>
+        <item>Euskirchen Zuckerfabrik</item>
+        <item>Euskirchen-Kreuzweingarten</item>
+        <item>Euskirchen-Kuchenheim</item>
+        <item>Euskirchen-Stotzheim</item>
+        <item>Frechen-Königsdorf</item>
+        <item>Friedrich Wilhelmshütte</item>
+        <item>Großbüllesheim</item>
+        <item>Gummersbach</item>
+        <item>Hennef Im Siegbogen</item>
+        <item>Hennef (Sieg)</item>
+        <item>Herchen</item>
+        <item>Hoffnungsthal</item>
+        <item>Honrath</item>
+        <item>Hürth-Kalscheuren</item>
+        <item>Kall</item>
+        <item>Kierberg</item>
+        <item>Köln Airport-Businesspark</item>
+        <item>Köln Frankfurter Straße</item>
+        <item>Köln Geldernstr/Parkgürtel</item>
+        <item>Köln Hansaring</item>
+        <item>Köln Hbf</item>
+        <item>Köln Messe/Deutz</item>
+        <item>Köln Steinstraße</item>
+        <item>Köln Süd</item>
+        <item>Köln Trimbornstrasse</item>
+        <item>Köln Volkhovener Weg</item>
+        <item>Köln West</item>
+        <item>Köln-Blumenberg</item>
+        <item>Köln/Bonn Flughafen</item>
+        <item>Köln-Buchforst</item>
+        <item>Köln-Chorweiler</item>
+        <item>Köln-Chorweiler Nord</item>
+        <item>Köln-Dellbrück</item>
+        <item>Köln-Ehrenfeld</item>
+        <item>Köln-Holweide</item>
+        <item>Köln-Longerich</item>
+        <item>Köln-Mülheim</item>
+        <item>Köln-Müngersdorf Technologiepark</item>
+        <item>Köln-Nippes</item>
+        <item>Köln-Stammheim</item>
+        <item>Köln-Weiden West</item>
+        <item>Köln-Worringen</item>
+        <item>Königswinter</item>
+        <item>Leichlingen</item>
+        <item>Leverkusen Chempark</item>
+        <item>Leverkusen Mitte</item>
+        <item>Leverkusen-Küppersteg</item>
+        <item>Leverkusen-Rheindorf</item>
+        <item>Leverkusen-Schlebusch</item>
+        <item>Lövenich</item>
+        <item>Marienheide</item>
+        <item>Mechernich</item>
+        <item>Meckenheim</item>
+        <item>Meckenheim Industriepark</item>
+        <item>Meckenheim Kottenforst</item>
+        <item>Menden (Rheinl)</item>
+        <item>Merten (Sieg)</item>
+        <item>Nettersheim</item>
+        <item>Niederdollendorf</item>
+        <item>Opladen</item>
+        <item>Overath</item>
+        <item>Porz (Rhein)</item>
+        <item>Porz-Wahn</item>
+        <item>Pulheim</item>
+        <item>Rheinbach</item>
+        <item>Rheinbach Römerkanal</item>
+        <item>Rhöndorf</item>
+        <item>Roisdorf</item>
+        <item>Rommerskirchen</item>
+        <item>Rosbach (Sieg)</item>
+        <item>Rösrath</item>
+        <item>Rösrath-Stümpen</item>
+        <item>Ründeroth</item>
+        <item>Satzvey</item>
+        <item>Scheven</item>
+        <item>Schladern (Sieg)</item>
+        <item>Schmidtheim</item>
+        <item>Siegburg/Bonn</item>
+        <item>Spich</item>
+        <item>Stommeln</item>
+        <item>Swisttal-Odendorf</item>
+        <item>Troisdorf</item>
+        <item>Urft</item>
+        <item>Weilerswist</item>
+        <item>Weilerswist-Derkum</item>
+        <item>Ahaus</item>
+        <item>Altenberge</item>
+        <item>Ascheberg (Westf)</item>
+        <item>Beelen</item>
+        <item>Billerbeck</item>
+        <item>Borken (Westf)</item>
+        <item>Bösensell</item>
+        <item>Buldern</item>
+        <item>Capelle (Westf)</item>
+        <item>Coesfeld Schulzentrum</item>
+        <item>Coesfeld (Westf)</item>
+        <item>Davensberg</item>
+        <item>Deuten</item>
+        <item>Dorsten</item>
+        <item>Drensteinfurt</item>
+        <item>Dülmen</item>
+        <item>Emsdetten</item>
+        <item>Epe (Westf)</item>
+        <item>Greven</item>
+        <item>Gronau (Westf)</item>
+        <item>Haltern am See</item>
+        <item>Havixbeck</item>
+        <item>Hervest-Dorsten</item>
+        <item>Hörstel</item>
+        <item>Ibbenbüren</item>
+        <item>Ibbenbüren-Esch</item>
+        <item>Ibbenbüren-Laggenbeck</item>
+        <item>Kattenvenne</item>
+        <item>Legden</item>
+        <item>Lembeck</item>
+        <item>Lengerich (Westf)</item>
+        <item>Lette (Kr Coesfeld)</item>
+        <item>Lüdinghausen</item>
+        <item>Lutum</item>
+        <item>Marbeck-Heiden</item>
+        <item>Maria-Veen</item>
+        <item>Marl Mitte</item>
+        <item>Marl-Hamm</item>
+        <item>Marl-Sinsen</item>
+        <item>Mersch (Westf)</item>
+        <item>Metelen Land</item>
+        <item>Münster (Westf) Hbf</item>
+        <item>Münster Zentrum Nord</item>
+        <item>Münster-Albachten</item>
+        <item>Münster-Amelsbüren</item>
+        <item>Münster-Häger</item>
+        <item>Münster-Hiltrup</item>
+        <item>Münster-Mecklenbeck</item>
+        <item>Münster-Roxel</item>
+        <item>Münster-Sprakel</item>
+        <item>Nordwalde</item>
+        <item>Nottuln-Appelhülsen</item>
+        <item>Ochtrup</item>
+        <item>Ostbevern</item>
+        <item>Reckenfeld</item>
+        <item>Recklinghausen Hbf</item>
+        <item>Recklinghausen Süd</item>
+        <item>Reken</item>
+        <item>Rhade</item>
+        <item>Rheine</item>
+        <item>Rheine-Mesum</item>
+        <item>Rinkerode</item>
+        <item>Rosendahl-Holtwick</item>
+        <item>Steinfurt-Borghorst</item>
+        <item>Steinfurt-Burgsteinfurt</item>
+        <item>Steinfurt-Grottenkamp</item>
+        <item>Sythen</item>
+        <item>Telgte</item>
+        <item>Warendorf</item>
+        <item>Warendorf-Einen-Müssingen</item>
+        <item>Westbevern</item>
+        <item>Wulfen (Westf)</item>
+    </string-array>
+</resources>

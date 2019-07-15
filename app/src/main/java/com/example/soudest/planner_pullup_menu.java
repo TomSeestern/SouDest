@@ -6,6 +6,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +19,7 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Date;
 import java.text.SimpleDateFormat;
@@ -48,7 +50,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
     private DatePickerDialog datePickerDialog;
     private TimePickerDialog timePickerDialog;
 
-    private String[] vorschlage = {"Apple", "Appy", "Banana", "Cherry", "Date", "Grape", "Kiwi", "Mango", "Pear", "Weingarten","Weingarten Berg 'Weingarten'","Weingarten (Baden)","Weingarten Charlottenplatz", "Basilika St. Martin 'Weingarten'"};
+    private String[] vorschlage; //= {"Apple", "Appy", "Banana", "Cherry", "Date", "Grape", "Kiwi", "Mango", "Pear", "Weingarten","Weingarten Berg 'Weingarten'","Weingarten (Baden)","Weingarten Charlottenplatz", "Basilika St. Martin 'Weingarten'"};
     private AppCompatAutoCompleteTextView p1autotext,p2autotext;
 
 
@@ -75,7 +77,9 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+        vorschlage = getResources().getStringArray(R.array.autocomplete_array);
     }
 
     @Override
@@ -137,7 +141,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         timeText.setText(new SimpleDateFormat("HH:mm").format(new Date()));
         timeText.setOnClickListener(this);
 
-        Calendar calendar = Calendar.getInstance();
+        final Calendar calendar = Calendar.getInstance();
         year = calendar.get(Calendar.YEAR);
         month = calendar.get(Calendar.MONTH);
         day = calendar.get(Calendar.DAY_OF_MONTH);
@@ -146,7 +150,8 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
                 new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker datePicker, int year, int month, int day) {
-                        dateText.setText("Datum: " + day + "." + month + "." + year);
+                        calendar.set(year,month,day);
+                        dateText.setText(new SimpleDateFormat("EEE, MMM d").format(calendar.getTime()));
                     }
                 }, year, month, day );
 
@@ -155,7 +160,8 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         timePickerDialog = new TimePickerDialog(this.getContext(), new TimePickerDialog.OnTimeSetListener() {
             @Override
             public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMinute) {
-                timeText.setText( "Zeit:"+ selectedHour + ":" + selectedMinute);
+                calendar.set(year,month,day,selectedHour,selectedMinute);
+                timeText.setText(new SimpleDateFormat("HH:mm").format(calendar.getTime()));
             }
         }, calendar.get(Calendar.HOUR_OF_DAY), calendar.get(Calendar.MINUTE),true);
 
