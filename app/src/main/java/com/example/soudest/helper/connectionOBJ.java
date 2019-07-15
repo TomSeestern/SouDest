@@ -1,6 +1,6 @@
 package com.example.soudest.helper;
 
-public class connectionOBJ {
+public class connectionOBJ implements Cloneable{
     public String ConnID;
     public String TransportType;
     public String Description;
@@ -25,5 +25,10 @@ public class connectionOBJ {
         this.StartEastCord = startEastCord;
         this.EndNorthCord = endNorthCord;
         this.EndEastCord = endEastCord;
+    }
+
+    public Object clone() throws CloneNotSupportedException {
+        connectionOBJ mClone = (connectionOBJ)super.clone();
+        return mClone;
     }
 }

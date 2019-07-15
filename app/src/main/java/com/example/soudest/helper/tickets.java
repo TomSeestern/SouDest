@@ -32,6 +32,7 @@ public class tickets {
 
             for (int i=0; i < TicketArray.length(); i++) {
                 SingleTicket = TicketArray.getJSONObject(i);
+                ConnList = new ArrayList<connectionOBJ>();
 
                 ConnectionArray=SingleTicket.getJSONArray("Connections");
                 for (int x=0;x <ConnectionArray.length();x++){
@@ -40,11 +41,9 @@ public class tickets {
                     ConnList.add(SingleConnObj);
                 }
 
-
                 SingleTicketObj=new ticketOBJ(SingleTicket.getString("TicketID"),SingleTicket.getDouble("TotalTime"),SingleTicket.getDouble("StartTime"),SingleTicket.getDouble("EndTime"),SingleTicket.getDouble("Transfers"),SingleTicket.getDouble("TotalPrice"),ConnList);
                 reti.add(SingleTicketObj);
 
-                ConnList.clear();
             }
 
         } catch (Throwable tx) {
@@ -54,6 +53,7 @@ public class tickets {
 
 
 
+        Log.e("Schit", "TEST: "+ reti.get(0).connections.size() );
         return reti;
     }
 
