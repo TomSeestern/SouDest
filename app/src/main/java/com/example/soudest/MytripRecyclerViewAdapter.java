@@ -5,10 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.content.Intent;
+import android.widget.Toast;
 
 import com.example.soudest.planner_pullup_trippicker.OnListFragmentInteractionListener;
 import java.util.List;
 import com.example.soudest.helper.trip;
+import com.example.soudest.activiy_TripDetailView;
 
 /**
  * {@link RecyclerView.Adapter} that can display a {@link trip} and makes a call to the
@@ -50,6 +53,10 @@ public class MytripRecyclerViewAdapter extends RecyclerView.Adapter<MytripRecycl
                     // fragment is attached to one) that an item has been selected.
                     mListener.onListFragmentInteraction(holder.mItem);
                 }
+
+                Intent myIntent = new Intent(v.getContext(),   activiy_TripDetailView.class);
+                myIntent.putExtra("trip", holder.mItem);
+                v.getContext().startActivity(myIntent);
             }
         });
     }

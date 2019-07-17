@@ -2,9 +2,10 @@ package com.example.soudest.helper;
 
 import org.json.JSONObject;
 import android.util.Log;
+import java.io.Serializable;
 
-public final class trip {
-    //private trip(){       throw new IllegalStateException("No instances allowed!");    }
+public final class trip implements Serializable{
+
     public final String id;
     public final String content;
     public final String details;
