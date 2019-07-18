@@ -49,7 +49,7 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
         holder.mTotalTime.setText((mValues.get(position).TotalTime.intValue()/60)/60+"h "+(((mValues.get(position).TotalTime.intValue()/60)%60)+1)+"min");
-        holder.mTotalPrice.setText(mValues.get(position).TotalPrice.toString()+"€");
+        holder.mTotalPrice.setText(String.format("%.2f",mValues.get(position).TotalPrice)+" €");
 
         holder.mStartTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).StartTime.longValue()*1000)).toString());
         holder.mEndTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).EndTime.longValue()*1000)).toString());
@@ -64,10 +64,10 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
 
             TextView txt1 = new TextView(holder.mView.getContext());
             txt1.setText(conni.Description);
+            txt1.setTextSize(16);
             txt1.setGravity(Gravity.LEFT);
 
-            txt1.setPadding(13,13,13,13);
-
+            txt1.setPadding(16,16,16,16);
             txt1.setClipToOutline(true);
 
             txt1.setTextColor(holder.mView.getContext().getResources().getColor(R.color.colorPrimary));
