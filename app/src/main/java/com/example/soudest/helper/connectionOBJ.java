@@ -10,10 +10,12 @@ public class connectionOBJ implements Cloneable{
     public Double EndTime;
     public Double StartNorthCord;
     public Double StartEastCord;
+    public String StartLocName;
     public Double EndNorthCord;
     public Double EndEastCord;
+    public String EndLocName;
 
-    public connectionOBJ(String connID, String transportType, String description, Double totalTime, Double price, Double startTime, Double endTime, Double startNorthCord, Double startEastCord, Double endNorthCord, Double endEastCord) {
+    public connectionOBJ(String connID, String transportType, String description, Double totalTime, Double price, Double startTime, Double endTime, Double startNorthCord, Double startEastCord,String mStartLocName, Double endNorthCord, Double endEastCord, String mEndLocName) {
         this.ConnID = ConnID;
         this.TransportType = transportType;
         this.Description = description;
@@ -25,6 +27,8 @@ public class connectionOBJ implements Cloneable{
         this.StartEastCord = startEastCord;
         this.EndNorthCord = endNorthCord;
         this.EndEastCord = endEastCord;
+        this.StartLocName = mStartLocName;
+        this.EndLocName = mEndLocName;
     }
 
     public Object clone() throws CloneNotSupportedException {

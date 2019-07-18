@@ -53,8 +53,8 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
 
         holder.mStartTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).StartTime.longValue()*1000)).toString());
         holder.mEndTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).EndTime.longValue()*1000)).toString());
-        holder.mStartLoc.setText((mValues.get(position).connections.get(0).StartNorthCord.toString()+"-"+mValues.get(position).connections.get(0).StartEastCord.toString()));
-        holder.mEndLoc.setText((mValues.get(position).connections.get(mValues.get(position).connections.size()-1).EndNorthCord.toString()+"-"+mValues.get(position).connections.get(mValues.get(position).connections.size()-1).EndEastCord.toString()));
+        holder.mStartLoc.setText((mValues.get(position).connections.get(0).StartLocName.toString()));
+        holder.mEndLoc.setText((mValues.get(position).connections.get(0).EndLocName.toString()));
 
 
         //holder.mTicketId.setText(new SimpleDateFormat("dd MMM").format(new Date(Math.round(mValues.get(position).StartTime))));
