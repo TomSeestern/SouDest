@@ -45,14 +45,22 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
+        holder.mTotalTime.setText((mValues.get(position).TotalTime.intValue()/60)/60+"h "+(((mValues.get(position).TotalTime.intValue()/60)%60)+1)+"min");
+        holder.mTotalPrice.setText(mValues.get(position).TotalPrice.toString()+"€");
 
-        holder.mTicketId.setText(new SimpleDateFormat("dd MMM").format(new Date(Math.round(mValues.get(position).StartTime))));
+        holder.mStartTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).StartTime.longValue()*1000)).toString());
+        holder.mEndTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).EndTime.longValue()*1000)).toString());
+        holder.mStartLoc.setText((mValues.get(position).connections.get(0).StartNorthCord.toString()+"-"+mValues.get(position).connections.get(0).StartEastCord.toString()));
+        holder.mEndLoc.setText((mValues.get(position).connections.get(mValues.get(position).connections.size()-1).EndNorthCord.toString()+"-"+mValues.get(position).connections.get(mValues.get(position).connections.size()-1).EndEastCord.toString()));
+
+
+        //holder.mTicketId.setText(new SimpleDateFormat("dd MMM").format(new Date(Math.round(mValues.get(position).StartTime))));
 
 
         for (connectionOBJ conni: mValues.get(position).connections) {
 
             TextView txt1 = new TextView(holder.mView.getContext());
-            txt1.setText(conni.Description);
+            //txt1.setText(conni.Description);
             txt1.setGravity(Gravity.LEFT);
             holder.mLinearLayout.addView(txt1);
 
@@ -97,24 +105,38 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final View mView;
-        public final TextView mTicketId;
+        //public final TextView mTicketId;
         public ticketOBJ mItem;
+
         public LinearLayout mLinearLayout;
+        public TextView mTotalTime;
+        public TextView mTotalPrice;
+        public TextView mStartTime;
+        public TextView mEndTime;
+        public TextView mStartLoc;
+        public TextView mEndLoc;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
 
-            mTicketId = (TextView) view.findViewById(R.id.traveldate);
+            //mTicketId = (TextView) view.findViewById(R.id.traveldate);
             mLinearLayout = (LinearLayout) mView.findViewById(R.id.stations);
+            mTotalTime = (TextView) view.findViewById(R.id.totalTime);
+            mTotalPrice = (TextView) view.findViewById(R.id.TotalPrice);
+            mStartTime = (TextView) view.findViewById(R.id.starttime);
+            mEndTime = (TextView) view.findViewById(R.id.arivalTime);
+            mStartLoc= (TextView) view.findViewById(R.id.startLocation2);
+            mEndLoc = (TextView) view.findViewById(R.id.endLocation);
 
 
 
         }
 
-        @Override
+       /* @Override
         public String toString() {
             return super.toString() + " '" + mTicketId.getText() + "'";
         }
+        */
     }
 }
