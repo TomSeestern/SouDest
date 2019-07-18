@@ -6,8 +6,11 @@
     android:name="com.example.soudest.fragment_ticket"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="16dp"
+    android:layout_margin="0dp"
+    android:background="@color/colorPrimaryDarkLighter"
+    android:backgroundTint="#B3FFFFFF"
+    android:backgroundTintMode="src_atop"
+    android:padding="8dp"
     app:layoutManager="LinearLayoutManager"
     tools:context=".fragment_ticket"
     tools:listitem="@layout/fragment_ticket" />
