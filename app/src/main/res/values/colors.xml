@@ -5,4 +5,16 @@
     <color name="colorPrimaryDark">#646464</color>
     <color name="colorPrimaryDarkLighter">#7c7c7c</color>
     <color name="colorAccent">#ff7e0d</color>
+
+    <!-- Colors for the Transport Methods -->
+    <color name="color_transport_ferry">#524DF9</color>
+    <color name="color_transport_bus">#2BC8E8</color>
+    <color name="color_transport_train">#13D4A6</color>
+    <color name="color_transport_carshare">#B1CA31</color>
+    <color name="color_transport_taxi">#F3C406</color>
+    <color name="color_transport_tram">#F65035</color>
+    <color name="color_transport_subway">#E12B6D</color>
+    <color name="color_transport_plane">#862F4F</color>
+    <color name="color_transport_walk">#7c7c7c</color>
+
 </resources>

@@ -1,5 +1,8 @@
 package com.example.soudest;
 
+import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -60,30 +63,44 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
         for (connectionOBJ conni: mValues.get(position).connections) {
 
             TextView txt1 = new TextView(holder.mView.getContext());
-            //txt1.setText(conni.Description);
+            txt1.setText(conni.Description);
             txt1.setGravity(Gravity.LEFT);
-            holder.mLinearLayout.addView(txt1);
 
+            txt1.setPadding(13,13,13,13);
+
+            txt1.setClipToOutline(true);
+
+            txt1.setTextColor(holder.mView.getContext().getResources().getColor(R.color.colorPrimary));
+
+
+            Drawable myBackground = holder.mView.getContext().getDrawable(R.drawable.connectionbar);
 
             switch (conni.TransportType){
                 case "Bus":
                     txt1.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_directions_bus_black_24dp, 0, 0, 0);
+                    myBackground.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus), PorterDuff.Mode.SRC);
                     break;
                 case "Train":
                     txt1.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_directions_railway_black_24dp, 0, 0, 0);
+                    myBackground.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train), PorterDuff.Mode.SRC);
                     break;
                 case "Subway":
                     txt1.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_directions_subway_black_24dp, 0, 0, 0);
+                    myBackground.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway), PorterDuff.Mode.SRC);
                     break;
                 case "Walk":
                     txt1.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_directions_walk_black_24dp, 0, 0, 0);
+                    myBackground.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk), PorterDuff.Mode.SRC);
                     break;
                 default:
                     txt1.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_priority_high_black_24dp, 0, 0, 0);
+                    myBackground.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk), PorterDuff.Mode.SRC);
                     break;
             }
 
+            holder.mLinearLayout.addView(txt1);
 
+            txt1.setBackground(myBackground);
         }
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
