@@ -1,18 +1,21 @@
 package com.example.soudest;
 
+import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.soudest.helper.ticketOBJ;
 import com.example.soudest.helper.tickets;
+import com.example.soudest.uimain.PageViewModel;
+
+import android.arch.lifecycle.ViewModelProvider;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,10 +29,12 @@ import java.util.List;
 public class fragment_ticket extends Fragment {
 
     // TODO: Customize parameter argument names
-    private static final String ARG_COLUMN_COUNT = "column-count";
+    private static final String ARG_SECTION_NUMBER = "section_number";
     // TODO: Customize parameters
     private int mColumnCount = 1;
     private OnListFragmentInteractionListener mListener;
+
+    private PageViewModel pageViewModel;
 
     private List<ticketOBJ> TicketList = new ArrayList<ticketOBJ>();
     MyticketRecyclerViewAdapter MyAdapter;
@@ -44,21 +49,23 @@ public class fragment_ticket extends Fragment {
 
     // TODO: Customize parameter initialization
     @SuppressWarnings("unused")
-    public static fragment_ticket newInstance(int columnCount) {
+    public static fragment_ticket newInstance(int index) {
         fragment_ticket fragment = new fragment_ticket();
-        Bundle args = new Bundle();
-        args.putInt(ARG_COLUMN_COUNT, columnCount);
-        fragment.setArguments(args);
+        Bundle bundle = new Bundle();
+        bundle.putInt(ARG_SECTION_NUMBER, index);
+        fragment.setArguments(bundle);
         return fragment;
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        pageViewModel = ViewModelProviders.of(this).get(PageViewModel.class);
+        int index = 1;
         if (getArguments() != null) {
-            mColumnCount = getArguments().getInt(ARG_COLUMN_COUNT);
+            index = getArguments().getInt(ARG_SECTION_NUMBER);
         }
+        pageViewModel.setIndex(index);
     }
 
     @Override

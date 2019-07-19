@@ -8,7 +8,8 @@
     android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
     android:fadingEdge="horizontal|vertical"
     android:orientation="horizontal"
-    android:padding="0dp">
+    android:padding="0dp"
+    >
 
 
     <TextView
