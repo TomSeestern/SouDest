@@ -8,8 +8,10 @@
 
     <!-- TODO: Update blank fragment layout -->
     <android.support.constraint.ConstraintLayout
+        android:id="@+id/PullUpMenuMainLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false">
 
         <ImageView
             android:id="@+id/switchIcon"
@@ -103,38 +105,6 @@
             app:layout_constraintTop_toTopOf="@+id/destTextField"
             app:srcCompat="@drawable/ic_flag_24dp" />
 
-        <ScrollView
-            android:id="@+id/TrippickerScrollview"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:focusable="auto"
-            android:focusableInTouchMode="true"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHeight_max="300dp"
-            app:layout_constraintStart_toStartOf="@id/searchbutton"
-            app:layout_constraintTop_toBottomOf="@id/searchbutton">
-
-            <android.support.constraint.ConstraintLayout
-                android:id="@+id/linearLayout2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintBottom_toTopOf="@+id/TripPickFragment"
-                app:layout_constraintTop_toTopOf="@+id/TripPickFragment">
-
-                <fragment
-                    android:id="@+id/TripPickFragment"
-                    android:name="com.example.soudest.planner_pullup_trippicker"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </android.support.constraint.ConstraintLayout>
-        </ScrollView>
-
         <Button
             android:id="@+id/searchbutton"
             android:layout_width="0dp"
@@ -152,6 +122,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dateButton" />
+
+        <fragment
+            android:id="@+id/TripPickFragment"
+            android:name="com.example.soudest.planner_pullup_trippicker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchbutton" />
 
 
     </android.support.constraint.ConstraintLayout>

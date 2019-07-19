@@ -130,8 +130,8 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
         mysearchbutton = (Button) rootView.findViewById(R.id.searchbutton);
         mysearchbutton.setOnClickListener(this);
 
-        ScrollView myscrollview = (ScrollView) rootView.findViewById(R.id.TrippickerScrollview);
-        myscrollview.setOnTouchListener(this);
+        //ScrollView myscrollview = (ScrollView) rootView.findViewById(R.id.TrippickerScrollview);
+        //myscrollview.setOnTouchListener(this);
 
         //Switch Icon
         myswitchIcon = (ImageView) rootView.findViewById(R.id.switchIcon);
@@ -232,6 +232,8 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
                 }else {
                     planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
                     trippicker_fragment.getTrips(src.getText().toString(),dest.getText().toString());
+
+                    Log.e("HELP", "onClick: "+v.getRootView().findViewById(R.id.possibleConnectionsList) );
                 }
                 break;
 
