@@ -12,12 +12,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
+import android.view.MotionEvent;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
+import android.widget.ScrollView;
 
 import java.time.LocalDate;
 import java.util.Calendar;
@@ -39,7 +41,7 @@ import com.example.soudest.helper.location;
  * Use the {@link planner_pullup_menu#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class planner_pullup_menu extends Fragment implements View.OnClickListener {
+public class planner_pullup_menu extends Fragment implements View.OnClickListener,View.OnTouchListener {
 
     private Button dateText;
     private Button timeText;
@@ -127,6 +129,9 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
 
         mysearchbutton = (Button) rootView.findViewById(R.id.searchbutton);
         mysearchbutton.setOnClickListener(this);
+
+        ScrollView myscrollview = (ScrollView) rootView.findViewById(R.id.TrippickerScrollview);
+        myscrollview.setOnTouchListener(this);
 
         //Switch Icon
         myswitchIcon = (ImageView) rootView.findViewById(R.id.switchIcon);
@@ -241,5 +246,25 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
                 break;
 
         }
+    }
+
+    public boolean onTouch(View v, MotionEvent event) {
+
+        int x = (int) event.getX();
+        int y = (int) event.getY();
+
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                Log.i("TAG", "touched down");
+                break;
+            case MotionEvent.ACTION_MOVE:
+                Log.i("TAG", "moving: (" + x + ", " + y + ")");
+                break;
+            case MotionEvent.ACTION_UP:
+                Log.i("TAG", "touched up");
+                break;
+        }
+
+        return true;
     }
 }
