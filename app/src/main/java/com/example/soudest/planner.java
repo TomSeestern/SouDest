@@ -24,6 +24,8 @@ import android.content.res.Resources;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.sothree.slidinguppanel.SlidingUpPanelLayout;
+
 import com.google.android.gms.maps.model.MapStyleOptions;
 import android.widget.DatePicker;
 import android.widget.TextView;
@@ -42,6 +44,8 @@ public class planner extends Fragment implements View.OnClickListener {
 
     private static final String ARG_SECTION_NUMBER = "section_number";
     private PageViewModel pageViewModel;
+
+    private Button mygobutton;
 
     private GoogleMap mMap;
     private static final String TAG = planner.class.getSimpleName();
@@ -122,6 +126,12 @@ public class planner extends Fragment implements View.OnClickListener {
             }
         });
 
+        //LetsGoButton
+        mygobutton = (Button) rootView.findViewById(R.id.letsgobutton);
+        mygobutton.setOnClickListener(this);
+
+        SlidingUpPanelLayout slidingUpPanelLayout = (SlidingUpPanelLayout) rootView.findViewById(R.id.slidingUpPanelLayout);
+        slidingUpPanelLayout.setPanelHeight(0);
 
         return rootView;
     }
@@ -134,6 +144,25 @@ public class planner extends Fragment implements View.OnClickListener {
 
     public void onClick(View v) {
 
+        switch (v.getId()) {
+
+            case R.id.letsgobutton:
+                /*
+                if (src.getText().toString().equals("") || dest.getText().toString().equals("")) {
+                    Toast.makeText(getContext().getApplicationContext(), "Bitte Ziel und Startort angeben.", Toast.LENGTH_SHORT).show();
+                } else {
+                    planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
+                    trippicker_fragment.getTrips(src.getText().toString(), dest.getText().toString());
+                }*/
+
+                SlidingUpPanelLayout slidingUpPanelLayout = (SlidingUpPanelLayout) v.getRootView().findViewById(R.id.slidingUpPanelLayout);
+                slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
+
+                break;
+            default:
+                Toast.makeText(getContext().getApplicationContext(), "Unknown button! Dafak!", Toast.LENGTH_SHORT).show();
+                break;
+        }
     }
 
     private void setMMap(GoogleMap paramap){

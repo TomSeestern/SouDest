@@ -2,8 +2,10 @@
 <com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slidingUpPanelLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:foregroundGravity="bottom"
     android:gravity="bottom"
     tools:context=".planner">
 
@@ -17,12 +19,29 @@
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/letsgobutton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:context=".planner" />
 
+        <Button
+            android:id="@+id/letsgobutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="@color/colorPrimary"
+            android:ems="10"
+            android:enabled="true"
+            android:shadowRadius="0"
+            android:text="@string/title_planning_gobutton"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
 
 
     </android.support.constraint.ConstraintLayout>
@@ -36,11 +55,12 @@
 
 
         <fragment
-            android:id="@+id/fragment"
+            android:id="@+id/pullup_fragment_holder"
             android:name="com.example.soudest.planner_pullup_menu"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </android.support.constraint.ConstraintLayout>

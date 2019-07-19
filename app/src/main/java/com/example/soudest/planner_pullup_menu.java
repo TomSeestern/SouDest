@@ -43,7 +43,6 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
 
     private Button dateText;
     private Button timeText;
-    private Button mygobutton;
     private ImageView myswitchIcon;
 
     private int year, month, day;
@@ -125,9 +124,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
             }
         });
 
-        //LetsGoButton
-        mygobutton = (Button) rootView.findViewById(R.id.letsgobutton);
-        mygobutton.setOnClickListener(this);
+
 
         //Switch Icon
         myswitchIcon = (ImageView) rootView.findViewById(R.id.switchIcon);
@@ -221,16 +218,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
                 dest.setText(temp);
 
                 break;
-            case R.id.letsgobutton:
-                if(src.getText().toString().equals("") || dest.getText().toString().equals(""))
-                {
-                    Toast.makeText(getContext().getApplicationContext(), "Bitte Ziel und Startort angeben.", Toast.LENGTH_SHORT).show();
-                }else {
-                    planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
-                    trippicker_fragment.getTrips(src.getText().toString(),dest.getText().toString());
-                }
 
-                break;
             case R.id.dateButton:
                 datePickerDialog.show();
                 break;
