@@ -50,7 +50,7 @@
     <android.support.constraint.ConstraintLayout
         android:id="@+id/planner_pullup"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".planner">
 
 
