@@ -10,7 +10,6 @@
         <item name="android:textColorSecondary">@color/colorPrimaryDarkLighter</item>   <!-- Use for inactive Tabs from the Navbar-->
 
         <item name="android:windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
 
