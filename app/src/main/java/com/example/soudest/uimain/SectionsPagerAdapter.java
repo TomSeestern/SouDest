@@ -44,7 +44,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             case 2:
                 //Profile Site
                 Toast.makeText(mContext, "Diese Seite ist leider noch nicht implementiert.", Toast.LENGTH_SHORT).show();
-                return fragment_ticket.newInstance(1);
+                return MyProfile.newInstance();
             default:
                 Toast.makeText(mContext, "Fehler bei Navigationselementauswahl!", Toast.LENGTH_SHORT).show();
                 //TODO Log Error
