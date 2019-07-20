@@ -113,12 +113,6 @@ public class planner_pullup_trippicker extends Fragment {
         //TrippsList.add(new trip("0",TripID,TripID,starttime,arivaltime,totalprice,startpoint,endpoint));
         TrippsList.add(tickets.getPossibleConnections(startpoint,endpoint,starttime,endpoint).get(0));
         MyAdapter.notifyDataSetChanged();
-
-
-
-        Log.e("HELP", "getTrips: TrippsList.size() "+ TrippsList.size());
-
-
     }
 
     /**

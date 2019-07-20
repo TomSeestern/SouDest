@@ -1,6 +1,8 @@
 package com.example.soudest.helper;
 
-public class connectionOBJ implements Cloneable{
+import java.io.Serializable;
+
+public class connectionOBJ implements Cloneable,Serializable{
     public String ConnID;
     public String TransportType;
     public String Description;

@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Gravity;
+import android.content.Intent;
 
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -106,8 +107,11 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
                 if (null != mListener) {
                     // Notify the active callbacks interface (the activity, if the
                     // fragment is attached to one) that an item has been selected.
-                    mListener.onListFragmentInteraction(holder.mItem);
+                    //mListener.onListFragmentInteraction(holder.mItem);
                 }
+                Intent myIntent = new Intent(v.getContext(),   activiy_TripDetailView.class);
+                myIntent.putExtra("ticket", holder.mItem);
+                v.getContext().startActivity(myIntent);
             }
         });
     }
