@@ -5,10 +5,11 @@ import android.util.Log;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class tickets {
+public class tickets{
 
     public static List<ticketOBJ> getAllTicketsFromDB(){
         //TODO Make call to API to request all Available Tickets
@@ -57,5 +58,9 @@ public class tickets {
         return reti;
     }
 
+    public static List<ticketOBJ> getPossibleConnections(String startloc,String targetloc,String Date,String Time){
+
+        return getAllTicketsFromDB();
+    }
 
 }

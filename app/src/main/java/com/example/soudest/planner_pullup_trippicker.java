@@ -6,9 +6,11 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import com.example.soudest.fragment_ticket.OnListFragmentInteractionListener;
 
 import org.json.JSONObject;
 
@@ -17,7 +19,9 @@ import java.util.List;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
+import com.example.soudest.helper.ticketOBJ;
 import com.example.soudest.helper.trip;
+import com.example.soudest.helper.tickets;
 
 /**
  * A fragment representing a list of Items.
@@ -27,13 +31,9 @@ import com.example.soudest.helper.trip;
  */
 public class planner_pullup_trippicker extends Fragment {
 
-    // TODO: Customize parameter argument names
-    private static final String ARG_COLUMN_COUNT = "column-count";
-    // TODO: Customize parameters
-    private int mColumnCount = 1;
-    private OnListFragmentInteractionListener mListener;
-    private List<trip> TrippsList = new ArrayList<trip>();
-    MytripRecyclerViewAdapter MyAdapter;
+    private fragment_ticket.OnListFragmentInteractionListener mListener;
+    private List<ticketOBJ> TrippsList = new ArrayList<ticketOBJ>();
+    MyticketRecyclerViewAdapter MyAdapter;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -46,25 +46,19 @@ public class planner_pullup_trippicker extends Fragment {
     @SuppressWarnings("unused")
     public static planner_pullup_trippicker newInstance(int columnCount) {
         planner_pullup_trippicker fragment = new planner_pullup_trippicker();
-        Bundle args = new Bundle();
-        args.putInt(ARG_COLUMN_COUNT, columnCount);
-        fragment.setArguments(args);
+
         return fragment;
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        if (getArguments() != null) {
-            mColumnCount = getArguments().getInt(ARG_COLUMN_COUNT);
-        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_trip_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_ticket_list, container, false);
 
         // Set the adapter
         if (view instanceof RecyclerView) {
@@ -81,7 +75,7 @@ public class planner_pullup_trippicker extends Fragment {
 
             recyclerView.setLayoutManager(myLinearLayoutManager);
 
-            MyAdapter = new MytripRecyclerViewAdapter(TrippsList, mListener);
+            MyAdapter = new MyticketRecyclerViewAdapter(TrippsList, mListener);
             recyclerView.setAdapter(MyAdapter);
 
         }
@@ -93,7 +87,7 @@ public class planner_pullup_trippicker extends Fragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         if (context instanceof OnListFragmentInteractionListener) {
-            mListener = (OnListFragmentInteractionListener) context;
+            mListener = (fragment_ticket.OnListFragmentInteractionListener) context;
         } else {
             //TODO Implement Listener
             //throw new RuntimeException(context.toString()
@@ -115,28 +109,14 @@ public class planner_pullup_trippicker extends Fragment {
         String totalprice="PLACEHOLDER";
         String startpoint="PLACEHOLDER";
         String endpoint="PLACEHOLDER";
-        JSONObject trips = trip.gettrip(1.0,2.5);
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM HH:mm"); // the format of your date
 
-        try {
-             //TripID = (String)trips.getString("TripID");
-            TripID = trips.getJSONObject("Trip").getString("TripID");
-            Date date = new Date(trips.getJSONObject("Trip").getLong("StartTime")*1000L); // convert seconds to milliseconds
-            starttime = dateFormat.format(date);
-            date = new Date(trips.getJSONObject("Trip").getLong("EndTime")*1000L); // convert seconds to milliseconds
-            arivaltime = dateFormat.format(date);
-            totalprice = trips.getJSONObject("Trip").getString("TotalPrice");
-            //startpoint = trips.getJSONObject("Trip").getString("EndTime");
-            startpoint=source;
-            //endpoint = trips.getJSONObject("Trip").getString("EndTime");
-            endpoint=dest;
-        }catch (Exception e){
-            //Do nothing //TODO
-             TripID="FEHLER";
-        }
-
-        TrippsList.add(new trip("0",TripID,TripID,starttime,arivaltime,totalprice,startpoint,endpoint));
+        //TrippsList.add(new trip("0",TripID,TripID,starttime,arivaltime,totalprice,startpoint,endpoint));
+        TrippsList.add(tickets.getPossibleConnections(startpoint,endpoint,starttime,endpoint).get(0));
         MyAdapter.notifyDataSetChanged();
+
+
+
+        Log.e("HELP", "getTrips: TrippsList.size() "+ TrippsList.size());
 
 
     }
@@ -153,6 +133,6 @@ public class planner_pullup_trippicker extends Fragment {
      */
     public interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onListFragmentInteraction(trip item);
+        void onListFragmentInteraction(ticketOBJ item);
     }
 }

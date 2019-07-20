@@ -6,6 +6,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -232,8 +233,6 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
                 }else {
                     planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
                     trippicker_fragment.getTrips(src.getText().toString(),dest.getText().toString());
-
-                    Log.e("HELP", "onClick: "+v.getRootView().findViewById(R.id.possibleConnectionsList) );
                 }
                 break;
 

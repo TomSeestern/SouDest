@@ -8,14 +8,15 @@ import android.widget.Toast;
 
 public class activiy_TripDetailView extends AppCompatActivity {
 
+    trip activeTrip;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activiy_trip_detail_view);
 
-        trip savedExtra = (trip) getIntent().getSerializableExtra("trip");
+        activeTrip = (trip) getIntent().getSerializableExtra("trip");
 
-        Toast.makeText(this.getApplicationContext(), "New Activity!!!!", Toast.LENGTH_SHORT).show();
 
     }
 }

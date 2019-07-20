@@ -56,10 +56,7 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
         holder.mStartLoc.setText((mValues.get(position).connections.get(0).StartLocName.toString()));
         holder.mEndLoc.setText((mValues.get(position).connections.get(0).EndLocName.toString()));
 
-
-        //holder.mTicketId.setText(new SimpleDateFormat("dd MMM").format(new Date(Math.round(mValues.get(position).StartTime))));
-
-
+        holder.mLinearLayout.removeAllViews();  //Reset the Layout
         for (connectionOBJ conni: mValues.get(position).connections) {
 
             TextView txt1 = new TextView(holder.mView.getContext());
