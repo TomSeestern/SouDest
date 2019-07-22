@@ -17,6 +17,8 @@ public class connectionOBJ implements Cloneable,Serializable{
     public Double EndEastCord;
     public String EndLocName;
 
+    public connectionOBJ(){}
+
     public connectionOBJ(String connID, String transportType, String description, Double totalTime, Double price, Double startTime, Double endTime, Double startNorthCord, Double startEastCord,String mStartLocName, Double endNorthCord, Double endEastCord, String mEndLocName) {
         this.ConnID = ConnID;
         this.TransportType = transportType;
