@@ -1,5 +1,7 @@
 package com.example.soudest;
 
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -11,6 +13,8 @@ import com.example.soudest.TicketDetailView.OnListFragmentInteractionListener;
 import com.example.soudest.helper.ticketOBJ;
 import com.example.soudest.helper.connectionOBJ;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -43,15 +47,54 @@ public class MyTicketConnectionRecyclerViewAdapter extends RecyclerView.Adapter<
         //holder.mIdView.setText(mValues.get(position).id);
         //holder.mContentView.setText(mValues.get(position).content);
 
-        holder.mStartTime.setText(holder.mItem.StartTime.toString());
-        holder.mEndTime.setText(holder.mItem.EndTime.toString());
+        holder.mStartTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).StartTime.longValue()*1000)).toString());
+        holder.mEndTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).EndTime.longValue()*1000)).toString());
         holder.mStartStation.setText(holder.mItem.StartLocName.toString());
         holder.mEndStation.setText(holder.mItem.EndLocName.toString());
         holder.mStationNum.setText("?");
-        holder.mtimediv.setText(holder.mItem.TotalTime.toString());
+        holder.mtimediv.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).TotalTime.longValue()*1000)).toString());
         holder.mLineDetailName.setText(holder.mItem.Description.toString());
 
-        Log.e("HELP", "onBindViewHolder: mValues.size()"+mValues.size());
+
+        Drawable mytimediv = holder.mtimediv.getBackground();
+        Drawable myStationNum =  holder.mStationNum.getBackground();
+        Drawable myProgressBar = holder.mProgressBar.getBackground();
+
+        switch (holder.mItem.TransportType){
+            case "Bus":
+                holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_directions_bus_black_24dp, 0, 0);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus),PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus),PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus),PorterDuff.Mode.SRC);
+                break;
+            case "Train":
+                holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_directions_railway_black_24dp, 0, 0);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train),PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train),PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train),PorterDuff.Mode.SRC);
+                break;
+            case "Subway":
+                holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_directions_subway_black_24dp, 0, 0);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway),PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway),PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway),PorterDuff.Mode.SRC);
+                break;
+            case "Walk":
+                holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_directions_walk_black_24dp, 0, 0);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
+                break;
+            default:
+                holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_priority_high_black_24dp, 0, 0);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
+                break;
+        }
+
+
+
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,11 +119,11 @@ public class MyTicketConnectionRecyclerViewAdapter extends RecyclerView.Adapter<
         public final TextView mEndTime;
         public final TextView mStartStation;
         public final TextView mEndStation;
-
         public final TextView mStationNum;
         public final TextView mtimediv;
-
         public final TextView mLineDetailName;
+        public View mProgressBar;
+
         //public final TextView mContentView;
         public connectionOBJ mItem;
 
@@ -94,6 +137,7 @@ public class MyTicketConnectionRecyclerViewAdapter extends RecyclerView.Adapter<
             mLineDetailName = (TextView) view.findViewById(R.id.LineDetailName);
             mtimediv = (TextView) view.findViewById(R.id.timediv);
             mEndTime = (TextView) view.findViewById(R.id.EndTime);
+            mProgressBar = (View) view.findViewById(R.id.ProgressBar);
         }
 
     }

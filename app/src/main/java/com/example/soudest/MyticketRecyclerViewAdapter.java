@@ -146,9 +146,6 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
             mEndTime = (TextView) view.findViewById(R.id.arivalTime);
             mStartLoc= (TextView) view.findViewById(R.id.startLocation2);
             mEndLoc = (TextView) view.findViewById(R.id.endLocation);
-
-
-
         }
 
        /* @Override
