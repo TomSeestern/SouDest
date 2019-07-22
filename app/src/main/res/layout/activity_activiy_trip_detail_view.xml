@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/DetailViewBackButton"
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:layout_marginStart="1dp"
@@ -38,7 +38,7 @@
             android:text="Reise XYZ -> ABC"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintStart_toEndOf="@+id/DetailViewBackButton"
             app:layout_constraintTop_toTopOf="parent" />
     </android.support.constraint.ConstraintLayout>
 
