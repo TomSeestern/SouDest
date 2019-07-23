@@ -28,11 +28,11 @@ public class Activiy_TripDetailView extends AppCompatActivity implements View.On
         Fragment_TicketDetailView fragobj = new Fragment_TicketDetailView();
         fragobj.setArguments(bundle);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragTicketDetailListHolder,fragobj).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragTicketDetailListHolder, fragobj).commit();
 
 
         myDetailViewBackButton = this.findViewById(R.id.DetailViewBackButton);
-        Log.e("ERROR", "onCreateView: myDetailViewBackButton "+myDetailViewBackButton);
+        Log.e("ERROR", "onCreateView: myDetailViewBackButton " + myDetailViewBackButton);
         if (myDetailViewBackButton != null) myDetailViewBackButton.setOnClickListener(this);
 
 

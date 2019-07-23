@@ -44,8 +44,8 @@ public class RecyclerViewAdapter_TicketOBJ extends RecyclerView.Adapter<Recycler
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.mTotalTime.setText((mValues.get(position).TotalTime.intValue()/60)/60+"h "+(((mValues.get(position).TotalTime.intValue()/60)%60)+1)+"min");
-        holder.mTotalPrice.setText(String.format("%.2f",mValues.get(position).TotalPrice)+" €");
+        holder.mTotalTime.setText((mValues.get(position).TotalTime.intValue() / 60) / 60 + "h " + (((mValues.get(position).TotalTime.intValue() / 60) % 60) + 1) + "min");
+        holder.mTotalPrice.setText(String.format("%.2f", mValues.get(position).TotalPrice) + " €");
 
         holder.mStartTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).StartTime.longValue() * 1000)));
         holder.mEndTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).EndTime.longValue() * 1000)));
@@ -53,14 +53,14 @@ public class RecyclerViewAdapter_TicketOBJ extends RecyclerView.Adapter<Recycler
         holder.mEndLoc.setText((mValues.get(position).connections.get(0).EndLocName));
 
         holder.mLinearLayout.removeAllViews();  //Reset the Layout
-        for (connectionOBJ conni: mValues.get(position).connections) {
+        for (connectionOBJ conni : mValues.get(position).connections) {
 
             TextView txt1 = new TextView(holder.mView.getContext());
             txt1.setText(conni.Description);
             txt1.setTextSize(16);
             txt1.setGravity(Gravity.LEFT);
 
-            txt1.setPadding(16,16,16,16);
+            txt1.setPadding(16, 16, 16, 16);
             txt1.setClipToOutline(true);
 
             txt1.setTextColor(holder.mView.getContext().getResources().getColor(R.color.colorPrimary));
@@ -68,7 +68,7 @@ public class RecyclerViewAdapter_TicketOBJ extends RecyclerView.Adapter<Recycler
 
             Drawable myBackground = holder.mView.getContext().getDrawable(R.drawable.connectionbar);
 
-            switch (conni.TransportType){
+            switch (conni.TransportType) {
                 case "Bus":
                     txt1.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_directions_bus_black_24dp, 0, 0, 0);
                     myBackground.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus), PorterDuff.Mode.SRC);

@@ -56,43 +56,41 @@ public class RecyclerViewAdapter_ConnectionOBJ extends RecyclerView.Adapter<Recy
 
 
         Drawable mytimediv = holder.mtimediv.getBackground();
-        Drawable myStationNum =  holder.mStationNum.getBackground();
+        Drawable myStationNum = holder.mStationNum.getBackground();
         Drawable myProgressBar = holder.mProgressBar.getBackground();
 
-        switch (holder.mItem.TransportType){
+        switch (holder.mItem.TransportType) {
             case "Bus":
                 holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_directions_bus_black_24dp, 0, 0);
-                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus),PorterDuff.Mode.SRC);
-                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus),PorterDuff.Mode.SRC);
-                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus),PorterDuff.Mode.SRC);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus), PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus), PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_bus), PorterDuff.Mode.SRC);
                 break;
             case "Train":
                 holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_directions_railway_black_24dp, 0, 0);
-                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train),PorterDuff.Mode.SRC);
-                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train),PorterDuff.Mode.SRC);
-                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train),PorterDuff.Mode.SRC);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train), PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train), PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_train), PorterDuff.Mode.SRC);
                 break;
             case "Subway":
                 holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_directions_subway_black_24dp, 0, 0);
-                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway),PorterDuff.Mode.SRC);
-                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway),PorterDuff.Mode.SRC);
-                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway),PorterDuff.Mode.SRC);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway), PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway), PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_subway), PorterDuff.Mode.SRC);
                 break;
             case "Walk":
                 holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_directions_walk_black_24dp, 0, 0);
-                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
-                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
-                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk), PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk), PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk), PorterDuff.Mode.SRC);
                 break;
             default:
                 holder.mtimediv.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_priority_high_black_24dp, 0, 0);
-                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
-                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
-                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk),PorterDuff.Mode.SRC);
+                mytimediv.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk), PorterDuff.Mode.SRC);
+                myStationNum.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk), PorterDuff.Mode.SRC);
+                myProgressBar.setColorFilter(holder.mView.getContext().getResources().getColor(R.color.color_transport_walk), PorterDuff.Mode.SRC);
                 break;
         }
-
-
 
 
         holder.mView.setOnClickListener(new View.OnClickListener() {

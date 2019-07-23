@@ -10,6 +10,6 @@
 
     <item
         android:id="@+id/profile"
-        android:title="@string/title_tab_profile"/>
+        android:title="@string/title_tab_profile" />
 
 </menu>

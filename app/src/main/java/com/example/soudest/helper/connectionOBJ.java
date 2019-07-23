@@ -2,7 +2,7 @@ package com.example.soudest.helper;
 
 import java.io.Serializable;
 
-public class connectionOBJ implements Cloneable,Serializable{
+public class connectionOBJ implements Cloneable, Serializable {
     public String ConnID;
     public String TransportType;
     public String Description;
@@ -17,9 +17,10 @@ public class connectionOBJ implements Cloneable,Serializable{
     public Double EndEastCord;
     public String EndLocName;
 
-    public connectionOBJ(){}
+    public connectionOBJ() {
+    }
 
-    public connectionOBJ(String connID, String transportType, String description, Double totalTime, Double price, Double startTime, Double endTime, Double startNorthCord, Double startEastCord,String mStartLocName, Double endNorthCord, Double endEastCord, String mEndLocName) {
+    public connectionOBJ(String connID, String transportType, String description, Double totalTime, Double price, Double startTime, Double endTime, Double startNorthCord, Double startEastCord, String mStartLocName, Double endNorthCord, Double endEastCord, String mEndLocName) {
         this.ConnID = ConnID;
         this.TransportType = transportType;
         this.Description = description;
@@ -36,7 +37,7 @@ public class connectionOBJ implements Cloneable,Serializable{
     }
 
     public Object clone() throws CloneNotSupportedException {
-        connectionOBJ mClone = (connectionOBJ)super.clone();
+        connectionOBJ mClone = (connectionOBJ) super.clone();
         return mClone;
     }
 }

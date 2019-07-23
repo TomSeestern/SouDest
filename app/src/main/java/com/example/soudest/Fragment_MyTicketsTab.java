@@ -28,14 +28,12 @@ public class Fragment_MyTicketsTab extends Fragment {
 
     // TODO: Customize parameter argument names
     private static final String ARG_SECTION_NUMBER = "section_number";
+    RecyclerViewAdapter_TicketOBJ MyAdapter;
     // TODO: Customize parameters
     private int mColumnCount = 1;
     private OnListFragmentInteractionListener mListener;
-
     private PageViewModel pageViewModel;
-
     private List<ticketOBJ> TicketList = new ArrayList<ticketOBJ>();
-    RecyclerViewAdapter_TicketOBJ MyAdapter;
 
 
     /**

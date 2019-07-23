@@ -20,7 +20,7 @@ import com.example.soudest.R;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.title_tab_planning, R.string.title_tab_tickets,R.string.title_tab_profile};
+    private static final int[] TAB_TITLES = new int[]{R.string.title_tab_planning, R.string.title_tab_tickets, R.string.title_tab_profile};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {

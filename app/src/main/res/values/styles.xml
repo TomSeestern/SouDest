@@ -7,7 +7,8 @@
         <item name="colorPrimary">@color/colorPrimaryDark</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorSecondary">@color/colorPrimaryDarkLighter</item>   <!-- Use for inactive Tabs from the Navbar-->
+        <item name="android:textColorSecondary">@color/colorPrimaryDarkLighter
+        </item>   <!-- Use for inactive Tabs from the Navbar-->
 
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>

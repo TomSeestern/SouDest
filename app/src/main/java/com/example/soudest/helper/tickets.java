@@ -5,13 +5,12 @@ import android.util.Log;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class tickets{
+public class tickets {
 
-    public static List<ticketOBJ> getAllTicketsFromDB(){
+    public static List<ticketOBJ> getAllTicketsFromDB() {
         //TODO Make call to API to request all Available Tickets
         JSONObject obj;
         List<ticketOBJ> reti = new ArrayList<ticketOBJ>();
@@ -31,18 +30,18 @@ public class tickets{
             connectionOBJ SingleConnObj;
 
 
-            for (int i=0; i < TicketArray.length(); i++) {
+            for (int i = 0; i < TicketArray.length(); i++) {
                 SingleTicket = TicketArray.getJSONObject(i);
                 ConnList = new ArrayList<connectionOBJ>();
 
-                ConnectionArray=SingleTicket.getJSONArray("Connections");
-                for (int x=0;x <ConnectionArray.length();x++){
+                ConnectionArray = SingleTicket.getJSONArray("Connections");
+                for (int x = 0; x < ConnectionArray.length(); x++) {
                     SingleConnection = ConnectionArray.getJSONObject(x);
-                    SingleConnObj=new connectionOBJ(SingleConnection.getString("ConnectionID"),SingleConnection.getString("TransportType"),SingleConnection.getString("Description"),SingleConnection.getDouble("TotalTime"),SingleConnection.getDouble("Price"),SingleConnection.getDouble("StartTime"),SingleConnection.getDouble("EndTime"),0.0,0.0,SingleConnection.getJSONObject("Path").getString("StartLocName"),0.0,0.0,SingleConnection.getJSONObject("Path").getString("EndLocName") );
+                    SingleConnObj = new connectionOBJ(SingleConnection.getString("ConnectionID"), SingleConnection.getString("TransportType"), SingleConnection.getString("Description"), SingleConnection.getDouble("TotalTime"), SingleConnection.getDouble("Price"), SingleConnection.getDouble("StartTime"), SingleConnection.getDouble("EndTime"), 0.0, 0.0, SingleConnection.getJSONObject("Path").getString("StartLocName"), 0.0, 0.0, SingleConnection.getJSONObject("Path").getString("EndLocName"));
                     ConnList.add(SingleConnObj);
                 }
 
-                SingleTicketObj=new ticketOBJ(SingleTicket.getString("TicketID"),SingleTicket.getDouble("TotalTime"),SingleTicket.getDouble("StartTime"),SingleTicket.getDouble("EndTime"),SingleTicket.getDouble("Transfers"),SingleTicket.getDouble("TotalPrice"),ConnList);
+                SingleTicketObj = new ticketOBJ(SingleTicket.getString("TicketID"), SingleTicket.getDouble("TotalTime"), SingleTicket.getDouble("StartTime"), SingleTicket.getDouble("EndTime"), SingleTicket.getDouble("Transfers"), SingleTicket.getDouble("TotalPrice"), ConnList);
                 reti.add(SingleTicketObj);
 
             }
@@ -53,12 +52,11 @@ public class tickets{
         }
 
 
-
-        Log.e("Schit", "TEST: "+ reti.get(0).connections.size() );
+        Log.e("Schit", "TEST: " + reti.get(0).connections.size());
         return reti;
     }
 
-    public static List<ticketOBJ> getPossibleConnections(String startloc,String targetloc,String Date,String Time){
+    public static List<ticketOBJ> getPossibleConnections(String startloc, String targetloc, String Date, String Time) {
 
         return getAllTicketsFromDB();
     }

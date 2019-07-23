@@ -42,24 +42,23 @@ public class Fragment_TicketDetailView extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_ticketdetailview_list, container, false);
 
-        android.os.Bundle myParas=getArguments();
+        android.os.Bundle myParas = getArguments();
 
-        if (myParas != null){
+        if (myParas != null) {
             CURR_TICKET = (ticketOBJ) getArguments().getSerializable("ticket");
 
 
+            // Set the adapter
+            if (view instanceof RecyclerView) {
+                Context context = view.getContext();
+                RecyclerView recyclerView = (RecyclerView) view;
 
-        // Set the adapter
-        if (view instanceof RecyclerView) {
-            Context context = view.getContext();
-            RecyclerView recyclerView = (RecyclerView) view;
+                recyclerView.setLayoutManager(new LinearLayoutManager(context));
 
-            recyclerView.setLayoutManager(new LinearLayoutManager(context));
-
-            recyclerView.setAdapter(new RecyclerViewAdapter_ConnectionOBJ(CURR_TICKET, mListener));
-        }
-        }else {
-            Log.e("ERROR", "onCreateView: MyParas was NULL!!! myParas:"+myParas);
+                recyclerView.setAdapter(new RecyclerViewAdapter_ConnectionOBJ(CURR_TICKET, mListener));
+            }
+        } else {
+            Log.e("ERROR", "onCreateView: MyParas was NULL!!! myParas:" + myParas);
         }
         return view;
     }

@@ -31,12 +31,10 @@ import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 public class Fragment_MyPlannerTab extends Fragment implements View.OnClickListener, View.OnTouchListener {
 
     private static final String ARG_SECTION_NUMBER = "section_number";
-    private PageViewModel pageViewModel;
-
-    private Button mygobutton;
-
-    private GoogleMap mMap;
     private static final String TAG = Fragment_MyPlannerTab.class.getSimpleName();
+    private PageViewModel pageViewModel;
+    private Button mygobutton;
+    private GoogleMap mMap;
 
     public Fragment_MyPlannerTab() {
         // Required empty public constructor
@@ -96,7 +94,7 @@ public class Fragment_MyPlannerTab extends Fragment implements View.OnClickListe
                 mMap.clear(); //clear old markers
 
                 CameraPosition startLocation = CameraPosition.builder()
-                        .target(new LatLng(47.808,9.639))
+                        .target(new LatLng(47.808, 9.639))
                         .zoom(13)
                         .bearing(0)
                         .tilt(0)
@@ -154,18 +152,18 @@ public class Fragment_MyPlannerTab extends Fragment implements View.OnClickListe
         }
     }
 
-    private void setMMap(GoogleMap paramap){
-        mMap=paramap;
+    private void setMMap(GoogleMap paramap) {
+        mMap = paramap;
     }
 
-    public boolean addMyMarker(int id,LatLng pos,String title,String snippet){
+    public boolean addMyMarker(int id, LatLng pos, String title, String snippet) {
         //TODO Check if id exsists, if yes remove...
 
         mMap.addMarker(new MarkerOptions()
                 .position(pos)
                 .title(title)
                 .snippet(snippet)
-                        );
+        );
 
         CameraPosition Location = CameraPosition.builder()
                 .target(pos)
@@ -183,16 +181,13 @@ public class Fragment_MyPlannerTab extends Fragment implements View.OnClickListe
     public boolean onTouch(View v, MotionEvent event) {
         //Log.e("LOL", "onTouch: "+v.getId() );
 
-        if (event.getAction() == MotionEvent.ACTION_UP){
+        if (event.getAction() == MotionEvent.ACTION_UP) {
             SlidingUpPanelLayout slidingUpPanelLayout = v.getRootView().findViewById(R.id.slidingUpPanelLayout);
             slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
-        }
-        else if (event.getAction() == MotionEvent.ACTION_DOWN){
+        } else if (event.getAction() == MotionEvent.ACTION_DOWN) {
             SlidingUpPanelLayout slidingUpPanelLayout = v.getRootView().findViewById(R.id.slidingUpPanelLayout);
             slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.COLLAPSED);
         }
-
-
 
 
         return false;

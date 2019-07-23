@@ -93,16 +93,16 @@ public class Fragment_MyPlannerTab_PullUp_Trippicker extends Fragment {
         mListener = null;
     }
 
-    public void getTrips(String source,String dest){
+    public void getTrips(String source, String dest) {
 
-        String TripID="PLACEHOLDER";
-        String starttime="PLACEHOLDER";
-        String arivaltime="PLACEHOLDER";
-        String totalprice="PLACEHOLDER";
-        String startpoint="PLACEHOLDER";
-        String endpoint="PLACEHOLDER";
+        String TripID = "PLACEHOLDER";
+        String starttime = "PLACEHOLDER";
+        String arivaltime = "PLACEHOLDER";
+        String totalprice = "PLACEHOLDER";
+        String startpoint = "PLACEHOLDER";
+        String endpoint = "PLACEHOLDER";
 
-        TrippsList.add(tickets.getPossibleConnections(startpoint,endpoint,starttime,endpoint).get(0));
+        TrippsList.add(tickets.getPossibleConnections(startpoint, endpoint, starttime, endpoint).get(0));
         MyAdapter.notifyDataSetChanged();
     }
 

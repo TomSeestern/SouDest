@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class ticketOBJ  implements Serializable {
+public final class ticketOBJ implements Serializable {
 
     public String TicketID;
     public Double TotalTime;
@@ -15,7 +15,8 @@ public final class ticketOBJ  implements Serializable {
 
     public List<connectionOBJ> connections = new ArrayList<connectionOBJ>();
 
-    public ticketOBJ(){}
+    public ticketOBJ() {
+    }
 
     public ticketOBJ(String ticketID, Double totalTime, Double startTime, Double endTime, Double transfers, Double totalPrice, List<connectionOBJ> connections) {
         this.TicketID = ticketID;
