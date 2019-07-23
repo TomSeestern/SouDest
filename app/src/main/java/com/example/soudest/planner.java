@@ -6,6 +6,7 @@ import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -40,7 +41,7 @@ import java.util.Calendar;
  * Use the {@link planner} factory method to
  * create an instance of this fragment.
  */
-public class planner extends Fragment implements View.OnClickListener {
+public class planner extends Fragment implements View.OnClickListener,View.OnTouchListener{
 
     private static final String ARG_SECTION_NUMBER = "section_number";
     private PageViewModel pageViewModel;
@@ -128,6 +129,7 @@ public class planner extends Fragment implements View.OnClickListener {
 
         //LetsGoButton
         mygobutton = (Button) rootView.findViewById(R.id.letsgobutton);
+        mygobutton.setOnTouchListener(this);
         mygobutton.setOnClickListener(this);
 
         SlidingUpPanelLayout slidingUpPanelLayout = (SlidingUpPanelLayout) rootView.findViewById(R.id.slidingUpPanelLayout);
@@ -188,5 +190,24 @@ public class planner extends Fragment implements View.OnClickListener {
         mMap.moveCamera(CameraUpdateFactory.newCameraPosition(Location));
 
         return true;
+    }
+
+    @Override
+    public boolean onTouch(View v, MotionEvent event) {
+        //Log.e("LOL", "onTouch: "+v.getId() );
+
+        if (event.getAction() == MotionEvent.ACTION_UP){
+            SlidingUpPanelLayout slidingUpPanelLayout = (SlidingUpPanelLayout) v.getRootView().findViewById(R.id.slidingUpPanelLayout);
+            slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
+        }
+        else if (event.getAction() == MotionEvent.ACTION_DOWN){
+            SlidingUpPanelLayout slidingUpPanelLayout = (SlidingUpPanelLayout) v.getRootView().findViewById(R.id.slidingUpPanelLayout);
+            slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.COLLAPSED);
+        }
+
+
+
+
+        return false;
     }
 }
