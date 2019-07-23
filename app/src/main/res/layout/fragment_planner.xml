@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:foregroundGravity="bottom"
     android:gravity="bottom"
-    app:umanoScrollableView="@+id/possibleConnectionsList"
+    app:umanoScrollableView="@+id/fragment_planner_pullup_menu_wrapper"
     tools:context=".planner">
 
 
