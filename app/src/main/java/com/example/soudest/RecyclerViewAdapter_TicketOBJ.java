@@ -1,24 +1,19 @@
 package com.example.soudest;
 
-import android.graphics.Color;
+import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Gravity;
-import android.content.Intent;
-
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.soudest.fragment_ticket.OnListFragmentInteractionListener;
-import com.example.soudest.helper.ticketOBJ;
+import com.example.soudest.Fragment_MyTicketsTab.OnListFragmentInteractionListener;
 import com.example.soudest.helper.connectionOBJ;
-
-import org.w3c.dom.Text;
+import com.example.soudest.helper.ticketOBJ;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -29,12 +24,12 @@ import java.util.List;
  * specified {@link OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
-public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRecyclerViewAdapter.ViewHolder> {
+public class RecyclerViewAdapter_TicketOBJ extends RecyclerView.Adapter<RecyclerViewAdapter_TicketOBJ.ViewHolder> {
 
     private final List<ticketOBJ> mValues;
     private final OnListFragmentInteractionListener mListener;
 
-    public MyticketRecyclerViewAdapter(List<ticketOBJ> items, OnListFragmentInteractionListener listener) {
+    public RecyclerViewAdapter_TicketOBJ(List<ticketOBJ> items, OnListFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
     }
@@ -42,7 +37,7 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.fragment_ticket, parent, false);
+                .inflate(R.layout.fragment_ticketoverview_items, parent, false);
         return new ViewHolder(view);
     }
 
@@ -52,10 +47,10 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
         holder.mTotalTime.setText((mValues.get(position).TotalTime.intValue()/60)/60+"h "+(((mValues.get(position).TotalTime.intValue()/60)%60)+1)+"min");
         holder.mTotalPrice.setText(String.format("%.2f",mValues.get(position).TotalPrice)+" €");
 
-        holder.mStartTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).StartTime.longValue()*1000)).toString());
-        holder.mEndTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).EndTime.longValue()*1000)).toString());
-        holder.mStartLoc.setText((mValues.get(position).connections.get(0).StartLocName.toString()));
-        holder.mEndLoc.setText((mValues.get(position).connections.get(0).EndLocName.toString()));
+        holder.mStartTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).StartTime.longValue() * 1000)));
+        holder.mEndTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).EndTime.longValue() * 1000)));
+        holder.mStartLoc.setText((mValues.get(position).connections.get(0).StartLocName));
+        holder.mEndLoc.setText((mValues.get(position).connections.get(0).EndLocName));
 
         holder.mLinearLayout.removeAllViews();  //Reset the Layout
         for (connectionOBJ conni: mValues.get(position).connections) {
@@ -109,7 +104,7 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
                     // fragment is attached to one) that an item has been selected.
                     //mListener.onListFragmentInteraction(holder.mItem);
                 }
-                Intent myIntent = new Intent(v.getContext(),   activiy_TripDetailView.class);
+                Intent myIntent = new Intent(v.getContext(), Activiy_TripDetailView.class);
                 myIntent.putExtra("ticket", holder.mItem);
                 v.getContext().startActivity(myIntent);
             }
@@ -139,13 +134,13 @@ public class MyticketRecyclerViewAdapter extends RecyclerView.Adapter<MyticketRe
             mView = view;
 
             //mTicketId = (TextView) view.findViewById(R.id.traveldate);
-            mLinearLayout = (LinearLayout) mView.findViewById(R.id.stations);
-            mTotalTime = (TextView) view.findViewById(R.id.totalTime);
-            mTotalPrice = (TextView) view.findViewById(R.id.TotalPrice);
-            mStartTime = (TextView) view.findViewById(R.id.starttime);
-            mEndTime = (TextView) view.findViewById(R.id.arivalTime);
-            mStartLoc= (TextView) view.findViewById(R.id.startLocation2);
-            mEndLoc = (TextView) view.findViewById(R.id.endLocation);
+            mLinearLayout = mView.findViewById(R.id.stations);
+            mTotalTime = view.findViewById(R.id.totalTime);
+            mTotalPrice = view.findViewById(R.id.TotalPrice);
+            mStartTime = view.findViewById(R.id.starttime);
+            mEndTime = view.findViewById(R.id.arivalTime);
+            mStartLoc = view.findViewById(R.id.startLocation2);
+            mEndLoc = view.findViewById(R.id.endLocation);
         }
 
        /* @Override

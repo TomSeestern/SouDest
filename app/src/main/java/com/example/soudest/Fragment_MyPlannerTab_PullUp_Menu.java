@@ -7,43 +7,37 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
+import android.support.v7.widget.AppCompatAutoCompleteTextView;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
-import android.view.MotionEvent;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
-import android.widget.ScrollView;
-
-import java.time.LocalDate;
-import java.util.Calendar;
-import java.util.Date;
-import java.text.SimpleDateFormat;
-import android.view.inputmethod.InputMethodManager;
-
-import android.support.v7.widget.AppCompatAutoCompleteTextView;
-
-import android.widget.ArrayAdapter;
 
 import com.example.soudest.helper.location;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link planner_pullup_menu.OnFragmentInteractionListener} interface
+ * {@link Fragment_MyPlannerTab_PullUp_Menu.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link planner_pullup_menu#newInstance} factory method to
+ * Use the {@link Fragment_MyPlannerTab_PullUp_Menu#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class planner_pullup_menu extends Fragment implements View.OnClickListener,View.OnTouchListener {
+public class Fragment_MyPlannerTab_PullUp_Menu extends Fragment implements View.OnClickListener, View.OnTouchListener {
 
     private Button dateText;
     private Button timeText;
@@ -60,7 +54,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
 
     private OnFragmentInteractionListener mListener;
 
-    public planner_pullup_menu() {
+    public Fragment_MyPlannerTab_PullUp_Menu() {
         // Required empty public constructor
     }
 
@@ -70,11 +64,11 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment planner_pullup_menu.
+     * @return A new instance of fragment Fragment_MyPlannerTab_PullUp_Menu.
      */
     // TODO: Rename and change types and number of parameters
-    public static planner_pullup_menu newInstance(String param1, String param2) {
-        planner_pullup_menu fragment = new planner_pullup_menu();
+    public static Fragment_MyPlannerTab_PullUp_Menu newInstance(String param1, String param2) {
+        Fragment_MyPlannerTab_PullUp_Menu fragment = new Fragment_MyPlannerTab_PullUp_Menu();
         Bundle args = new Bundle();
         return fragment;
     }
@@ -91,11 +85,11 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
                              Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_planner_pullup_menu, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_planner_pullupmenu, container, false);
 
         //For auto complete
-        p1autotext = (AppCompatAutoCompleteTextView) rootView.findViewById(R.id.srcTextField);
-        p2autotext = (AppCompatAutoCompleteTextView) rootView.findViewById(R.id.destTextField);
+        p1autotext = rootView.findViewById(R.id.srcTextField);
+        p2autotext = rootView.findViewById(R.id.destTextField);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this.getContext(), android.R.layout.select_dialog_item , vorschlage);
         p1autotext.setThreshold(1); //will start working from first character
         p1autotext.setAdapter(adapter);
@@ -108,7 +102,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEND){
                     String ort = v.getText().toString();
-                    ((planner) getParentFragment()).addMyMarker(0,location.getFakeCordsToLocation(ort) ,ort,location.getFakeCordsToLocation(ort).toString());
+                    ((Fragment_MyPlannerTab) getParentFragment()).addMyMarker(0, location.getFakeCordsToLocation(ort), ort, location.getFakeCordsToLocation(ort).toString());
                     p2autotext.requestFocus();
                 }
                 //Needs to be True so the Keyboard STAYS after send is pressed and switch to second textfield
@@ -121,7 +115,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEND || actionId == EditorInfo.IME_ACTION_DONE ){
                     String ort = v.getText().toString();
-                    ((planner) getParentFragment()).addMyMarker(0,location.getFakeCordsToLocation(ort) ,ort,location.getFakeCordsToLocation(ort).toString());
+                    ((Fragment_MyPlannerTab) getParentFragment()).addMyMarker(0, location.getFakeCordsToLocation(ort), ort, location.getFakeCordsToLocation(ort).toString());
                     p2autotext.clearFocus();
                 }
                 //Needs to be false so the Keyboard hides after send is pressed
@@ -129,21 +123,21 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
             }
         });
 
-        mysearchbutton = (Button) rootView.findViewById(R.id.searchbutton);
+        mysearchbutton = rootView.findViewById(R.id.searchbutton);
         mysearchbutton.setOnClickListener(this);
 
         //ScrollView myscrollview = (ScrollView) rootView.findViewById(R.id.TrippickerScrollview);
         //myscrollview.setOnTouchListener(this);
 
         //Switch Icon
-        myswitchIcon = (ImageView) rootView.findViewById(R.id.switchIcon);
+        myswitchIcon = rootView.findViewById(R.id.switchIcon);
         myswitchIcon.setOnClickListener(this);
 
         //Date and Timepicker
-        dateText = (Button) rootView.findViewById(R.id.dateButton);
+        dateText = rootView.findViewById(R.id.dateButton);
         dateText.setText(new SimpleDateFormat("EEE. MMM d").format(new Date()));
         dateText.setOnClickListener(this);
-        timeText = (Button) rootView.findViewById(R.id.timeButton);
+        timeText = rootView.findViewById(R.id.timeButton);
         timeText.setText(new SimpleDateFormat("HH:mm").format(new Date()));
         timeText.setOnClickListener(this);
 
@@ -233,7 +227,7 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
                     Snackbar snackbar = Snackbar.make(getView(),"Bitte Ziel und Startort angeben.",Snackbar.LENGTH_SHORT);
                     snackbar.show();
                 }else {
-                    planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
+                    Fragment_MyPlannerTab_PullUp_Trippicker trippicker_fragment = (Fragment_MyPlannerTab_PullUp_Trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
                     trippicker_fragment.getTrips(src.getText().toString(),dest.getText().toString());
                 }
                 break;

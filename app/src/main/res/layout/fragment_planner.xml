@@ -8,7 +8,7 @@
     android:foregroundGravity="bottom"
     android:gravity="bottom"
     app:umanoScrollableView="@+id/fragment_planner_pullup_menu_wrapper"
-    tools:context=".planner">
+    tools:context=".Fragment_MyPlannerTab">
 
 
     <android.support.constraint.ConstraintLayout
@@ -24,7 +24,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:context=".planner" />
+            tools:context=".Fragment_MyPlannerTab" />
 
         <Button
             android:id="@+id/letsgobutton"
@@ -52,12 +52,12 @@
         android:id="@+id/planner_pullup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".planner">
+        tools:context=".Fragment_MyPlannerTab">
 
 
         <fragment
             android:id="@+id/pullup_fragment_holder"
-            android:name="com.example.soudest.planner_pullup_menu"
+            android:name="com.example.soudest.Fragment_MyPlannerTab_PullUp_Menu"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"

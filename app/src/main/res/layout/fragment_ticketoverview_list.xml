@@ -12,5 +12,5 @@
     android:backgroundTintMode="src_atop"
     android:padding="8dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context=".fragment_ticket"
-    tools:listitem="@layout/fragment_ticket" />
+    tools:context=".Fragment_MyTicketsTab"
+    tools:listitem="@layout/fragment_ticketoverview_items" />

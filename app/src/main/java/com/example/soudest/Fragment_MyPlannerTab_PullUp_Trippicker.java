@@ -1,10 +1,8 @@
 package com.example.soudest;
 
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -13,9 +11,6 @@ import android.view.ViewGroup;
 
 import com.example.soudest.helper.ticketOBJ;
 import com.example.soudest.helper.tickets;
-import com.example.soudest.uimain.PageViewModel;
-
-import android.arch.lifecycle.ViewModelProvider;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,66 +21,55 @@ import java.util.List;
  * Activities containing this fragment MUST implement the {@link OnListFragmentInteractionListener}
  * interface.
  */
-public class fragment_ticket extends Fragment {
+public class Fragment_MyPlannerTab_PullUp_Trippicker extends Fragment {
 
-    // TODO: Customize parameter argument names
-    private static final String ARG_SECTION_NUMBER = "section_number";
-    // TODO: Customize parameters
-    private int mColumnCount = 1;
-    private OnListFragmentInteractionListener mListener;
-
-    private PageViewModel pageViewModel;
-
-    private List<ticketOBJ> TicketList = new ArrayList<ticketOBJ>();
-    MyticketRecyclerViewAdapter MyAdapter;
-
+    RecyclerViewAdapter_TicketOBJ MyAdapter;
+    private List<ticketOBJ> TrippsList = new ArrayList<ticketOBJ>();
+    private Fragment_MyTicketsTab.OnListFragmentInteractionListener mListener;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
-    public fragment_ticket() {
+    public Fragment_MyPlannerTab_PullUp_Trippicker() {
     }
 
     // TODO: Customize parameter initialization
     @SuppressWarnings("unused")
-    public static fragment_ticket newInstance(int index) {
-        fragment_ticket fragment = new fragment_ticket();
-        Bundle bundle = new Bundle();
-        bundle.putInt(ARG_SECTION_NUMBER, index);
-        fragment.setArguments(bundle);
+    public static Fragment_MyPlannerTab_PullUp_Trippicker newInstance(int columnCount) {
+        Fragment_MyPlannerTab_PullUp_Trippicker fragment = new Fragment_MyPlannerTab_PullUp_Trippicker();
+
         return fragment;
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        pageViewModel = ViewModelProviders.of(this).get(PageViewModel.class);
-        int index = 1;
-        if (getArguments() != null) {
-            index = getArguments().getInt(ARG_SECTION_NUMBER);
-        }
-        pageViewModel.setIndex(index);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_ticket_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_ticketoverview_list, container, false);
 
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
             RecyclerView recyclerView = (RecyclerView) view;
-            if (mColumnCount <= 1) {
-                recyclerView.setLayoutManager(new LinearLayoutManager(context));
-            } else {
-                recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
-            }
-            TicketList = tickets.getAllTicketsFromDB();
-            MyAdapter = new MyticketRecyclerViewAdapter(TicketList, mListener);
+
+
+            LinearLayoutManager myLinearLayoutManager = new LinearLayoutManager(context) {
+                @Override
+                public boolean canScrollVertically() {
+                    return false;
+                }
+            };
+
+            recyclerView.setLayoutManager(myLinearLayoutManager);
+
+            MyAdapter = new RecyclerViewAdapter_TicketOBJ(TrippsList, mListener);
             recyclerView.setAdapter(MyAdapter);
-            MyAdapter.notifyDataSetChanged();
+
         }
         return view;
     }
@@ -95,19 +79,31 @@ public class fragment_ticket extends Fragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         if (context instanceof OnListFragmentInteractionListener) {
-            mListener = (OnListFragmentInteractionListener) context;
+            mListener = (Fragment_MyTicketsTab.OnListFragmentInteractionListener) context;
         } else {
-            //TODO: Implement Listener
+            //TODO Implement Listener
             //throw new RuntimeException(context.toString()
             //        + " must implement OnListFragmentInteractionListener");
         }
     }
 
-
     @Override
     public void onDetach() {
         super.onDetach();
         mListener = null;
+    }
+
+    public void getTrips(String source,String dest){
+
+        String TripID="PLACEHOLDER";
+        String starttime="PLACEHOLDER";
+        String arivaltime="PLACEHOLDER";
+        String totalprice="PLACEHOLDER";
+        String startpoint="PLACEHOLDER";
+        String endpoint="PLACEHOLDER";
+
+        TrippsList.add(tickets.getPossibleConnections(startpoint,endpoint,starttime,endpoint).get(0));
+        MyAdapter.notifyDataSetChanged();
     }
 
     /**

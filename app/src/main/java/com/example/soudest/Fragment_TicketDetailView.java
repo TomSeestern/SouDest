@@ -3,23 +3,15 @@ package com.example.soudest;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.AppCompatAutoCompleteTextView;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.example.soudest.helper.connectionOBJ;
 import com.example.soudest.helper.ticketOBJ;
-
-import java.util.List;
-import java.util.Objects;
 
 /**
  * A fragment representing a list of Items.
@@ -27,7 +19,7 @@ import java.util.Objects;
  * Activities containing this fragment MUST implement the {@link OnListFragmentInteractionListener}
  * interface.
  */
-public class TicketDetailView extends Fragment {
+public class Fragment_TicketDetailView extends Fragment {
 
     private static ticketOBJ CURR_TICKET = new ticketOBJ();
 
@@ -37,7 +29,7 @@ public class TicketDetailView extends Fragment {
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
-    public TicketDetailView() {
+    public Fragment_TicketDetailView() {
     }
 
     @Override
@@ -48,7 +40,7 @@ public class TicketDetailView extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_ticketconnection_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_ticketdetailview_list, container, false);
 
         android.os.Bundle myParas=getArguments();
 
@@ -64,7 +56,7 @@ public class TicketDetailView extends Fragment {
 
             recyclerView.setLayoutManager(new LinearLayoutManager(context));
 
-            recyclerView.setAdapter(new MyTicketConnectionRecyclerViewAdapter(CURR_TICKET, mListener));
+            recyclerView.setAdapter(new RecyclerViewAdapter_ConnectionOBJ(CURR_TICKET, mListener));
         }
         }else {
             Log.e("ERROR", "onCreateView: MyParas was NULL!!! myParas:"+myParas);

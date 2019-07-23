@@ -3,15 +3,14 @@ package com.example.soudest;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.soudest.TicketDetailView.OnListFragmentInteractionListener;
-import com.example.soudest.helper.ticketOBJ;
+import com.example.soudest.Fragment_TicketDetailView.OnListFragmentInteractionListener;
 import com.example.soudest.helper.connectionOBJ;
+import com.example.soudest.helper.ticketOBJ;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -22,13 +21,13 @@ import java.util.List;
  * specified {@link OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
-public class MyTicketConnectionRecyclerViewAdapter extends RecyclerView.Adapter<MyTicketConnectionRecyclerViewAdapter.ViewHolder> {
+public class RecyclerViewAdapter_ConnectionOBJ extends RecyclerView.Adapter<RecyclerViewAdapter_ConnectionOBJ.ViewHolder> {
 
     private final List<connectionOBJ> mValues;
     private final OnListFragmentInteractionListener mListener;
     private final ticketOBJ myTicket;
 
-    public MyTicketConnectionRecyclerViewAdapter(ticketOBJ para_Ticket, OnListFragmentInteractionListener listener) {
+    public RecyclerViewAdapter_ConnectionOBJ(ticketOBJ para_Ticket, OnListFragmentInteractionListener listener) {
         myTicket = para_Ticket;
         mValues = myTicket.connections;
         mListener = listener;
@@ -37,7 +36,7 @@ public class MyTicketConnectionRecyclerViewAdapter extends RecyclerView.Adapter<
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.fragment_ticketconnection, parent, false);
+                .inflate(R.layout.fragment_ticketdetailview_connectionitem, parent, false);
         return new ViewHolder(view);
     }
 
@@ -47,13 +46,13 @@ public class MyTicketConnectionRecyclerViewAdapter extends RecyclerView.Adapter<
         //holder.mIdView.setText(mValues.get(position).id);
         //holder.mContentView.setText(mValues.get(position).content);
 
-        holder.mStartTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).StartTime.longValue()*1000)).toString());
-        holder.mEndTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).EndTime.longValue()*1000)).toString());
-        holder.mStartStation.setText(holder.mItem.StartLocName.toString());
-        holder.mEndStation.setText(holder.mItem.EndLocName.toString());
+        holder.mStartTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).StartTime.longValue() * 1000)));
+        holder.mEndTime.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).EndTime.longValue() * 1000)));
+        holder.mStartStation.setText(holder.mItem.StartLocName);
+        holder.mEndStation.setText(holder.mItem.EndLocName);
         holder.mStationNum.setText("?");
-        holder.mtimediv.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).TotalTime.longValue()*1000)).toString());
-        holder.mLineDetailName.setText(holder.mItem.Description.toString());
+        holder.mtimediv.setText(new SimpleDateFormat("HH:mm").format(new Date(mValues.get(position).TotalTime.longValue() * 1000)));
+        holder.mLineDetailName.setText(holder.mItem.Description);
 
 
         Drawable mytimediv = holder.mtimediv.getBackground();
@@ -130,14 +129,14 @@ public class MyTicketConnectionRecyclerViewAdapter extends RecyclerView.Adapter<
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            mStartTime = (TextView) view.findViewById(R.id.startTime);
-            mStartStation = (TextView) view.findViewById(R.id.startStation2);
-            mEndStation = (TextView) view.findViewById(R.id.endStation);
-            mStationNum = (TextView) view.findViewById(R.id.stationNumber);
-            mLineDetailName = (TextView) view.findViewById(R.id.LineDetailName);
-            mtimediv = (TextView) view.findViewById(R.id.timediv);
-            mEndTime = (TextView) view.findViewById(R.id.EndTime);
-            mProgressBar = (View) view.findViewById(R.id.ProgressBar);
+            mStartTime = view.findViewById(R.id.startTime);
+            mStartStation = view.findViewById(R.id.startStation2);
+            mEndStation = view.findViewById(R.id.endStation);
+            mStationNum = view.findViewById(R.id.stationNumber);
+            mLineDetailName = view.findViewById(R.id.LineDetailName);
+            mtimediv = view.findViewById(R.id.timediv);
+            mEndTime = view.findViewById(R.id.EndTime);
+            mProgressBar = view.findViewById(R.id.ProgressBar);
         }
 
     }

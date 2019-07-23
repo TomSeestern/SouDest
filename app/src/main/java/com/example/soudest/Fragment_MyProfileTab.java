@@ -12,16 +12,16 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link MyProfile.OnFragmentInteractionListener} interface
+ * {@link Fragment_MyProfileTab.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link MyProfile#newInstance} factory method to
+ * Use the {@link Fragment_MyProfileTab#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class MyProfile extends Fragment {
+public class Fragment_MyProfileTab extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public MyProfile() {
+    public Fragment_MyProfileTab() {
         // Required empty public constructor
     }
 
@@ -29,11 +29,11 @@ public class MyProfile extends Fragment {
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
      *
-     * @return A new instance of fragment MyProfile.
+     * @return A new instance of fragment Fragment_MyProfileTab.
      */
     // TODO: Rename and change types and number of parameters
-    public static MyProfile newInstance() {
-        MyProfile fragment = new MyProfile();
+    public static Fragment_MyProfileTab newInstance() {
+        Fragment_MyProfileTab fragment = new Fragment_MyProfileTab();
 
         return fragment;
     }

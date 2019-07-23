@@ -1,47 +1,34 @@
 package com.example.soudest;
 
-import android.app.DatePickerDialog;
-import android.app.TimePickerDialog;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.Toast;
 
+import com.example.soudest.uimain.PageViewModel;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-
 import com.google.android.gms.maps.model.CameraPosition;
-
-import com.example.soudest.uimain.PageViewModel;
-import android.util.Log;
-import android.content.res.Resources;
-import android.widget.Button;
-import android.widget.Toast;
-
-import com.sothree.slidinguppanel.SlidingUpPanelLayout;
-
+import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
-import android.widget.DatePicker;
-import android.widget.TextView;
-import android.widget.TimePicker;
-import android.view.View;
-import android.view.Menu;
-
-import java.util.Calendar;
+import com.google.android.gms.maps.model.MarkerOptions;
+import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link planner} factory method to
+ * Use the {@link Fragment_MyPlannerTab} factory method to
  * create an instance of this fragment.
  */
-public class planner extends Fragment implements View.OnClickListener,View.OnTouchListener{
+public class Fragment_MyPlannerTab extends Fragment implements View.OnClickListener, View.OnTouchListener {
 
     private static final String ARG_SECTION_NUMBER = "section_number";
     private PageViewModel pageViewModel;
@@ -49,14 +36,14 @@ public class planner extends Fragment implements View.OnClickListener,View.OnTou
     private Button mygobutton;
 
     private GoogleMap mMap;
-    private static final String TAG = planner.class.getSimpleName();
+    private static final String TAG = Fragment_MyPlannerTab.class.getSimpleName();
 
-    public planner() {
+    public Fragment_MyPlannerTab() {
         // Required empty public constructor
     }
 
-    public static planner newInstance(int index) {
-        planner fragment = new planner();
+    public static Fragment_MyPlannerTab newInstance(int index) {
+        Fragment_MyPlannerTab fragment = new Fragment_MyPlannerTab();
         Bundle bundle = new Bundle();
         bundle.putInt(ARG_SECTION_NUMBER, index);
         fragment.setArguments(bundle);
@@ -97,7 +84,7 @@ public class planner extends Fragment implements View.OnClickListener,View.OnTou
                     // in a raw resource file.
                     boolean success = mMap.setMapStyle(
                             MapStyleOptions.loadRawResourceStyle(
-                                    planner.this.getContext(), R.raw.map_style));
+                                    Fragment_MyPlannerTab.this.getContext(), R.raw.map_style));
 
                     if (!success) {
                         Log.e(TAG, "Style parsing failed.");
@@ -128,11 +115,11 @@ public class planner extends Fragment implements View.OnClickListener,View.OnTou
         });
 
         //LetsGoButton
-        mygobutton = (Button) rootView.findViewById(R.id.letsgobutton);
+        mygobutton = rootView.findViewById(R.id.letsgobutton);
         mygobutton.setOnTouchListener(this);
         mygobutton.setOnClickListener(this);
 
-        SlidingUpPanelLayout slidingUpPanelLayout = (SlidingUpPanelLayout) rootView.findViewById(R.id.slidingUpPanelLayout);
+        SlidingUpPanelLayout slidingUpPanelLayout = rootView.findViewById(R.id.slidingUpPanelLayout);
         slidingUpPanelLayout.setPanelHeight(0);
 
         return rootView;
@@ -153,11 +140,11 @@ public class planner extends Fragment implements View.OnClickListener,View.OnTou
                 if (src.getText().toString().equals("") || dest.getText().toString().equals("")) {
                     Toast.makeText(getContext().getApplicationContext(), "Bitte Ziel und Startort angeben.", Toast.LENGTH_SHORT).show();
                 } else {
-                    planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
+                    Fragment_MyPlannerTab_PullUp_Trippicker trippicker_fragment = (Fragment_MyPlannerTab_PullUp_Trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
                     trippicker_fragment.getTrips(src.getText().toString(), dest.getText().toString());
                 }*/
 
-                SlidingUpPanelLayout slidingUpPanelLayout = (SlidingUpPanelLayout) v.getRootView().findViewById(R.id.slidingUpPanelLayout);
+                SlidingUpPanelLayout slidingUpPanelLayout = v.getRootView().findViewById(R.id.slidingUpPanelLayout);
                 slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
 
                 break;
@@ -197,11 +184,11 @@ public class planner extends Fragment implements View.OnClickListener,View.OnTou
         //Log.e("LOL", "onTouch: "+v.getId() );
 
         if (event.getAction() == MotionEvent.ACTION_UP){
-            SlidingUpPanelLayout slidingUpPanelLayout = (SlidingUpPanelLayout) v.getRootView().findViewById(R.id.slidingUpPanelLayout);
+            SlidingUpPanelLayout slidingUpPanelLayout = v.getRootView().findViewById(R.id.slidingUpPanelLayout);
             slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
         }
         else if (event.getAction() == MotionEvent.ACTION_DOWN){
-            SlidingUpPanelLayout slidingUpPanelLayout = (SlidingUpPanelLayout) v.getRootView().findViewById(R.id.slidingUpPanelLayout);
+            SlidingUpPanelLayout slidingUpPanelLayout = v.getRootView().findViewById(R.id.slidingUpPanelLayout);
             slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.COLLAPSED);
         }
 

@@ -13,7 +13,7 @@
     app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/TicketDetialListHeader"
-    tools:context=".activiy_TripDetailView">
+    tools:context=".Activiy_TripDetailView">
 
     <TextView
         android:id="@+id/startStation2"

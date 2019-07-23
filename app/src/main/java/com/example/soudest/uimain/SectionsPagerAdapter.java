@@ -6,13 +6,12 @@ import android.support.annotation.StringRes;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentTransaction;
-import android.util.Log;
 import android.widget.Toast;
 
+import com.example.soudest.Fragment_MyPlannerTab;
+import com.example.soudest.Fragment_MyProfileTab;
+import com.example.soudest.Fragment_MyTicketsTab;
 import com.example.soudest.R;
-import com.example.soudest.uimain.PageViewModel;
-import com.example.soudest.*;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -37,13 +36,13 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
             case 0:
                 //Planner Site
-                return planner.newInstance(0);
+                return Fragment_MyPlannerTab.newInstance(0);
             case 1:
                 //Ticket Overview Site
-                return fragment_ticket.newInstance(1);
+                return Fragment_MyTicketsTab.newInstance(1);
             case 2:
                 //Profile Site
-                return MyProfile.newInstance();
+                return Fragment_MyProfileTab.newInstance();
             default:
                 Toast.makeText(mContext, "Fehler bei Navigationselementauswahl!", Toast.LENGTH_SHORT).show();
                 //TODO Log Error

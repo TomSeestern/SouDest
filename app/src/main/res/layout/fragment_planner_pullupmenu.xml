@@ -5,7 +5,7 @@
     android:id="@+id/fragment_planner_pullup_menu_wrapper"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".planner_pullup_menu">
+    tools:context=".Fragment_MyPlannerTab_PullUp_Menu">
 
     <!-- TODO: Update blank fragment layout -->
     <android.support.constraint.ConstraintLayout
@@ -126,7 +126,7 @@
 
         <fragment
             android:id="@+id/TripPickFragment"
-            android:name="com.example.soudest.planner_pullup_trippicker"
+            android:name="com.example.soudest.Fragment_MyPlannerTab_PullUp_Trippicker"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

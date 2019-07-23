@@ -1,17 +1,15 @@
 package com.example.soudest;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.example.soudest.helper.ticketOBJ;
-import com.example.soudest.helper.trip;
-import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class activiy_TripDetailView extends AppCompatActivity implements View.OnClickListener{
+import com.example.soudest.helper.ticketOBJ;
+
+public class Activiy_TripDetailView extends AppCompatActivity implements View.OnClickListener {
 
 
     Button myDetailViewBackButton;
@@ -20,20 +18,20 @@ public class activiy_TripDetailView extends AppCompatActivity implements View.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_activiy_trip_detail_view);
+        setContentView(R.layout.activity_ticketdetailview);
 
         activeTrip = (ticketOBJ) getIntent().getSerializableExtra("ticket");
 
         Bundle bundle = new Bundle();
         bundle.putSerializable("ticket", activeTrip);
         // set Fragmentclass Arguments
-        TicketDetailView fragobj = new TicketDetailView();
+        Fragment_TicketDetailView fragobj = new Fragment_TicketDetailView();
         fragobj.setArguments(bundle);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragTicketDetailListHolder,fragobj).commit();
 
 
-        myDetailViewBackButton = (Button) this.findViewById(R.id.DetailViewBackButton);
+        myDetailViewBackButton = this.findViewById(R.id.DetailViewBackButton);
         Log.e("ERROR", "onCreateView: myDetailViewBackButton "+myDetailViewBackButton);
         if (myDetailViewBackButton != null) myDetailViewBackButton.setOnClickListener(this);
 
