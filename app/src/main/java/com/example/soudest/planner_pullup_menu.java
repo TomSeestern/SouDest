@@ -5,6 +5,7 @@ import android.app.TimePickerDialog;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
@@ -229,7 +230,8 @@ public class planner_pullup_menu extends Fragment implements View.OnClickListene
             case R.id.searchbutton:
                 if(src.getText().toString().equals("") || dest.getText().toString().equals(""))
                 {
-                    Toast.makeText(getContext().getApplicationContext(), "Bitte Ziel und Startort angeben.", Toast.LENGTH_SHORT).show();
+                    Snackbar snackbar = Snackbar.make(getView(),"Bitte Ziel und Startort angeben.",Snackbar.LENGTH_SHORT);
+                    snackbar.show();
                 }else {
                     planner_pullup_trippicker trippicker_fragment = (planner_pullup_trippicker) getChildFragmentManager().findFragmentById(R.id.TripPickFragment);
                     trippicker_fragment.getTrips(src.getText().toString(),dest.getText().toString());
