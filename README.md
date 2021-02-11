@@ -60,11 +60,6 @@
   <img src="doc/images/overview.png" width="250" />
 </p>
 
-# Hard Facts
-- Project @ [RWU for "Mobile Applications"](https://www.rwu.de/studieren/studiengaenge/angewandte-informatik)
-- ~30 Hours work
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -98,7 +93,7 @@
 
 > SouDest is a all in one Travel Companion to book any Mobility Gadget from E-Scooters to private Planes.
 
- This is the Mobile application MVP.
+ This is the Mobile application MVP. It took ~30h of work. It was made for the Class ["Mobile Applications" at RWU](https://www.rwu.de/studieren/studiengaenge/angewandte-informatik)
 
 ### Original Designs
 First Iteration of the Design:
